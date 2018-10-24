@@ -1,0 +1,268 @@
+[bar/i3wmthemer_bar]
+width = 100%
+height = 30
+radius = 0
+monitor = ${env:MONITOR:}
+fixed-center = true
+
+background = #272827
+foreground = #657b83
+
+line-size = 3
+line-color =
+
+border-size = 0
+border-color =
+
+padding-left = 0
+padding-right = 2
+
+module-margin-left = 1
+module-margin-right = 2
+
+font-0 = "Source Code Pro:pixelsize=10;1"
+font-1 = "Font Awesome 5 Free:style=Solid:pixelsize=10;1"
+font-2 = "Font Awesome 5 Brands:pixelsize=10;1"
+font-3 = "Font Awesome 5 Free:style=Regular:pixelsize=8;1"
+font-4 = "Font Awesome 5 Free:style=Solid:pixelsize=8;1"
+font-5 = "Font Awesome 5 Brands:pixelsize=8;1"
+font-6 = fixed:pixelsize=10;1
+font-7 = unifont:fontformat=truetype:size=8:antialias=false;0
+font-8 = "Wuncon Siji:pixelsize=10;1"
+
+wm-name =i3wm
+modules-left = i3 wired-network wireless-network
+modules-center = date
+modules-right = mpd backlight volume battery powermenu
+
+tray-position = right
+tray-padding = 5
+
+cursor-click = pointer
+cursor-scroll = ns-resize
+
+[module/wired-network]
+type = internal/network
+interface = eth1
+
+[module/wireless-network]
+type = internal/network
+interface = wlp4s0
+accumulate-stats = true
+interval = 3.0
+format-connected = <label-connected>
+format-packetloss = <animation-packetloss> <label-connected>
+
+label-connected = %essid% %signal%% %local_ip%
+label-connected-foreground = #eefafafa
+
+format-disconnected = <label-disconnected>
+
+label-disconnected = not connected
+label-disconnected-foreground = #66ffffff
+
+animation-packetloss-0 = ⚠
+animation-packetloss-0-foreground = #ffa64c
+animation-packetloss-1 = 📶
+animation-packetloss-1-foreground = #000000
+
+[module/mpd]
+type = internal/mpd
+
+host = 127.0.0.1
+port = 6600
+password =
+interval = 2
+
+format-online = <icon-prev> <icon-seekb> <toggle> <icon-seekf> <icon-next>  <icon-repeat> <icon-random>  <bar-progress> <label-time>  <label-song>
+
+label-song = 𝄞 %artist% - %title%
+
+label-offline = mpd is offline
+
+icon-play = |>
+icon-pause = ||
+icon-stop = X
+icon-prev = |<<
+icon-next = >>|
+icon-seekb = <<
+icon-seekf = >>
+icon-random = R
+icon-repeat = S
+
+toggle-on-foreground = #ff
+toggle-off-foreground = #55
+
+bar-progress-width = 30
+bar-progress-indicator = |
+bar-progress-fill = ─
+bar-progress-empty = ─
+
+[module/battery]
+type = internal/battery
+full-at = 99
+battery = BAT0
+adapter = AC0
+poll-interval = 5
+time-format = %H:%M
+label-charging = Chr %percentage%% - %time%
+label-discharging = Dchr %percentage%% - %time%
+format-charging = <label-charging>
+
+[module/backlight]
+type = internal/backlight
+card = intel_backlight
+format = LUM <bar>
+bar-width = 10
+bar-indicator = |
+bar-fill = ─
+bar-empty = ─
+
+bar-foreground-0 = #55aa55
+bar-foreground-1 = #55aa55
+bar-foreground-2 = #55aa55
+bar-foreground-3 = #55aa55
+bar-foreground-4 = #55aa55
+bar-foreground-5 = #f5a70a
+bar-foreground-6 = #ff5555
+
+[module/i3]
+type = internal/i3
+format = <label-state> <label-mode>
+index-sort = true
+wrapping-scroll = false
+
+label-mode-padding = 2
+label-mode-foreground = #657b83
+label-mode-background = #272827
+
+label-focused = %index%
+label-focused-background = #4E524F
+label-focused-foreground = #272827
+label-focused-padding = 2
+
+label-unfocused = %index%
+label-unfocused-background = #7E807E
+label-unfocused-foreground = #272827
+label-unfocused-padding = 2
+
+label-visible = %index%
+label-visible-background = #7E807E
+label-visible-foreground = #272827
+label-visible-padding = 2
+
+label-urgent = %index%
+label-urgent-background = #BA2922
+label-urgent-padding = 2
+
+[module/wlan]
+type = internal/network
+interface = net1
+interval = 3.0
+
+format-connected = <ramp-signal> <label-connected>
+format-connected-foreground = #272827
+format-connected-background = #7E807E
+format-connected-padding = 2
+label-connected = %essid%
+
+format-disconnected =
+
+ramp-signal-0 = 
+ramp-signal-1 = 
+ramp-signal-2 = 
+ramp-signal-3 = 
+ramp-signal-4 = 
+ramp-signal-foreground = #272827
+
+[module/eth]
+type = internal/network
+interface = enp0s3
+interval = 3.0
+
+format-connected-padding = 2
+format-connected-foreground = #272827
+format-connected-background = #7E807E
+format-connected-prefix = " "
+format-connected-prefix-foreground = #272827
+label-connected = %local_ip%
+
+format-disconnected =
+
+[module/date]
+type = internal/date
+interval = 5
+
+date =
+date-alt = " %Y-%m-%d"
+
+time = %H:%M
+time-alt = %H:%M:%S
+
+format-prefix = 
+format-foreground = #272827
+format-background = #7E807E
+format-padding = 2
+
+label = %date% %time%
+
+[module/powermenu]
+type = custom/menu
+
+expand-right = true
+
+format-spacing = 1
+
+label-open = 
+label-open-foreground = #657b83
+label-close =  cancel
+label-close-foreground = #BA2922
+label-separator = |
+label-separator-foreground = #BA2922
+
+menu-0-0 = reboot
+menu-0-0-exec = menu-open-1
+menu-0-1 = power off
+menu-0-1-exec = menu-open-2
+
+menu-1-0 = cancel
+menu-1-0-exec = menu-open-0
+menu-1-1 = reboot
+menu-1-1-exec = sudo reboot
+
+menu-2-0 = power off
+menu-2-0-exec = sudo shutdown
+menu-2-1 = cancel
+menu-2-1-exec = menu-open-0
+
+[module/volume]
+type = internal/volume
+
+format-volume = <label-volume> <bar-volume>
+label-volume = VOL
+label-volume-foreground = #657b83
+
+format-muted-prefix = " "
+format-muted-foreground = #657b83
+label-muted = sound muted
+
+bar-volume-width = 10
+bar-volume-foreground-0 = #55aa55
+bar-volume-foreground-1 = #55aa55
+bar-volume-foreground-2 = #55aa55
+bar-volume-foreground-3 = #55aa55
+bar-volume-foreground-4 = #55aa55
+bar-volume-foreground-5 = #f5a70a
+bar-volume-foreground-6 = #ff5555
+bar-volume-indicator = |
+bar-volume-fill = ─
+bar-volume-empty = ─
+bar-volume-empty-foreground = #657b83
+
+
+[settings]
+screenchange-reload = true
+
+[global/wm]
+margin-top = 0
+margin-bottom =0
