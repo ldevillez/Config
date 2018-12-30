@@ -1,6 +1,7 @@
 #!/bin/bash
 # declare STRING variable
-echo "Nettoyage de la vielle config\n"
+echo "Nettoyage de la vielle config"
+echo ""
 rm -rf /home/westornd/Config/backup
 mkdir backup
 echo "Backup de la config"
@@ -16,3 +17,11 @@ echo "- conky"
 cp /home/westornd/.config/conky /home/westornd/Config/backup/conky -r
 echo "- ZSHRC"
 cp /home/westornd/.zshrc /home/westornd/Config/backup/zshrc -r
+echo "- Compton"
+cp /home/westornd/.config/compton /home/westornd/Config/backup/compton -r
+echo "- Conky"
+cp /home/westornd/.config/conky /home/westornd/Config/backup/conky -r
+echo "- Ranger"
+cp /home/westornd/.config/ranger /home/westornd/Config/backup/ranger -r
+echo "- URxvt"
+cp /home/westornd/.Xresources /home/westornd/Config/backup/xresources

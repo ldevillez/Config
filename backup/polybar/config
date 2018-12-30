@@ -5,8 +5,8 @@ radius = 0
 monitor = ${env:MONITOR:}
 fixed-center = true
 
-background = #272827
-foreground = #657b83
+background = #11182e
+foreground = #696b77
 
 line-size = 3
 line-color =
@@ -43,7 +43,9 @@ cursor-scroll = ns-resize
 
 [module/wired-network]
 type = internal/network
-interface = eth1
+interface = enp5s0f1
+format-connected = <label-connected>
+label-connected = %local_ip%
 
 [module/wireless-network]
 type = internal/network
@@ -58,7 +60,7 @@ label-connected-foreground = #eefafafa
 
 format-disconnected = <label-disconnected>
 
-label-disconnected = not connected
+label-disconnected =
 label-disconnected-foreground = #66ffffff
 
 animation-packetloss-0 = ⚠
@@ -74,7 +76,7 @@ port = 6600
 password =
 interval = 2
 
-format-online = <icon-prev> <icon-seekb> <toggle> <icon-seekf> <icon-next>  <icon-repeat> <icon-random>  <bar-progress> <label-time>  <label-song>
+format-online = <icon-prev> <toggle> <icon-next>  <icon-repeat> <icon-random> <label-song> <label-time>
 
 label-song = 𝄞 %artist% - %title%
 
@@ -87,8 +89,8 @@ icon-prev = |<<
 icon-next = >>|
 icon-seekb = <<
 icon-seekf = >>
-icon-random = R
-icon-repeat = S
+icon-random = shuf
+icon-repeat = reap
 
 toggle-on-foreground = #ff
 toggle-off-foreground = #55
@@ -126,32 +128,48 @@ bar-foreground-4 = #55aa55
 bar-foreground-5 = #f5a70a
 bar-foreground-6 = #ff5555
 
+
 [module/i3]
+# https://fontawesome.com/cheatsheet?from=io for icon
 type = internal/i3
 format = <label-state> <label-mode>
 index-sort = true
 wrapping-scroll = false
+enable-click = true
+enable-scroll = true
+fuzzy-match = true
+
+ws-icon-0 = 1;
+ws-icon-1 = 2;
+ws-icon-2 = 3;
+ws-icon-3 = 4;4
+ws-icon-4 = 5;5
+ws-icon-5 = 6;6
+ws-icon-6 = 7;7
+ws-icon-7 = 8;8
+
+
 
 label-mode-padding = 2
-label-mode-foreground = #657b83
-label-mode-background = #272827
+label-mode-foreground = #11182E
+label-mode-background = #828bab
 
-label-focused = %index%
-label-focused-background = #4E524F
-label-focused-foreground = #272827
+label-focused = %icon%
+label-focused-background = #696b77
+label-focused-foreground = #11182e
 label-focused-padding = 2
 
-label-unfocused = %index%
-label-unfocused-background = #7E807E
-label-unfocused-foreground = #272827
+label-unfocused = %icon%
+label-unfocused-background = #828bab
+label-unfocused-foreground = #11182e
 label-unfocused-padding = 2
 
-label-visible = %index%
-label-visible-background = #7E807E
+label-visible = %icon%
+label-visible-background = #828bab
 label-visible-foreground = #272827
 label-visible-padding = 2
 
-label-urgent = %index%
+label-urgent = %icon%
 label-urgent-background = #BA2922
 label-urgent-padding = 2
 
@@ -181,10 +199,10 @@ interface = enp0s3
 interval = 3.0
 
 format-connected-padding = 2
-format-connected-foreground = #272827
-format-connected-background = #7E807E
+format-connected-foreground = #E5E5E5
+format-connected-background = #E5E5E5
 format-connected-prefix = " "
-format-connected-prefix-foreground = #272827
+format-connected-prefix-foreground = #E5E5E5
 label-connected = %local_ip%
 
 format-disconnected =
@@ -200,8 +218,8 @@ time = %H:%M
 time-alt = %H:%M:%S
 
 format-prefix = 
-format-foreground = #272827
-format-background = #7E807E
+format-foreground = #11182e
+format-background = #828bab
 format-padding = 2
 
 label = %date% %time%
@@ -214,25 +232,25 @@ expand-right = true
 format-spacing = 1
 
 label-open = 
-label-open-foreground = #657b83
-label-close =  cancel
+label-open-foreground = #696b77
+label-close =  CANCEL
 label-close-foreground = #BA2922
 label-separator = |
 label-separator-foreground = #BA2922
 
-menu-0-0 = reboot
+menu-0-0 = REBOOT
 menu-0-0-exec = menu-open-1
-menu-0-1 = power off
+menu-0-1 = POWER OFF
 menu-0-1-exec = menu-open-2
 
-menu-1-0 = cancel
+menu-1-0 = CANCEL
 menu-1-0-exec = menu-open-0
-menu-1-1 = reboot
+menu-1-1 = REBOOT
 menu-1-1-exec = sudo reboot
 
-menu-2-0 = power off
+menu-2-0 = POWER OFF
 menu-2-0-exec = sudo shutdown
-menu-2-1 = cancel
+menu-2-1 = CANCEL
 menu-2-1-exec = menu-open-0
 
 [module/volume]
@@ -240,11 +258,11 @@ type = internal/volume
 
 format-volume = <label-volume> <bar-volume>
 label-volume = VOL
-label-volume-foreground = #657b83
+label-volume-foreground = #696b77
 
 format-muted-prefix = " "
-format-muted-foreground = #657b83
-label-muted = sound muted
+format-muted-foreground = #696b77
+label-muted = MUTED
 
 bar-volume-width = 10
 bar-volume-foreground-0 = #55aa55

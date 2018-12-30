@@ -1,5 +1,6 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
+  ZSH_DISABLE_COMPFIX="true"
 
 # Path to your oh-my-zsh installation.
   export ZSH=/home/westornd/.oh-my-zsh
@@ -58,20 +59,13 @@ ZSH_THEME="oh-my-via/via"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(
-  git,
-  common-aliases,
-  django,
-  pip,
-  python,
-  colored-man-page
-)
-
+plugins=(git common-aliases django pip python yarn colored-man-page)
+ 
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-# export MANPATH="/usr/local/man:$MANPATH"
+export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -87,7 +81,7 @@ source $ZSH/oh-my-zsh.sh
 # export ARCHFLAGS="-arch x86_64"
 
 # ssh
-# export SSH_KEY_PATH="~/.ssh/rsa_id"
+export SSH_KEY_PATH="~/.ssh/rsa_id"
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
@@ -100,17 +94,19 @@ source $ZSH/oh-my-zsh.sh
 #
 #
 
+# special bookmark
 alias 'cdVR=cd ~/Documents/ViaRezo'
 alias 'cdGuilde=cd ~/Documents/La\ Guilde'
 
-alias 'Trello= ~/Trello/Trello'
-
+# sshutle to connect to the proxy
 alias 'VRconnect=sshuttle -r westornd@proxy.viarezo.fr 138.195.128.0/19 -x proxy.viarezo.fr'
 
+# export path
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH:/usr/lib/java/bin:/usr/lib/java/jre/bin/java:/home/westornd/.local/bin"
 export PYTHONPATH="/usr/bin/python3.5"
 export JAVA_HOME="/usr/lib/java"
 
+# NVM
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

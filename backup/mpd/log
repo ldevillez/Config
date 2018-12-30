@@ -1765,3 +1765,521 @@ Oct 24 23:00 : client: [13] opened from 127.0.0.1:56332
 Oct 24 23:00 : client: [13] closed
 Oct 24 23:03 : player: played "ToSort/ No Time For Caution (Interstellar Soundtrack)(Docking)(Interstellar OST).mp3"
 Oct 24 23:09 : player: played "ToSort/ Love Beam.mp3"
+Oct 25 01:05 : client: [0] closed
+Oct 25 01:05 : client: [9] closed
+Oct 25 01:05 : avahi: Client Disconnected, will reconnect shortly
+Oct 28 18:37 : config: option 'mixer_device' on line 215 was not recognized
+Oct 28 18:37 : config: option 'mixer_control' on line 216 was not recognized
+Oct 28 18:37 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 28 18:37 : avahi: Service 'Music Player' successfully established.
+Oct 28 18:37 : client: [0] opened from 127.0.0.1:50124
+Oct 28 18:37 : client: [1] opened from 127.0.0.1:50128
+Oct 28 18:40 : player: played "Internet/Still Alive.mp3"
+Oct 28 18:44 : player: played "Quiet/1 - Final Fantasy 6 _ Kingdom Hearts.mp3"
+Oct 28 18:48 : player: played "Quiet/2 - Reload Medley.mp3"
+Oct 28 18:51 : player: played "Quiet/4 - Silent Hill.mp3"
+Oct 28 18:53 : player: played "Quiet/5 - Zelda _ Co.mp3"
+Oct 28 18:56 : player: played "Quiet/6 - Meline (composition).mp3"
+Oct 28 19:00 : player: played "Rap/Casseurs Flowters - 22h31 - Fais les backs.mp3"
+Oct 28 19:04 : player: played "Rap/Casseurs Flowters - Si facile Clip Officiel.mp3"
+Oct 28 19:08 : player: played "Rap/Hypnoflip Invasion/02 - Stupeflip Vite !!!.flac"
+Oct 28 19:12 : player: played "Rap/Hypnoflip Invasion/08 - Hater's Killah.flac"
+Oct 28 19:15 : player: played "Rap/Hypnoflip Invasion/17 - Apocalypse 894.flac"
+Oct 28 19:17 : player: played "Rap/Hypnoflip Invasion/18 - La Mort À Pop-Hip.flac"
+Oct 28 19:22 : player: played "Rock/Californication/06 Californication.wma"
+Oct 28 19:28 : player: played "Rock/Stadium Arcadium (2006)/102-red_hot_chili_peppers-snow_(hey_oh).mp3"
+Oct 28 19:31 : player: played "Rock/Toxicity/12 - Toxicity.mp3"
+Oct 28 19:34 : player: played "Rock/Toxicity/09 - Atwa.mp3"
+Oct 28 19:39 : player: played "ToSort/ The Girl In Byakkoya.mp3"
+Oct 28 19:44 : player: played "ToSort/ Deep Blue (HQ).mp3"
+Oct 28 19:51 : player: played "ToSort/ Afterlife (Official Video).mp3"
+Oct 28 19:56 : player: played "ToSort/ いのちの名前～ジブリ・メドレー.mp3"
+Oct 28 20:01 : player: played "ToSort/ The Girl In Byakkoya.mp3"
+Oct 28 20:05 : player: played "ToSort/Flower Dance.mp3"
+Oct 28 20:12 : player: played "ToSort/S3RL.mp3"
+Oct 28 20:16 : player: played "ToSort/Still Alive.mp3"
+Oct 28 21:21 : client: [1] closed
+Oct 28 21:22 : client: [0] closed
+Oct 28 21:22 : avahi: Client Disconnected, will reconnect shortly
+Oct 29 18:11 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 29 18:11 : config: option 'mixer_device' on line 215 was not recognized
+Oct 29 18:11 : config: option 'mixer_control' on line 216 was not recognized
+Oct 29 18:11 : client: [0] opened from 127.0.0.1:35774
+Oct 29 18:11 : avahi: Service 'Music Player' successfully established.
+Oct 29 18:11 : client: [1] opened from 127.0.0.1:35776
+Oct 29 18:11 : player: played "ToSort/ No Time For Caution (Interstellar Soundtrack)(Docking)(Interstellar OST).mp3"
+Oct 29 18:18 : player: played "ToSort/ Love Beam.mp3"
+Oct 29 18:18 : client: [2] opened from 127.0.0.1:36598
+Oct 29 18:18 : client: [2] closed
+Oct 29 18:19 : client: [1] closed
+Oct 29 20:31 : client: [3] opened from 127.0.0.1:38290
+Oct 29 20:31 : client: [3] closed
+Oct 30 00:00 : client: [0] closed
+Oct 30 00:00 : avahi: Client Disconnected, will reconnect shortly
+Nov 01 21:18 : config: option 'mixer_device' on line 215 was not recognized
+Nov 01 21:18 : config: option 'mixer_control' on line 216 was not recognized
+Nov 01 21:18 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 01 21:18 : client: [0] opened from 127.0.0.1:42620
+Nov 01 21:18 : avahi: Service 'Music Player' successfully established.
+Nov 01 21:18 : client: [1] opened from 127.0.0.1:42626
+Nov 01 21:27 : player: played "Rap/Hypnoflip Invasion/02 - Stupeflip Vite !!!.flac"
+Nov 01 21:30 : player: played "ToSort/Still Alive.mp3"
+Nov 01 21:34 : player: played "ToSort/Flower Dance.mp3"
+Nov 01 21:39 : player: played "ToSort/ The Girl In Byakkoya.mp3"
+Nov 01 21:43 : player: played "ToSort/ No Time For Caution (Interstellar Soundtrack)(Docking)(Interstellar OST).mp3"
+Nov 01 23:30 : client: [0] closed
+Nov 01 23:30 : client: [1] closed
+Nov 01 23:30 : avahi: Client Disconnected, will reconnect shortly
+Nov 04 18:23 : config: option 'mixer_device' on line 215 was not recognized
+Nov 04 18:23 : config: option 'mixer_control' on line 216 was not recognized
+Nov 04 18:23 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 04 18:23 : avahi: Service 'Music Player' successfully established.
+Nov 04 19:25 : client: [0] opened from 127.0.0.1:57784
+Nov 04 19:25 : client: [0] closed
+Nov 04 19:25 : client: [1] opened from 127.0.0.1:57786
+Nov 06 22:30 : config: option 'mixer_device' on line 215 was not recognized
+Nov 06 22:30 : config: option 'mixer_control' on line 216 was not recognized
+Nov 06 22:30 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 06 22:30 : client: [0] opened from 127.0.0.1:47678
+Nov 06 22:30 : avahi: Service 'Music Player' successfully established.
+Nov 06 22:30 : client: [1] opened from 127.0.0.1:47692
+Nov 06 22:34 : player: played "ToSort/Still Alive.mp3"
+Nov 06 22:38 : player: played "ToSort/Flower Dance.mp3"
+Nov 06 22:43 : client: [0] closed
+Nov 06 22:43 : exception: "My ALSA Device" [alsa] failed to play: snd_pcm_writei() failed: Broken pipe
+Nov 06 22:43 : exception: Failed to open audio output
+Nov 06 22:43 : client: [1] closed
+Nov 06 22:43 : avahi: Client Disconnected, will reconnect shortly
+Nov 08 14:21 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 08 14:21 : config: option 'mixer_device' on line 215 was not recognized
+Nov 08 14:21 : config: option 'mixer_control' on line 216 was not recognized
+Nov 08 14:21 : client: [0] opened from 127.0.0.1:59608
+Nov 08 14:21 : avahi: Service 'Music Player' successfully established.
+Nov 08 14:23 : client: [1] opened from 127.0.0.1:59874
+Nov 08 14:26 : player: played "ToSort/ The Girl In Byakkoya.mp3"
+Nov 08 14:27 : client: [0] closed
+Nov 08 14:27 : client: [2] opened from 127.0.0.1:59898
+Nov 08 14:30 : player: played "ToSort/ No Time For Caution (Interstellar Soundtrack)(Docking)(Interstellar OST).mp3"
+Nov 08 14:34 : player: played "ToSort/S3RL.mp3"
+Nov 08 14:38 : player: played "ToSort/ 'Seven Nation Army'.mp3"
+Nov 08 14:40 : update: added ToSort/ My Demons.mp3
+Nov 08 14:40 : update: added ToSort/ When You Leave (Numa Numa).mp3
+Nov 08 14:40 : update: added ToSort/ Blackheart (SkyWorld).mp3
+Nov 08 14:40 : update: added ToSort/ I Can Walk On Water I Can Fly.mp3
+Nov 08 14:40 : update: added ToSort/ How Do You Do (Remix) ✕.mp3
+Nov 08 14:40 : client: [1] closed
+Nov 08 14:40 : client: [3] opened from 127.0.0.1:60202
+Nov 08 14:46 : player: played "ToSort/ Love Beam.mp3"
+Nov 08 14:50 : player: played "ToSort/Flower Dance.mp3"
+Nov 08 14:54 : client: [4] opened from 127.0.0.1:33616
+Nov 08 14:54 : client: [4] closed
+Nov 08 14:58 : player: played "ToSort/Luv Letter.mp3"
+Nov 08 15:02 : player: played "ToSort/S3RL.mp3"
+Nov 08 15:07 : player: played "Metal/Pentakill - Lightbringer League of Legends Music.mp3"
+Nov 08 15:08 : client: [5] opened from 127.0.0.1:33928
+Nov 08 15:08 : client: [5] closed
+Nov 08 15:08 : client: [3] closed
+Nov 08 15:08 : client: [2] closed
+Nov 08 15:08 : avahi: Client Disconnected, will reconnect shortly
+Nov 08 15:28 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 08 15:28 : config: option 'mixer_device' on line 215 was not recognized
+Nov 08 15:28 : config: option 'mixer_control' on line 216 was not recognized
+Nov 08 15:28 : client: [0] opened from 127.0.0.1:51868
+Nov 08 15:28 : avahi: Service 'Music Player' successfully established.
+Nov 08 15:28 : client: [1] opened from 127.0.0.1:51870
+Nov 08 15:28 : client: [1] closed
+Nov 08 15:31 : player: played "Metal/Powerwolf - In the Name of God (Deus Vult).mp3"
+Nov 08 15:34 : player: played "ATrier/Hatsune Mikuぽっぴっぽー Project Diva 経口パ popipo イ経口.mp3"
+Nov 08 15:37 : player: played "ATrier/Stuck in the Sound - Let's Go Official Video.mp3"
+Nov 08 15:43 : player: played "ATrier/Two Steps From Hell - Victory.mp3"
+Nov 08 15:44 : client: [2] opened from 127.0.0.1:55020
+Nov 08 15:49 : player: played "Internet/Metal Gear Solid 2 Sons of Liberty.mp3"
+Nov 08 15:52 : player: played "Internet/Starbomb - Regretroid - Animated Music Video.mp3"
+Nov 08 16:39 : client: [2] closed
+Nov 08 17:00 : client: [0] closed
+Nov 08 17:00 : avahi: Client Disconnected, will reconnect shortly
+Nov 19 21:10 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 19 21:10 : config: option 'mixer_device' on line 215 was not recognized
+Nov 19 21:10 : config: option 'mixer_control' on line 216 was not recognized
+Nov 19 21:10 : avahi: Service 'Music Player' successfully established.
+Nov 19 21:10 : client: [0] opened from 127.0.0.1:58020
+Nov 19 21:11 : client: [1] opened from 127.0.0.1:58022
+Nov 19 21:21 : client: [1] closed
+Nov 30 19:13 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 30 19:13 : config: option 'mixer_device' on line 215 was not recognized
+Nov 30 19:13 : config: option 'mixer_control' on line 216 was not recognized
+Nov 30 19:13 : client: [0] opened from 127.0.0.1:44410
+Nov 30 19:13 : avahi: Service 'Music Player' successfully established.
+Nov 30 19:14 : client: [1] opened from 127.0.0.1:44418
+Nov 30 19:14 : player: played "Internet/Still Alive.mp3"
+Nov 30 19:18 : player: played "ToSort/Still Alive.mp3"
+Nov 30 19:22 : player: played "ToSort/S3RL.mp3"
+Nov 30 19:26 : player: played "ToSort/Luv Letter.mp3"
+Nov 30 19:33 : exception: Failed to decode /home/westornd/Musique/ToSort/Flower Dance.mp3
+Nov 30 19:33 : exception: nested: Failed to open /home/westornd/Musique/ToSort/Flower Dance.mp3: No such file or directory
+Nov 30 19:34 : player: played "ToSort/Horizon.mp3"
+Nov 30 19:34 : player: played "ToSort/Flower Dance.mp3"
+Nov 30 19:34 : exception: Failed to decode /home/westornd/Musique/ToSort/Flower Dance.mp3
+Nov 30 19:34 : exception: nested: Failed to open /home/westornd/Musique/ToSort/Flower Dance.mp3: No such file or directory
+Nov 30 19:34 : exception: Failed to decode /home/westornd/Musique/ToSort/182 .mp3
+Nov 30 19:34 : exception: nested: Failed to open /home/westornd/Musique/ToSort/182 .mp3: No such file or directory
+Nov 30 19:34 : player: played "ToSort/Flower Dance.mp3"
+Nov 30 19:34 : exception: Failed to decode /home/westornd/Musique/ToSort/182 .mp3
+Nov 30 19:34 : exception: nested: Failed to open /home/westornd/Musique/ToSort/182 .mp3: No such file or directory
+Nov 30 19:34 : player: played "ToSort/182 .mp3"
+Nov 30 19:38 : player: played "ToSort/ いのちの名前～ジブリ・メドレー.mp3"
+Nov 30 19:41 : player: played "ToSort/ When You Leave (Numa Numa).mp3"
+Nov 30 19:46 : player: played "ToSort/ The Girl In Byakkoya.mp3"
+Nov 30 19:50 : player: played "ToSort/ Ready to Start (Official Video).mp3"
+Nov 30 19:54 : player: played "ToSort/ No Time For Caution (Interstellar Soundtrack)(Docking)(Interstellar OST).mp3"
+Nov 30 19:58 : player: played "ToSort/ My Demons.mp3"
+Nov 30 20:06 : player: played "ToSort/ I Can Walk On Water I Can Fly.mp3"
+Nov 30 20:09 : player: played "ToSort/ How Do You Do (Remix) ✕.mp3"
+Nov 30 20:13 : exception: Failed to decode /home/westornd/Musique/ToSort/ Englishman In New York.mp3
+Nov 30 20:13 : exception: nested: Failed to open /home/westornd/Musique/ToSort/ Englishman In New York.mp3: No such file or directory
+Nov 30 20:13 : player: played "ToSort/ Hold The Line.mp3"
+Nov 30 20:13 : player: played "ToSort/ Englishman In New York.mp3"
+Nov 30 20:13 : exception: Failed to decode /home/westornd/Musique/ToSort/ Englishman In New York.mp3
+Nov 30 20:13 : exception: nested: Failed to open /home/westornd/Musique/ToSort/ Englishman In New York.mp3: No such file or directory
+Nov 30 20:13 : player: played "ToSort/ Englishman In New York.mp3"
+Nov 30 20:13 : exception: Failed to decode /home/westornd/Musique/ToSort/ Deep Blue (HQ).mp3
+Nov 30 20:13 : exception: nested: Failed to open /home/westornd/Musique/ToSort/ Deep Blue (HQ).mp3: No such file or directory
+Nov 30 20:13 : player: played "ToSort/ Deep Blue (HQ).mp3"
+Nov 30 20:13 : exception: Failed to decode /home/westornd/Musique/ToSort/ Blackheart (SkyWorld).mp3
+Nov 30 20:13 : exception: nested: Failed to open /home/westornd/Musique/ToSort/ Blackheart (SkyWorld).mp3: No such file or directory
+Nov 30 20:13 : player: played "ToSort/ Blackheart (SkyWorld).mp3"
+Nov 30 20:13 : exception: Failed to decode /home/westornd/Musique/ToSort/ Afterlife (Official Video).mp3
+Nov 30 20:13 : exception: nested: Failed to open /home/westornd/Musique/ToSort/ Afterlife (Official Video).mp3: No such file or directory
+Nov 30 20:13 : player: played "ToSort/ Afterlife (Official Video).mp3"
+Nov 30 20:13 : exception: Failed to decode /home/westornd/Musique/ToSort/ Africa (Video).mp3
+Nov 30 20:13 : exception: nested: Failed to open /home/westornd/Musique/ToSort/ Africa (Video).mp3: No such file or directory
+Nov 30 20:13 : player: played "ToSort/ Africa (Video).mp3"
+Nov 30 20:17 : player: played "ToSort/ 'Seven Nation Army'.mp3"
+Nov 30 20:24 : player: played "Rock/Violator/Enjoy The Silence.mp3"
+Nov 30 20:27 : player: played "Chanson française/France Gall - Annie aime les sucettes à l'anis.mp3"
+Nov 30 20:30 : player: played "Internet/Metal Gear Solid 2 Sons of Liberty.mp3"
+Nov 30 20:34 : player: played "Internet/Still Alive.mp3"
+Nov 30 20:36 : player: played "ATrier/Stupeflip - 1993.mp3"
+Nov 30 20:40 : player: played "Epic/2011 - Nero/NO CHOIR/XTS040_01_1 UNITED WE STAND - DIVIDED WE FALL.mp3"
+Nov 30 20:43 : player: played "Epic/2011 - Nero/NO CHOIR/XTS040_02_1 EVERLASTING.mp3"
+Nov 30 20:44 : client: [1] closed
+Nov 30 20:45 : client: [0] closed
+Nov 30 20:45 : avahi: Client Disconnected, will reconnect shortly
+Nov 30 20:45 : exception: "My ALSA Device" [alsa] failed to play: snd_pcm_writei() failed: Broken pipe
+Nov 30 20:45 : exception: Failed to open audio output
+Dec 01 12:39 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 01 12:39 : config: option 'mixer_device' on line 215 was not recognized
+Dec 01 12:39 : config: option 'mixer_control' on line 216 was not recognized
+Dec 01 12:39 : avahi: Service 'Music Player' successfully established.
+Dec 01 12:39 : client: [0] opened from 127.0.0.1:47530
+Dec 01 12:39 : client: [1] opened from 127.0.0.1:47532
+Dec 01 12:39 : client: [1] closed
+Dec 01 12:39 : client: [2] opened from 127.0.0.1:47534
+Dec 01 12:39 : client: [2] closed
+Dec 01 12:39 : client: [0] closed
+Dec 01 12:39 : client: [3] opened from 127.0.0.1:47536
+Dec 01 12:40 : client: [4] opened from 127.0.0.1:47538
+Dec 01 12:40 : client: [4] closed
+Dec 01 12:40 : client: [3] closed
+Dec 01 12:40 : client: [5] opened from 127.0.0.1:47548
+Dec 01 12:40 : client: [6] opened from 127.0.0.1:47550
+Dec 01 12:40 : client: [6] closed
+Dec 01 12:40 : client: [7] opened from 127.0.0.1:47552
+Dec 01 12:40 : client: [7] closed
+Dec 01 12:40 : client: [5] closed
+Dec 01 12:40 : client: [8] opened from 127.0.0.1:47554
+Dec 01 12:40 : client: [8] closed
+Dec 01 12:41 : client: [9] opened from 127.0.0.1:47556
+Dec 01 12:54 : client: [9] closed
+Dec 01 12:54 : client: [10] opened from 127.0.0.1:47978
+Dec 01 12:54 : client: [10] closed
+Dec 01 12:54 : client: [11] opened from 127.0.0.1:47980
+Dec 01 12:54 : client: [11] closed
+Dec 01 12:54 : client: [12] opened from 127.0.0.1:47982
+Dec 01 12:54 : client: [12] closed
+Dec 01 12:54 : client: [13] opened from 127.0.0.1:47984
+Dec 01 14:26 : client: [13] closed
+Dec 01 14:26 : client: [14] opened from 127.0.0.1:50476
+Dec 01 15:49 : client: [14] closed
+Dec 01 15:49 : client: [15] opened from 127.0.0.1:51382
+Dec 01 15:55 : client: [15] closed
+Dec 01 15:55 : client: [16] opened from 127.0.0.1:51476
+Dec 01 16:14 : client: [16] closed
+Dec 01 16:15 : client: [17] opened from 127.0.0.1:51746
+Dec 01 16:16 : client: [17] closed
+Dec 01 16:16 : client: [18] opened from 127.0.0.1:51766
+Dec 01 16:17 : client: [18] closed
+Dec 01 16:17 : client: [19] opened from 127.0.0.1:51824
+Dec 01 16:19 : client: [19] closed
+Dec 01 16:19 : client: [20] opened from 127.0.0.1:51960
+Dec 01 16:26 : client: [20] closed
+Dec 01 16:26 : client: [21] opened from 127.0.0.1:52046
+Dec 01 16:26 : client: [21] closed
+Dec 01 16:26 : client: [22] opened from 127.0.0.1:52048
+Dec 01 16:29 : client: [22] closed
+Dec 01 16:29 : client: [23] opened from 127.0.0.1:52188
+Dec 01 16:29 : client: [23] closed
+Dec 01 16:29 : client: [24] opened from 127.0.0.1:52194
+Dec 01 16:31 : client: [24] closed
+Dec 01 16:31 : client: [25] opened from 127.0.0.1:52344
+Dec 01 16:32 : client: [25] closed
+Dec 01 16:32 : client: [26] opened from 127.0.0.1:52346
+Dec 01 16:34 : client: [26] closed
+Dec 01 16:34 : client: [27] opened from 127.0.0.1:52392
+Dec 01 16:34 : client: [27] closed
+Dec 01 16:34 : client: [28] opened from 127.0.0.1:52396
+Dec 01 16:36 : client: [28] closed
+Dec 01 16:36 : client: [29] opened from 127.0.0.1:52424
+Dec 01 16:36 : client: [29] closed
+Dec 01 16:36 : client: [30] opened from 127.0.0.1:52426
+Dec 01 16:37 : client: [30] closed
+Dec 01 16:37 : client: [31] opened from 127.0.0.1:52428
+Dec 01 16:39 : client: [31] closed
+Dec 01 16:39 : client: [32] opened from 127.0.0.1:52472
+Dec 01 16:40 : client: [32] closed
+Dec 01 16:40 : client: [33] opened from 127.0.0.1:52488
+Dec 01 16:41 : client: [33] closed
+Dec 01 16:41 : client: [34] opened from 127.0.0.1:52490
+Dec 01 16:41 : client: [34] closed
+Dec 01 16:41 : client: [35] opened from 127.0.0.1:52492
+Dec 01 16:41 : client: [35] closed
+Dec 01 16:41 : client: [36] opened from 127.0.0.1:52494
+Dec 01 16:41 : client: [36] closed
+Dec 01 16:41 : client: [37] opened from 127.0.0.1:52496
+Dec 01 16:42 : client: [37] closed
+Dec 01 16:42 : client: [38] opened from 127.0.0.1:52520
+Dec 01 16:43 : client: [38] closed
+Dec 01 16:43 : client: [39] opened from 127.0.0.1:52528
+Dec 01 16:43 : client: [39] closed
+Dec 01 16:44 : client: [40] opened from 127.0.0.1:52550
+Dec 01 16:44 : client: [40] closed
+Dec 01 16:44 : client: [41] opened from 127.0.0.1:52552
+Dec 02 00:23 : client: [41] closed
+Dec 02 00:23 : client: [42] opened from 127.0.0.1:57728
+Dec 02 00:47 : client: [42] closed
+Dec 02 00:47 : client: [43] opened from 127.0.0.1:58124
+Dec 02 00:47 : client: [43] closed
+Dec 02 00:47 : client: [44] opened from 127.0.0.1:58126
+Dec 02 00:47 : client: [44] closed
+Dec 02 00:47 : client: [45] opened from 127.0.0.1:58128
+Dec 02 01:00 : client: [45] closed
+Dec 02 01:00 : client: [46] opened from 127.0.0.1:58260
+Dec 02 01:00 : client: [46] closed
+Dec 02 01:00 : client: [47] opened from 127.0.0.1:58262
+Dec 02 01:03 : client: [47] closed
+Dec 02 01:03 : client: [48] opened from 127.0.0.1:58436
+Dec 02 01:03 : client: [48] closed
+Dec 02 01:03 : client: [49] opened from 127.0.0.1:58438
+Dec 02 01:04 : client: [49] closed
+Dec 02 01:04 : client: [50] opened from 127.0.0.1:58456
+Dec 02 01:04 : client: [50] closed
+Dec 02 01:04 : client: [51] opened from 127.0.0.1:58458
+Dec 02 01:05 : client: [51] closed
+Dec 02 01:05 : client: [52] opened from 127.0.0.1:58460
+Dec 02 01:05 : client: [52] closed
+Dec 02 01:05 : client: [53] opened from 127.0.0.1:58462
+Dec 02 01:05 : client: [53] closed
+Dec 02 01:05 : client: [54] opened from 127.0.0.1:58468
+Dec 02 01:06 : client: [54] closed
+Dec 02 01:06 : client: [55] opened from 127.0.0.1:58472
+Dec 02 01:06 : client: [55] closed
+Dec 02 01:06 : client: [56] opened from 127.0.0.1:58474
+Dec 02 01:06 : client: [56] closed
+Dec 02 01:06 : client: [57] opened from 127.0.0.1:58476
+Dec 02 01:06 : client: [57] closed
+Dec 02 01:06 : client: [58] opened from 127.0.0.1:58478
+Dec 02 01:06 : client: [58] closed
+Dec 02 01:06 : client: [59] opened from 127.0.0.1:58490
+Dec 02 01:07 : client: [59] closed
+Dec 02 01:07 : client: [60] opened from 127.0.0.1:58492
+Dec 02 01:07 : client: [60] closed
+Dec 02 01:07 : client: [61] opened from 127.0.0.1:58494
+Dec 02 01:08 : client: [61] closed
+Dec 02 01:08 : client: [62] opened from 127.0.0.1:58516
+Dec 02 01:09 : client: [62] closed
+Dec 02 01:09 : client: [63] opened from 127.0.0.1:58518
+Dec 02 01:09 : client: [63] closed
+Dec 02 01:09 : client: [64] opened from 127.0.0.1:58520
+Dec 02 01:09 : client: [64] closed
+Dec 02 01:09 : client: [65] opened from 127.0.0.1:58522
+Dec 02 01:10 : client: [65] closed
+Dec 02 01:10 : client: [66] opened from 127.0.0.1:58524
+Dec 02 01:10 : client: [66] closed
+Dec 02 01:10 : client: [67] opened from 127.0.0.1:58528
+Dec 02 01:10 : client: [67] closed
+Dec 02 01:10 : client: [68] opened from 127.0.0.1:58530
+Dec 02 01:11 : client: [68] closed
+Dec 02 01:11 : client: [69] opened from 127.0.0.1:58542
+Dec 02 01:11 : client: [69] closed
+Dec 02 01:11 : client: [70] opened from 127.0.0.1:58552
+Dec 02 01:11 : client: [70] closed
+Dec 02 01:11 : client: [71] opened from 127.0.0.1:58562
+Dec 02 01:12 : client: [71] closed
+Dec 02 01:12 : client: [72] opened from 127.0.0.1:58704
+Dec 02 01:13 : client: [72] closed
+Dec 02 01:13 : client: [73] opened from 127.0.0.1:58706
+Dec 02 01:15 : client: [73] closed
+Dec 02 01:15 : client: [74] opened from 127.0.0.1:58714
+Dec 02 01:15 : client: [74] closed
+Dec 02 01:15 : client: [75] opened from 127.0.0.1:58734
+Dec 02 01:15 : client: [75] closed
+Dec 02 01:15 : client: [76] opened from 127.0.0.1:58736
+Dec 02 01:19 : client: [76] closed
+Dec 02 01:19 : client: [77] opened from 127.0.0.1:58810
+Dec 02 01:31 : client: [77] closed
+Dec 02 01:31 : avahi: Client Disconnected, will reconnect shortly
+Dec 02 19:06 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 02 19:06 : config: option 'mixer_device' on line 215 was not recognized
+Dec 02 19:06 : config: option 'mixer_control' on line 216 was not recognized
+Dec 02 19:06 : client: [0] opened from 127.0.0.1:51298
+Dec 02 19:06 : avahi: Service 'Music Player' successfully established.
+Dec 02 19:06 : client: [1] opened from 127.0.0.1:51306
+Dec 02 19:06 : player: played "Epic/2011 - Nero/ALTERNATE/XTS040_02_2 EVERLASTING.mp3"
+Dec 02 19:09 : player: played "ToSort/Still Alive.mp3"
+Dec 02 19:13 : player: played "ToSort/S3RL.mp3"
+Dec 02 19:18 : player: played "ToSort/Luv Letter.mp3"
+Dec 02 19:25 : exception: Failed to decode /home/westornd/Musique/ToSort/Flower Dance.mp3
+Dec 02 19:25 : exception: nested: Failed to open /home/westornd/Musique/ToSort/Flower Dance.mp3: No such file or directory
+Dec 02 19:25 : player: played "ToSort/Horizon.mp3"
+Dec 02 19:25 : player: played "ToSort/Flower Dance.mp3"
+Dec 02 19:25 : exception: Failed to decode /home/westornd/Musique/ToSort/182 .mp3
+Dec 02 19:25 : exception: nested: Failed to open /home/westornd/Musique/ToSort/182 .mp3: No such file or directory
+Dec 02 19:25 : player: played "ToSort/182 .mp3"
+Dec 02 19:30 : player: played "ToSort/ いのちの名前～ジブリ・メドレー.mp3"
+Dec 02 19:32 : player: played "ToSort/ When You Leave (Numa Numa).mp3"
+Dec 02 19:42 : player: played "Epic/2011 - Nero/NO CHOIR/XTS040_01_1 UNITED WE STAND - DIVIDED WE FALL.mp3"
+Dec 02 19:45 : player: played "Rap/Hypnoflip Invasion/01 - Invasion.flac"
+Dec 02 19:49 : player: played "Rap/Hypnoflip Invasion/02 - Stupeflip Vite !!!.flac"
+Dec 02 19:54 : player: played "Rap/Hypnoflip Invasion/03 - La Menuiserie.flac"
+Dec 02 19:58 : player: played "Rap/Hypnoflip Invasion/04 - Gaëlle.flac"
+Dec 02 20:02 : player: played "Rap/Hypnoflip Invasion/05 - Check Da Krou.flac"
+Dec 02 20:05 : player: played "Rap/Hypnoflip Invasion/06 - Le Spleen Des Petits.flac"
+Dec 02 20:06 : player: played "Rap/Hypnoflip Invasion/07 - Dangereux !!.flac"
+Dec 02 20:09 : player: played "Rap/Hypnoflip Invasion/08 - Hater's Killah.flac"
+Dec 02 20:10 : player: played "Rap/Hypnoflip Invasion/09 - Strange Pain.flac"
+Dec 02 20:13 : player: played "Rap/Hypnoflip Invasion/10 - Gem Lé Moch'.flac"
+Dec 02 20:18 : player: played "Rap/Hypnoflip Invasion/11 - Sinode Pibouin.flac"
+Dec 02 20:18 : player: played "Rap/Hypnoflip Invasion/12 - 72.8 Mhz.flac"
+Dec 02 20:25 : player: played "Rap/Hypnoflip Invasion/17 - Apocalypse 894.flac"
+Dec 02 20:26 : player: played "Rap/Hypnoflip Invasion/18 - La Mort À Pop-Hip.flac"
+Dec 02 20:30 : player: played "Rap/Hypnoflip Invasion/19 - Le Cœur Qui Cogne.flac"
+Dec 02 20:31 : player: played "Rap/Hypnoflip Invasion/20 - Keep The Faith.flac"
+Dec 02 20:36 : player: played "ToSort/Luv Letter.mp3"
+Dec 02 20:37 : client: [1] closed
+Dec 02 20:37 : exception: "My ALSA Device" [alsa] failed to play: snd_pcm_writei() failed: Broken pipe
+Dec 02 20:37 : player: played "ToSort/Still Alive.mp3"
+Dec 05 19:49 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 05 19:49 : config: option 'mixer_device' on line 215 was not recognized
+Dec 05 19:49 : config: option 'mixer_control' on line 216 was not recognized
+Dec 05 19:49 : avahi: Service 'Music Player' successfully established.
+Dec 05 19:50 : client: [0] opened from 127.0.0.1:46046
+Dec 05 19:50 : client: [1] opened from 127.0.0.1:46048
+Dec 05 19:50 : client: [0] closed
+Dec 06 12:00 : client: [1] closed
+Dec 06 12:00 : player: played "ToSort/Still Alive.mp3"
+Dec 06 12:06 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 06 12:06 : config: option 'mixer_device' on line 215 was not recognized
+Dec 06 12:06 : config: option 'mixer_control' on line 216 was not recognized
+Dec 06 12:06 : avahi: Service 'Music Player' successfully established.
+Dec 06 12:19 : client: [0] opened from 127.0.0.1:36210
+Dec 06 12:19 : client: [0] closed
+Dec 06 12:19 : client: [1] opened from 127.0.0.1:36212
+Dec 07 12:24 : player: played "ToSort/Still Alive.mp3"
+Dec 13 16:25 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 13 16:25 : config: option 'mixer_device' on line 215 was not recognized
+Dec 13 16:25 : config: option 'mixer_control' on line 216 was not recognized
+Dec 13 16:25 : avahi: Service 'Music Player' successfully established.
+Dec 13 16:31 : client: [0] opened from 127.0.0.1:36568
+Dec 13 16:31 : client: [0] closed
+Dec 13 16:31 : client: [1] opened from 127.0.0.1:36570
+Dec 13 16:40 : client: [1] closed
+Dec 13 16:41 : player: played "ToSort/Still Alive.mp3"
+Dec 13 17:07 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 13 17:07 : config: option 'mixer_device' on line 215 was not recognized
+Dec 13 17:07 : config: option 'mixer_control' on line 216 was not recognized
+Dec 13 17:07 : avahi: Service 'Music Player' successfully established.
+Dec 13 17:08 : client: [0] opened from 127.0.0.1:47782
+Dec 13 17:08 : client: [0] closed
+Dec 13 17:08 : client: [1] opened from 127.0.0.1:47784
+Dec 13 17:18 : player: played "ToSort/Still Alive.mp3"
+Dec 21 19:24 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 21 19:24 : config: option 'mixer_device' on line 215 was not recognized
+Dec 21 19:24 : config: option 'mixer_control' on line 216 was not recognized
+Dec 21 19:24 : avahi: Service 'Music Player' successfully established.
+Dec 21 19:24 : client: [0] opened from 127.0.0.1:34022
+Dec 21 19:24 : client: [1] opened from 127.0.0.1:34024
+Dec 21 19:25 : player: played "ToSort/Still Alive.mp3"
+Dec 21 19:25 : exception: Failed to decode /home/westornd/Musique/ToSort/ Africa (Video).mp3
+Dec 21 19:25 : exception: nested: Failed to open /home/westornd/Musique/ToSort/ Africa (Video).mp3: No such file or directory
+Dec 21 19:25 : player: played "ToSort/ Africa (Video).mp3"
+Dec 21 19:25 : exception: Failed to decode /home/westornd/Musique/ToSort/ Africa (Video).mp3
+Dec 21 19:25 : exception: nested: Failed to open /home/westornd/Musique/ToSort/ Africa (Video).mp3: No such file or directory
+Dec 21 19:25 : player: played "ToSort/ Africa (Video).mp3"
+Dec 21 19:25 : exception: Failed to decode /home/westornd/Musique/ToSort/ Africa (Video).mp3
+Dec 21 19:25 : exception: nested: Failed to open /home/westornd/Musique/ToSort/ Africa (Video).mp3: No such file or directory
+Dec 21 19:25 : player: played "ToSort/ Africa (Video).mp3"
+Dec 21 19:25 : exception: Failed to decode /home/westornd/Musique/ToSort/ Africa (Video).mp3
+Dec 21 19:25 : exception: nested: Failed to open /home/westornd/Musique/ToSort/ Africa (Video).mp3: No such file or directory
+Dec 21 19:25 : player: played "ToSort/ Africa (Video).mp3"
+Dec 21 19:25 : exception: Failed to decode /home/westornd/Musique/ToSort/ Africa (Video).mp3
+Dec 21 19:25 : exception: nested: Failed to open /home/westornd/Musique/ToSort/ Africa (Video).mp3: No such file or directory
+Dec 21 19:25 : exception: Failed to decode /home/westornd/Musique/ToSort/ Africa (Video).mp3
+Dec 21 19:25 : exception: nested: Failed to open /home/westornd/Musique/ToSort/ Africa (Video).mp3: No such file or directory
+Dec 21 19:25 : player: played "ToSort/ Africa (Video).mp3"
+Dec 21 19:25 : exception: Failed to decode /home/westornd/Musique/ToSort/ Africa (Video).mp3
+Dec 21 19:25 : exception: nested: Failed to open /home/westornd/Musique/ToSort/ Africa (Video).mp3: No such file or directory
+Dec 21 19:25 : exception: Failed to decode /home/westornd/Musique/ToSort/ Africa (Video).mp3
+Dec 21 19:25 : exception: nested: Failed to open /home/westornd/Musique/ToSort/ Africa (Video).mp3: No such file or directory
+Dec 21 19:25 : player: played "ToSort/ Africa (Video).mp3"
+Dec 21 19:25 : exception: Failed to decode /home/westornd/Musique/ToSort/ Africa (Video).mp3
+Dec 21 19:25 : exception: nested: Failed to open /home/westornd/Musique/ToSort/ Africa (Video).mp3: No such file or directory
+Dec 21 19:25 : exception: Failed to decode /home/westornd/Musique/ToSort/ Africa (Video).mp3
+Dec 21 19:25 : exception: nested: Failed to open /home/westornd/Musique/ToSort/ Africa (Video).mp3: No such file or directory
+Dec 21 19:25 : player: played "ToSort/ Africa (Video).mp3"
+Dec 21 19:25 : exception: Failed to decode /home/westornd/Musique/ToSort/ Africa (Video).mp3
+Dec 21 19:25 : exception: nested: Failed to open /home/westornd/Musique/ToSort/ Africa (Video).mp3: No such file or directory
+Dec 21 19:26 : update: removing ToSort/ Afterlife (Official Video).mp3
+Dec 21 19:26 : update: removing ToSort/ Africa (Video).mp3
+Dec 21 19:26 : update: removing ToSort/182 .mp3
+Dec 21 19:26 : update: removing ToSort/ Englishman In New York.mp3
+Dec 21 19:26 : update: removing ToSort/ Deep Blue (HQ).mp3
+Dec 21 19:26 : update: removing ToSort/ Blackheart (SkyWorld).mp3
+Dec 21 19:26 : update: removing ToSort/Flower Dance.mp3
+Dec 21 19:26 : update: added ToSort/Englishman_in_New_York.mp3
+Dec 21 19:26 : update: added ToSort/Blackheart.mp3
+Dec 21 19:26 : update: added ToSort/Deep_blue.mp3
+Dec 21 19:26 : update: added ToSort/182.mp3
+Dec 21 19:26 : update: added ToSort/Afterlife.mp3
+Dec 21 19:26 : update: added ToSort/Flower_dance.mp3
+Dec 21 19:26 : update: added ToSort/ Day after day.mp3
+Dec 21 19:26 : update: added ToSort/Africa.mp3
+Dec 21 19:29 : player: played "ToSort/ How Do You Do (Remix) ✕.mp3"
+Dec 21 19:33 : player: played "ToSort/Africa.mp3"
+Dec 21 19:51 : player: played "ToSort/Englishman_in_New_York.mp3"
+Dec 21 19:56 : player: played "ToSort/ The Girl In Byakkoya.mp3"
+Dec 21 19:59 : player: played "ToSort/ My Demons.mp3"
+Dec 21 20:06 : player: played "ToSort/ Love Beam.mp3"
+Dec 21 20:09 : player: played "ToSort/ I Can Walk On Water I Can Fly.mp3"
+Dec 21 20:12 : player: played "ToSort/ I Can Walk On Water I Can Fly.mp3"
+Dec 21 20:16 : player: played "ToSort/S3RL.mp3"
+Dec 21 20:19 : player: played "ToSort/Still Alive.mp3"
+Dec 21 20:23 : player: played "Rock/Arcade Fire - Electric Blue (Official Video).mp3"
+Dec 21 20:27 : player: played "Rock/Bloodhound_Gang_-_The_Bad_Touch.mp3"
+Dec 21 20:33 : player: played "Rap/Hypnoflip Invasion/02 - Stupeflip Vite !!!.flac"
+Dec 21 20:37 : player: played "Rap/Hypnoflip Invasion/08 - Hater's Killah.flac"
+Dec 21 20:41 : player: played "Rap/Hypnoflip Invasion/11 - Sinode Pibouin.flac"
+Dec 21 20:44 : player: played "Rap/Hypnoflip Invasion/17 - Apocalypse 894.flac"
+Dec 21 20:44 : client: [1] closed
+Dec 21 20:45 : exception: "My ALSA Device" [alsa] failed to play: snd_pcm_writei() failed: Broken pipe
+Dec 21 20:45 : exception: Failed to open audio output
+Dec 21 20:45 : player: played "Rap/Casseurs Flowters - 22h31 - Fais les backs.mp3"
+Dec 25 00:13 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 25 00:13 : config: option 'mixer_device' on line 215 was not recognized
+Dec 25 00:13 : config: option 'mixer_control' on line 216 was not recognized
+Dec 25 00:13 : client: [0] opened from 127.0.0.1:51764
+Dec 25 00:13 : avahi: Service 'Music Player' successfully established.
+Dec 25 00:13 : client: [1] opened from 127.0.0.1:51766
+Dec 25 00:50 : client: [2] opened from 127.0.0.1:52120
+Dec 25 00:50 : client: [2] closed
+Dec 25 00:58 : client: [1] closed
+Dec 25 01:05 : player: played "ToSort/ いのちの名前～ジブリ・メドレー.mp3"

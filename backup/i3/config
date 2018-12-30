@@ -8,7 +8,7 @@ font xft:URWGothic-Book 11
 
 floating_modifier $mod
 
-bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec xterm
 
 # Window kill command
 bindsym $mod+Shift+b kill
@@ -19,7 +19,6 @@ bindsym $mod+i exec --no-startup-id rofi -show run
 # Search window
 bindsym $mod+a exec --no-startup-id rofi -show window
 bindsym $mod+Shift+a exec --no-startup-id rofi -show ssh
-
 
 # change focus
 bindsym $mod+t focus left
@@ -89,9 +88,9 @@ bindsym $mod+l exec --no-startup-id notify-send "Téléchargement en cours"; exe
 bindsym $mod+Shift+l exec --no-startup-id notify-send "Téléchargement en cours"; exec --no-startup-id python3 /home/westornd/Youtube-2-mp3/main.py full
 
 # workspaces
-set $ws1 1
-set $ws2 2
-set $ws3 3
+set $ws1 1:web
+set $ws2 2:tg
+set $ws3 3:mail
 set $ws4 4
 set $ws5 5
 set $ws6 6
@@ -157,6 +156,8 @@ for_window [class="Timeset-gui"] floating enable border normal
 for_window [class="(?i)virtualbox"] floating enable border normal
 for_window [class="Xfburn"] floating enable
 for_window [class="Tk"] floating enable
+for_window [title="^notes:"] floating enable border nonec
+for_window [title="xrandr-ncurses-app" ] floating enable, move position center
 
 # switch to workspace with urgent window automatically
 for_window [urgent=latest] focus
@@ -211,12 +212,23 @@ mode "resize" {
         bindsym Escape mode "default"
 }
 
+bindsym $mod+0xffeb mode "$lang"
+set $lang Bepo(1), Fr(2), En(3)
+mode "$lang"{
+  bindsym 1 exec "setxkbmap -layout fr -variant bepo"; mode "default"
+  bindsym 2 exec "setxkbmap fr"; mode "default"
+  bindsym 3 exec "setxkbmap en"; mode default
+  Bindsym Return mode "default
+  Bindsym Escape mode "default"
+}
+
 # Autostart applications
-exec --no-startup-id nitrogen --head=-1 --restore; sleep 1; compton -b
+exec --no-startup-id nitrogen --head=-1 --restore; sleep 1;
 exec --no-startup-id nm-applet
 exec --no-startup-id xfce4-power-manager
 exec --no-startup-id pamac-tray
 exec --no-startup-id clipit
+
 exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
 exec_always --no-startup-id /$HOME/.config/polybar/i3wmthemer_bar_launch.sh
@@ -291,10 +303,30 @@ exec "conky --config=/home/westornd/.config/conky/conky.conf"
 exec_always --no-startup-id numlockx on
 
 #Volume
-bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +4% && pactl set-sink-volume 1 +4% && killall -SIGUSR1 i3status
-bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -4% && pactl set-sink-volume 1 -4% && killall -SIGUSR1 i3status
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +4% && pactl set-sink-volume 1 +4% && pactl set-sink-volume 2 +4% && killall -SIGUSR1 i3status
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -4% && pactl set-sink-volume 1 -4% && pactl set-sink-volume 2 -4% && killall -SIGUSR1 i3status
 
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle
 
 exec --no-startup-id xinput set-prop "ETPS/2 Elantech Touchpad" "libinput Tapping Enabled" 1
 
+# network-manager-applet
+exec --no-startup-id nm-applet
+
+assign [class="Firefox"] → 1:web
+assign [class="TelegramDesktop"] → 2:tg
+assign [class="Thunderbird"] → 3:mail
+
+#Start deamon termial for quick start
+exec --no-startup-id urxvtd --quiet --opendisplay --fork
+
+#compton
+exec --no-startup-id compton --config=/home/westornd/.config/compton/compton.conf -b
+
+#Xterm
+exec --no-startup-id xrdb ~/.Xresources
+
+#hdmi
+bindsym $mod+j exec --no-startup-id hdmi
+
+# Pour trouver la classe d'un app -> xprop

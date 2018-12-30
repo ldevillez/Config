@@ -1,6 +1,8 @@
 sw_volume: 96
 audio_device_state:1:My ALSA Device
-state: stop
+state: pause
+current: 19
+time: 129.653000
 random: 0
 repeat: 0
 single: 0
@@ -9,31 +11,24 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:Internet/Still Alive.mp3
-1:Quiet/1 - Final Fantasy 6 _ Kingdom Hearts.mp3
-2:Quiet/2 - Reload Medley.mp3
-3:Quiet/4 - Silent Hill.mp3
-4:Quiet/5 - Zelda _ Co.mp3
-5:Quiet/6 - Meline (composition).mp3
-6:Rap/Casseurs Flowters - 22h31 - Fais les backs.mp3
-7:Rap/Casseurs Flowters - Si facile Clip Officiel.mp3
-8:Rap/Hypnoflip Invasion/02 - Stupeflip Vite !!!.flac
-9:Rap/Hypnoflip Invasion/08 - Hater's Killah.flac
-10:Rap/Hypnoflip Invasion/17 - Apocalypse 894.flac
-11:Rap/Hypnoflip Invasion/18 - La Mort À Pop-Hip.flac
-12:Rock/Californication/06 Californication.wma
-13:Rock/Stadium Arcadium (2006)/102-red_hot_chili_peppers-snow_(hey_oh).mp3
-14:Rock/Toxicity/12 - Toxicity.mp3
-15:Rock/Toxicity/09 - Atwa.mp3
-16:ToSort/ The Girl In Byakkoya.mp3
-17:ToSort/ Deep Blue (HQ).mp3
-18:ToSort/ Afterlife (Official Video).mp3
+0:ToSort/ How Do You Do (Remix) ✕.mp3
+1:ToSort/Africa.mp3
+2:ToSort/Englishman_in_New_York.mp3
+3:ToSort/ The Girl In Byakkoya.mp3
+4:ToSort/ My Demons.mp3
+5:ToSort/ Love Beam.mp3
+6:ToSort/ I Can Walk On Water I Can Fly.mp3
+7:ToSort/S3RL.mp3
+8:ToSort/Still Alive.mp3
+9:Rock/Arcade Fire - Electric Blue (Official Video).mp3
+10:Rock/Bloodhound_Gang_-_The_Bad_Touch.mp3
+11:Rock/Dead Or Alive - You Spin Me Round (Like a Record).mp3
+12:Rap/Hypnoflip Invasion/02 - Stupeflip Vite !!!.flac
+13:Rap/Hypnoflip Invasion/08 - Hater's Killah.flac
+14:Rap/Hypnoflip Invasion/11 - Sinode Pibouin.flac
+15:Rap/Hypnoflip Invasion/17 - Apocalypse 894.flac
+16:Rap/Casseurs Flowters - 22h31 - Fais les backs.mp3
+17:Rap/Casseurs Flowters - 22h31 - Fais les backs.mp3
+18:Rap/Casseurs Flowters - Si facile Clip Officiel.mp3
 19:ToSort/ いのちの名前～ジブリ・メドレー.mp3
-20:ToSort/Flower Dance.mp3
-21:ToSort/Horizon.mp3
-22:ToSort/Luv Letter.mp3
-23:ToSort/S3RL.mp3
-24:ToSort/Still Alive.mp3
-25:ToSort/ No Time For Caution (Interstellar Soundtrack)(Docking)(Interstellar OST).mp3
-26:ToSort/ Love Beam.mp3
 playlist_end
