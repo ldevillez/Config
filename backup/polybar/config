@@ -5,8 +5,8 @@ radius = 0
 monitor = ${env:MONITOR:}
 fixed-center = true
 
-background = #11182e
-foreground = #696b77
+background = #3e1811
+foreground = #886b77
 
 line-size = 3
 line-color =

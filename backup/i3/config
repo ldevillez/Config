@@ -8,85 +8,114 @@ font xft:URWGothic-Book 11
 
 floating_modifier $mod
 
+#| Windows manager
+#$ General
+## Terminal
 bindsym $mod+Return exec xterm
 
-# Window kill command
+## Window kill command
 bindsym $mod+Shift+b kill
 
-# start program launcher
+## Start program launcher
 bindsym $mod+i exec --no-startup-id rofi -show run
 
-# Search window
+## Alt-tab-rofi
 bindsym $mod+a exec --no-startup-id rofi -show window
+## SSH-rofi
 bindsym $mod+Shift+a exec --no-startup-id rofi -show ssh
 
-# change focus
+#$ change focus
+## Focus left
 bindsym $mod+t focus left
+## Focus down
 bindsym $mod+s focus down
+## Focus Up
 bindsym $mod+r focus up
+## Focus right
 bindsym $mod+n focus right
 
+## Focus Left
 bindsym $mod+Left focus left
+## Focus down
 bindsym $mod+Down focus down
+## Focus up
 bindsym $mod+Up focus up
+## Focus right
 bindsym $mod+Right focus right
 
-# move focused window
+#$ move focused window
+## Move left
 bindsym $mod+Shift+t move left
-bindsym $mod+Shift+s move down
-bindsym $mod+Shift+r move up
-bindsym $mod+Shift+n move right
-
+## Move Left
 bindsym $mod+Shift+Left move left
+
+## Move down
+bindsym $mod+Shift+s move down
+## Move down
 bindsym $mod+Shift+Down move down
+
+## Move up
+bindsym $mod+Shift+r move up
+## Move up
 bindsym $mod+Shift+Up move up
+
+## Move right
+bindsym $mod+Shift+n move right
+## Move right
 bindsym $mod+Shift+Right move right
 
+#$ Worspace
 # workspace back and forth (with/without active container)
 workspace_auto_back_and_forth yes
-# bindsym $mod+k workspace back_and_forth
-# bindsym $mod+Shift+k move container to workspace back_and_forth; workspace back_and_forth
+# b indsym $mod+k workspace back_and_forth
+# b indsym $mod+Shift+k move container to workspace back_and_forth; workspace back_and_forth
 
 # split orientation
+## Split horizontally
 bindsym $mod+c split h;exec notify-send 'tile horizontally'
+## Split vertically
 bindsym $mod+comma split v;exec notify-send 'tile vertically'
-# bindsym $mod+b split toggle
+# b indsym $mod+b split toggle
 
 # toggle fullscreen mode for the focused container
+## Full screen 
 bindsym $mod+e fullscreen toggle
 
-# change container layout (stacked, tabbed, toggle split)
+# Change container layout
+## Stacking
 bindsym $mod+u layout stacking
+## Tabbed
 bindsym $mod+eacute layout tabbed
+## Split
 bindsym $mod+p layout toggle split
 
-# toggle tiling / floating
+## toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
 
-# change focus between tiling / floating windows
+## change focus between tiling / floating windows
 bindsym $mod+space focus mode_toggle
 
-# toggle sticky
+## toggle sticky
 bindsym $mod+Shift+i sticky toggle
 
 # focus the parent container
-# bindsym $mod+a focus parent
+# b indsym $mod+a focus parent
 
-# move the currently focused window to the scratchpad
+## Move to scratchpad
 bindsym $mod+Shift+9 move scratchpad
 
 # Show the next scratchpad window or hide the focused scratchpad window.
 # If there are multiple scratchpad windows, this command cycles through them.
+## Toggle scratchpad
 bindsym $mod+9 scratchpad show
 
-# navigate workspaces next / previous
+## navigate workspaces next / previous
+## Move to the next Workspace
 bindsym $mod+Ctrl+Right workspace next
+## Move to the prev Workspace
 bindsym $mod+Ctrl+Left workspace prev
 
-# Music download
-bindsym $mod+l exec --no-startup-id notify-send "Téléchargement en cours"; exec --no-startup-id python3 /home/westornd/Youtube-2-mp3/main.py
-bindsym $mod+Shift+l exec --no-startup-id notify-send "Téléchargement en cours"; exec --no-startup-id python3 /home/westornd/Youtube-2-mp3/main.py full
-
+#$ List Workspace
 # workspaces
 set $ws1 1:web
 set $ws2 2:tg
@@ -98,33 +127,57 @@ set $ws7 7
 set $ws8 8
 
 # switch to workspace
+## Move to the W1
 bindsym $mod+1 workspace $ws1
+## Move to the W2
 bindsym $mod+2 workspace $ws2
+## Move to the W3
 bindsym $mod+3 workspace $ws3
+## Move to the W4
 bindsym $mod+4 workspace $ws4
+## Move to the W5
 bindsym $mod+5 workspace $ws5
+## Move to the W6
 bindsym $mod+6 workspace $ws6
+## Move to the W7
 bindsym $mod+7 workspace $ws7
+## Move to the W8
 bindsym $mod+8 workspace $ws8
 
 # Move focused container to workspace
+## Move container to the W1
 bindsym $mod+Ctrl+1 move container to workspace $ws1
+## Move container to the W2
 bindsym $mod+Ctrl+2 move container to workspace $ws2
+## Move container to the W3
 bindsym $mod+Ctrl+3 move container to workspace $ws3
+## Move container to the W4
 bindsym $mod+Ctrl+4 move container to workspace $ws4
+## Move container to the W5
 bindsym $mod+Ctrl+5 move container to workspace $ws5
+## Move container to the W6
 bindsym $mod+Ctrl+6 move container to workspace $ws6
+## Move container to the W7
 bindsym $mod+Ctrl+7 move container to workspace $ws7
+## Move container to the W8
 bindsym $mod+Ctrl+8 move container to workspace $ws8
 
 # Move to workspace with focused container
+## Move with the container to the W1
 bindsym $mod+Shift+1 move container to workspace $ws1; workspace $ws1
+## Move with the container to the W2
 bindsym $mod+Shift+2 move container to workspace $ws2; workspace $ws2
+## Move with the container to the W3
 bindsym $mod+Shift+3 move container to workspace $ws3; workspace $ws3
+## Move with the container to the W4
 bindsym $mod+Shift+4 move container to workspace $ws4; workspace $ws4
+## Move with the container to the W5
 bindsym $mod+Shift+5 move container to workspace $ws5; workspace $ws5
+## Move with the container to the W6
 bindsym $mod+Shift+6 move container to workspace $ws6; workspace $ws6
+## Move with the container to the W7
 bindsym $mod+Shift+7 move container to workspace $ws7; workspace $ws7
+## Move with the container to the W8
 bindsym $mod+Shift+8 move container to workspace $ws8; workspace $ws8
 
 # Open specific applications in floating mode
@@ -162,63 +215,101 @@ for_window [title="xrandr-ncurses-app" ] floating enable, move position center
 # switch to workspace with urgent window automatically
 for_window [urgent=latest] focus
 
-# reload the configuration file
+#$ Manage Session
+## Reload
 bindsym $mod+Shift+x reload
 
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
+## Restart
 bindsym $mod+Shift+o restart
 
 # exit i3 (logs you out of your X session)
+## Exit
 bindsym $mod+Shift+p exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
 
 # Set shut down, restart and locking features
+#| MODE
+#$ Mode system
+## Mode system
 bindsym $mod+0 mode "$mode_system"
 set $mode_system (l)ock, (e)xit, switch_(u)ser, (s)uspend, (h)ibernate, (r)eboot, (Shift+s)hutdown
+## Mode System
 mode "$mode_system" {
+    ## Lock
     bindsym l exec --no-startup-id ~/.config/i3/i3exit.sh lock, mode "default"
+    ## Suspend
     bindsym s exec --no-startup-id ~/.config/i3/i3exit.sh suspend
+    ## Switch User
     bindsym u exec --no-startup-id ~/.config/i3/i3exit.sh switch_user
+    ## Logout
     bindsym e exec --no-startup-id ~/.config/i3/i3exit.sh logout
+    ## Hibernate
     bindsym h exec --no-startup-id ~/.config/i3/i3exit.sh hibernate
+    ## Reboot
     bindsym r exec --no-startup-id ~/.config/i3/i3exit.sh reboot
+    ## Shutdown
     bindsym Shift+s exec --no-startup-id ~/.config/i3/i3exit.sh shutdown
 
     # exit system mode: "Enter" or "Escape"
+    ## Exit
     bindsym Return mode "default"
+    ## Exit
     bindsym Escape mode "default"
 }
 
 # Resize window (you can also use the mouse for that)
+#$ Resize Mode
+## Resize Mode
 bindsym $mod+o mode "resize"
+## Resize Mode
 mode "resize" {
         # These bindings trigger as soon as you enter the resize mode
         # Pressing left will shrink the window’s width.
         # Pressing right will grow the window’s width.
         # Pressing up will shrink the window’s height.
         # Pressing down will grow the window’s height.
+        ## Shrink Width
         bindsym j resize shrink width 5 px or 5 ppt
-        bindsym k resize grow height 5 px or 5 ppt
-        bindsym l resize shrink height 5 px or 5 ppt
-        bindsym semicolon resize grow width 5 px or 5 ppt
-
-        # same bindings, but for the arrow keys
+        ## Shrink Width
         bindsym Left resize shrink width 10 px or 10 ppt
-        bindsym Down resize grow height 10 px or 10 ppt
+
+        ## Grow Height
+        bindsym k resize grow height 5 px or 5 ppt
+        ## Grow Height
+         bindsym Down resize grow height 10 px or 10 ppt
+
+        ## Shrink Height
+        bindsym l resize shrink height 5 px or 5 ppt
+        ## Shrink Height
         bindsym Up resize shrink height 10 px or 10 ppt
+
+        ## Grow Width
+        bindsym semicolon resize grow width 5 px or 5 ppt
+        ## Grow Width
         bindsym Right resize grow width 10 px or 10 ppt
 
         # exit resize mode: Enter or Escape
+        ## Exit
         bindsym Return mode "default"
+        ## Exit
         bindsym Escape mode "default"
 }
 
+#$ Keyboard Mode
+## Keyboard Mode
 bindsym $mod+0xffeb mode "$lang"
-set $lang Bepo(1), Fr(2), En(3)
+set $lang Bepo(1), Azerty(2), Qwerty(3)
+## Keyboard Mode
 mode "$lang"{
+  ## BEPO
   bindsym 1 exec "setxkbmap -layout fr -variant bepo"; mode "default"
+  ## AZERTY
   bindsym 2 exec "setxkbmap fr"; mode "default"
+  ## QWERTY
   bindsym 3 exec "setxkbmap en"; mode default
-  Bindsym Return mode "default
+  ## Exit
+  Bindsym Return mode "default"
+  ## Exit
   Bindsym Escape mode "default"
 }
 
@@ -252,60 +343,81 @@ smart_gaps on
 set $mode_gaps Gaps: (o) outer, (i) inner
 set $mode_gaps_outer Outer Gaps: +|-|0 (local), Shift + +|-|0 (global)
 set $mode_gaps_inner Inner Gaps: +|-|0 (local), Shift + +|-|0 (global)
+#$ Mode Gap
+## Mode Gap
 bindsym $mod+Shift+g mode "$mode_gaps"
-
+## Mode Gap
 mode "$mode_gaps" {
+        ## Mode outer gap
         bindsym o      mode "$mode_gaps_outer"
+        ## Mode inner gap
         bindsym i      mode "$mode_gaps_inner"
+        ## Exit
         bindsym Return mode "default"
+        ## Exit
         bindsym Escape mode "default"
 }
+## Mode inner gap
 mode "$mode_gaps_inner" {
+        ## Grow current
         bindsym plus  gaps inner current plus 5
+        ## Shrink current
         bindsym minus gaps inner current minus 5
+        ## Set to 0 current
         bindsym 0     gaps inner current set 0
 
+        ## Grow
         bindsym Shift+plus  gaps inner all plus 5
+        ## Shrink
         bindsym Shift+minus gaps inner all minus 5
+        ## Set to 0
         bindsym Shift+0     gaps inner all set 0
 
+        ## Exit
         bindsym Return mode "default"
+        ## Exit
         bindsym Escape mode "default"
 }
+## Mode outer gap
 mode "$mode_gaps_outer" {
+        ## Grow current
         bindsym plus  gaps outer current plus 5
+        ## Shrink current
         bindsym minus gaps outer current minus 5
+        ## Set to 0 current
         bindsym 0     gaps outer current set 0
 
+        ## Grow
         bindsym Shift+plus  gaps outer all plus 5
+        ## Shrink
         bindsym Shift+minus gaps outer all minus 5
+        ## Set to 0
         bindsym Shift+0     gaps outer all set 0
 
+        ## Exit
         bindsym Return mode "default"
+        ## Exit
         bindsym Escape mode "default"
 }
-
+#| Command
+#$ Light and Sound
+## Light Up
 bindsym XF86MonBrightnessUp exec light -A 7 # increase screen brightness
+## Light Down
 bindsym XF86MonBrightnessDown exec light -U 7 # decrease screen brightness
-
-# Screen
-bindsym --release Print exec scrot 'screenshot_%Y%m%d_%H%M%S.png' -e 'mkdir -p ~/Pictures/screenshots && mv $f ~/Pictures/screenshots && xclip -selection clipboard -t image/png -i ~/Pictures/screenshots/`ls -1 -t ~/Pictures/screenshots | head -1`' # All screens
-
-# OSX-like area selection screenshots
- bindsym --release Shift+Print exec scrot -s 'screenshot_%Y%m%d_%H%M%S.png' -e 'mkdir -p ~/Pictures/screenshots && mv $f ~/Pictures/screenshots && xclip -selection clipboard -t image/png -i ~/Pictures/screenshots/`ls -1 -t ~/Pictures/screenshots | head -1`' # Area selection
-
-
 # MPD
-exec mpd /home/westornd/.config/mpd/config
+exec mpd /home/westornd/.config/mpd/mpd.conf
 exec mpc pause
 # Conky
 exec "conky --config=/home/westornd/.config/conky/conky.conf"
 exec_always --no-startup-id numlockx on
 
 #Volume
+## Volume up
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +4% && pactl set-sink-volume 1 +4% && pactl set-sink-volume 2 +4% && killall -SIGUSR1 i3status
+## Volume down
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -4% && pactl set-sink-volume 1 -4% && pactl set-sink-volume 2 -4% && killall -SIGUSR1 i3status
-
+## Mute
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle
 
 exec --no-startup-id xinput set-prop "ETPS/2 Elantech Touchpad" "libinput Tapping Enabled" 1
@@ -325,8 +437,21 @@ exec --no-startup-id compton --config=/home/westornd/.config/compton/compton.con
 
 #Xterm
 exec --no-startup-id xrdb ~/.Xresources
+#$ Custom
+## PrintScreen
+bindsym --release Print exec scrot 'screenshot_%Y%m%d_%H%M%S.png' -e 'mkdir -p ~/Pictures/screenshots && mv $f ~/Pictures/screenshots && xclip -selection clipboard -t image/png -i ~/Pictures/screenshots/`ls -1 -t ~/Pictures/screenshots | head -1`' # All screens
+
+## PrintScreen selection
+bindsym --release Shift+Print exec scrot -s 'screenshot_%Y%m%d_%H%M%S.png' -e 'mkdir -p ~/Pictures/screenshots && mv $f ~/Pictures/screenshots && xclip -selection clipboard -t image/png -i ~/Pictures/screenshots/`ls -1 -t ~/Pictures/screenshots | head -1`' # Area selection
 
 #hdmi
+## HDMI setup
 bindsym $mod+j exec --no-startup-id hdmi
+
+# Music download
+## Youtube DL
+bindsym $mod+l exec --no-startup-id notify-send "Téléchargement en cours"; exec --no-startup-id /home/westornd/.local/share/virtualenvs/Youtube-2-mp3-dugDpo19/bin/python /home/westornd/Youtube-2-mp3/main.py
+## Youtube DL full
+bindsym $mod+Shift+l exec --no-startup-id notify-send "Téléchargement en cours"; exec --no-startup-id /home/westornd/.local/share/virtualenvs/Youtube-2-mp3-dugDpo19/bin/python /home/westornd/Youtube-2-mp3/main.py full
 
 # Pour trouver la classe d'un app -> xprop

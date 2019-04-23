@@ -1,9 +1,9 @@
-sw_volume: 96
+sw_volume: 98
 audio_device_state:1:My ALSA Device
 state: pause
-current: 19
-time: 129.653000
-random: 0
+current: 82
+time: 6.466000
+random: 1
 repeat: 0
 single: 0
 consume: 0
@@ -11,24 +11,118 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:ToSort/ How Do You Do (Remix) ✕.mp3
-1:ToSort/Africa.mp3
-2:ToSort/Englishman_in_New_York.mp3
-3:ToSort/ The Girl In Byakkoya.mp3
-4:ToSort/ My Demons.mp3
-5:ToSort/ Love Beam.mp3
-6:ToSort/ I Can Walk On Water I Can Fly.mp3
-7:ToSort/S3RL.mp3
-8:ToSort/Still Alive.mp3
-9:Rock/Arcade Fire - Electric Blue (Official Video).mp3
-10:Rock/Bloodhound_Gang_-_The_Bad_Touch.mp3
-11:Rock/Dead Or Alive - You Spin Me Round (Like a Record).mp3
-12:Rap/Hypnoflip Invasion/02 - Stupeflip Vite !!!.flac
-13:Rap/Hypnoflip Invasion/08 - Hater's Killah.flac
-14:Rap/Hypnoflip Invasion/11 - Sinode Pibouin.flac
-15:Rap/Hypnoflip Invasion/17 - Apocalypse 894.flac
-16:Rap/Casseurs Flowters - 22h31 - Fais les backs.mp3
-17:Rap/Casseurs Flowters - 22h31 - Fais les backs.mp3
-18:Rap/Casseurs Flowters - Si facile Clip Officiel.mp3
-19:ToSort/ いのちの名前～ジブリ・メドレー.mp3
+0:ToSort/RISE (ft. The Glitch Mob, Mako, and The Word Alive) _ Worlds 2018 - League of Legends-fB8TyLTD7EE.mp3
+1:ToSort/PewDiePie   Hej Monika Remix by Party In Backyard.mp3
+2:ToSort/Luv Letter.mp3
+3:ToSort/Horizon.mp3
+4:ToSort/Flower_dance.mp3
+5:ToSort/Deep_blue.mp3
+6:ToSort/S3RL.mp3
+7:ToSort/Still Alive.mp3
+8:ToSort/ The Girl In Byakkoya.mp3
+9:ToSort/ The Calling (feat. Laura Brehm).mp3
+10:ToSort/ Something About Us (Official audio).mp3
+11:ToSort/ Ready to Start (Official Video).mp3
+12:ToSort/ Personne.mp3
+13:ToSort/ My Demons.mp3
+14:ToSort/ Love Beam.mp3
+15:ToSort/ I Need a Hero (Lyrics).mp3
+16:ToSort/ I Can Walk On Water I Can Fly.mp3
+17:ToSort/ Go Go Go.mp3
+18:ToSort/ Chop Suey!.mp3
+19:ToSort/ When You Leave (Numa Numa).mp3
+20:Internet/Metal Gear Solid 2 Sons of Liberty.mp3
+21:Rap/Hypnoflip Invasion/02 - Stupeflip Vite !!!.flac
+22:Rap/Hypnoflip Invasion/08 - Hater's Killah.flac
+23:Rap/Hypnoflip Invasion/17 - Apocalypse 894.flac
+24:ATrier/ELUVEITIE - A Rose For Epona (OFFICIAL MUSIC VIDEO).mp3
+25:ATrier/Eluveitie 02. Epona.mp3
+26:ATrier/ELUVEITIE - Inis Mona (OFFICIAL MUSIC VIDEO).mp3
+27:ATrier/ELUVEITIE - Omnos (OFFICIAL MUSIC VIDEO).mp3
+28:Metal/ELUVEITIE - The Call Of The Mountains (OFFICIAL MUSIC VIDEO).mp3
+29:Rock/twenty one pilots_ Heathens (from Suicide Squad_ The Album) OFFICIAL VIDEO.mp3
+30:ToSort/ Hold The Line.mp3
+31:ToSort/ The Calling (feat. Laura Brehm).mp3
+32:Electro/TheFatRat_-_Unity.mp3
+33:ToSort/ Can't Be Touched.mp3
+34:ToSort/Still Alive.mp3
+35:ToSort/Horizon.mp3
+36:Electro/Vocaloid_Miku_Ievan_Polka.mp3
+37:Rock/My Chemical Romance - Welcome To The Black Parade Official Music Video.mp3
+38:Electro/Nightcore - Blue.mp3
+39:ToSort/ How Do You Do (Remix) ✕.mp3
+40:ToSort/ When You Leave (Numa Numa).mp3
+41:Electro/Nightcore - You're Going Down.mp3
+42:Electro/Nightcore - Turn Me On.mp3
+43:Electro/Nightcore - I Touch Myself.mp3
+44:ATrier/Nightcore- Glad You Came.mp3
+45:Metal/KORPIKLAANI -A Man With A Plan (OFFICIAL VIDEO).mp3
+46:Metal/KORPIKLAANI - Ämmänhauta (OFFICIAL VIDEO).mp3
+47:Metal/Voice Of Wilderness (2005)/09 - Beer Beer.mp3
+48:Metal/Karkelo (2009)/01 - Vodka .mp3
+49:Quiet/Metal Gear Solid Theme (Piano Cover).mp3
+50:Epic/Skyrim_Theme_Song_-_Full_(Dovahkiin_Song).mp3
+51:Rock/Arcade Fire - Electric Blue (Official Video).mp3
+52:Rock/Funeral/01 Neighborhood #1 (Tunnels).mp3
+53:Rock/Funeral/02 Neighborhood #2 (Laïka).mp3
+54:Rock/Funeral/04 Neighborhood #3 (Power Out).mp3
+55:Rock/Neon Bible (2007)/03 - Neon Bible.mp3
+56:Rock/Neon Bible (2007)/10 - No Cars Go.mp3
+57:Rock/Neon Bible (2007)/11 - My Body Is a Cage.mp3
+58:Rock/The Suburbs (2010)/01 - The Suburbs.mp3
+59:Rock/The Suburbs (2010)/09 - Suburban War.mp3
+60:ToSort/Afterlife.mp3
+61:ToSort/Deep_blue.mp3
+62:ToSort/ Ready to Start (Official Video).mp3
+63:Quiet/2 - Reload Medley.mp3
+64:Rock/Greatest Hits, Vol. 3/09 Driven by You.mp3
+65:Rap/Casseurs Flowters - 22h31 - Fais les backs.mp3
+66:Rap/Casseurs Flowters - Si facile Clip Officiel.mp3
+67:ATrier/John Williams - Rey's Theme (Audio Only).mp3
+68:Rock/Green Day - American Idiot Full Album [Lyrics]/Green Day - Boulevard Broken Dreams [Lyrics].mp3
+69:Rock/Green Day - American Idiot Full Album [Lyrics]/Green Day - Wake Me Up When September Ends [Lyrics].mp3
+70:Rock/Night Visions/01 Radioactive.wma
+71:Metal/1983 - Piece of Mind/05 The Trooper.mp3
+72:ToSort/ Chop Suey!.mp3
+73:Rap/Hypnoflip Invasion/02 - Stupeflip Vite !!!.flac
+74:ToSort/ いのちの名前～ジブリ・メドレー.mp3
+75:ToSort/182.mp3
+76:ToSort/ The Man Who Sold The World (MTV Unplugged).mp3
+77:ToSort/ Terre Brûlée.mp3
+78:ToSort/ Ategnatos (OFFICIAL VIDEO).mp3
+79:ToSort/ Can't Be Touched.mp3
+80:ToSort/ Personne.mp3
+81:Rock/Violator/Enjoy The Silence.mp3
+82:Chanson française/France Gall - Annie aime les sucettes à l'anis.mp3
+83:Internet/Metal Gear Solid 2 Sons of Liberty.mp3
+84:ToSort/PewDiePie   Hej Monika Remix by Party In Backyard.mp3
+85:ToSort/RISE (ft. The Glitch Mob, Mako, and The Word Alive) _ Worlds 2018 - League of Legends-fB8TyLTD7EE.mp3
+86:Internet/Still Alive.mp3
+87:ATrier/Stupeflip - 1993.mp3
+88:Epic/2011 - Nero/NO CHOIR/XTS040_01_1 UNITED WE STAND - DIVIDED WE FALL.mp3
+89:Epic/2011 - Nero/NO CHOIR/XTS040_02_1 EVERLASTING.mp3
+90:Epic/2011 - Nero/ALTERNATE/XTS040_02_2 EVERLASTING.mp3
+91:Epic/2011 - Nero/NO CHOIR/XTS040_03_1 ARCHANGEL.mp3
+92:Epic/2011 - Nero/NO CHOIR/XTS040_04_1 DESTRUCTO.mp3
+93:Epic/2011 - Nero/NO CHOIR/XTS040_05_1 STRENGTH OF A THOUSAND MEN.mp3
+94:Epic/2011 - Nero/NO CHOIR/XTS040_06_1 AM I NOT HUMAN.mp3
+95:Epic/2011 - Nero/NO CHOIR/XTS040_07_1 MAGIC OF LOVE.mp3
+96:Epic/2011 - Nero/ALTERNATE/XTS040_07_2 MAGIC OF LOVE.mp3
+97:Epic/2011 - Nero/NO CHOIR/XTS040_08_1 THE LAST STAND.mp3
+98:Epic/2011 - Nero/NO CHOIR/XTS040_10_1 UNEXPLAINED FORCES.mp3
+99:Epic/2011 - Nero/NO CHOIR/XTS040_15_1 CARADHRAS.mp3
+100:Epic/2011 - Nero/NO CHOIR/XTS040_16_1 TO GLORY.mp3
+101:Epic/2011 - Nero/NO CHOIR/XTS040_17_1 DESTINY WILL WAIT.mp3
+102:Epic/2011 - Nero/ALTERNATE/XTS040_17_2 DESTINY WILL WAIT.mp3
+103:Epic/2011 - Nero/NO CHOIR/XTS040_18_1 CASABLANCA.mp3
+104:Epic/2011 - Nero/NO CHOIR/XTS040_19_1 AESIR.mp3
+105:Epic/2011 - Nero/ALTERNATE/XTS040_19_2 AESIR.mp3
+106:Epic/2011 - Nero/NO CHOIR/XTS040_21_1 IMMORTAL AVENGER.mp3
+107:Epic/2011 - Nero/NO CHOIR/XTS040_22_1 UNDEFEATED.mp3
+108:Epic/2011 - Nero/NO CHOIR/XTS040_23_1 SANCTUARY IS LOST.mp3
+109:Epic/2011 - Nero/NO CHOIR/XTS040_24_1 BIRTH OF A HERO.mp3
+110:Epic/2011 - Nero/ALTERNATE/XTS040_24_2 BIRTH OF A HERO.mp3
+111:Epic/2011 - Nero/NO CHOIR/XTS040_27_1 RIDE TO VICTORY.mp3
+112:Epic/2011 - Nero/ALTERNATE/XTS040_27_2 RIDE TO VICTORY.mp3
+113:Epic/2011 - Nero/NO CHOIR/XTS040_35_1 FEAR THE RESURRECTION.mp3
 playlist_end

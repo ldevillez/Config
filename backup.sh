@@ -25,3 +25,6 @@ echo "- Ranger"
 cp /home/westornd/.config/ranger /home/westornd/Config/backup/ranger -r
 echo "- URxvt"
 cp /home/westornd/.Xresources /home/westornd/Config/backup/xresources
+echo "- KLFC"
+cp /home/westornd/.config/klfc/output/symbols /home/westornd/Config/backup/klfc -r
+

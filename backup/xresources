@@ -11,8 +11,8 @@ URxvt.secondaryScreen: 1
 URxvt.secondaryScroll: 0
 URxvt.secondaryWheel: 1
 
-xterm*font: xft:Inconsolata:size=11
-URxvt*font:           xft:Inconsolata:size=11
+xterm*font: xft:Inconsolata:size=14
+URxvt*font:           xft:Inconsolata:size=14
 Xft.antialias:  true
 Xft.rgba:       rgb
 Xft.hinting:    true

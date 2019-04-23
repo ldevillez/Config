@@ -59,7 +59,7 @@ ZSH_THEME="oh-my-via/via"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git common-aliases django pip python yarn colored-man-page)
+plugins=(git common-aliases django pip python yarn)
  
 source $ZSH/oh-my-zsh.sh
 
@@ -97,12 +97,13 @@ export SSH_KEY_PATH="~/.ssh/rsa_id"
 # special bookmark
 alias 'cdVR=cd ~/Documents/ViaRezo'
 alias 'cdGuilde=cd ~/Documents/La\ Guilde'
+alias 'cdElfics=cd ~/Documents/Elfics'
 
 # sshutle to connect to the proxy
 alias 'VRconnect=sshuttle -r westornd@proxy.viarezo.fr 138.195.128.0/19 -x proxy.viarezo.fr'
 
 # export path
-export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH:/usr/lib/java/bin:/usr/lib/java/jre/bin/java:/home/westornd/.local/bin"
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH:/usr/lib/java/bin:/usr/lib/java/jre/bin/java:/home/westornd/.local/bin:/usr/bin/latex"
 export PYTHONPATH="/usr/bin/python3.5"
 export JAVA_HOME="/usr/lib/java"
 
@@ -110,6 +111,9 @@ export JAVA_HOME="/usr/lib/java"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+
+#Latex Vim
 
 
 

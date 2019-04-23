@@ -2283,3 +2283,452 @@ Dec 25 00:50 : client: [2] opened from 127.0.0.1:52120
 Dec 25 00:50 : client: [2] closed
 Dec 25 00:58 : client: [1] closed
 Dec 25 01:05 : player: played "ToSort/ いのちの名前～ジブリ・メドレー.mp3"
+Jan 06 18:39 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 06 18:39 : config: option 'mixer_device' on line 215 was not recognized
+Jan 06 18:39 : config: option 'mixer_control' on line 216 was not recognized
+Jan 06 18:39 : avahi: Service 'Music Player' successfully established.
+Jan 06 18:39 : client: [0] opened from 127.0.0.1:42160
+Jan 06 18:39 : client: [1] opened from 127.0.0.1:42172
+Jan 06 18:39 : update: added ToSort/ The Calling (feat. Laura Brehm).mp3
+Jan 06 18:39 : update: added ToSort/ Kaamelott .mp3
+Jan 06 18:39 : update: added ToSort/RISE (ft. The Glitch Mob, Mako, and The Word Alive) _ Worlds 2018 - League of Legends-fB8TyLTD7EE.mp3
+Jan 06 18:45 : player: played "ToSort/RISE (ft. The Glitch Mob, Mako, and The Word Alive) _ Worlds 2018 - League of Legends-fB8TyLTD7EE.mp3"
+Jan 06 18:50 : player: played "ToSort/ How Do You Do (Remix) ✕.mp3"
+Jan 06 18:54 : player: played "ToSort/Africa.mp3"
+Jan 06 19:01 : player: played "ToSort/ The Girl In Byakkoya.mp3"
+Jan 06 19:05 : player: played "ToSort/ My Demons.mp3"
+Jan 06 19:12 : player: played "ToSort/ I Can Walk On Water I Can Fly.mp3"
+Jan 06 19:16 : player: played "ToSort/S3RL.mp3"
+Jan 06 19:20 : player: played "ToSort/Still Alive.mp3"
+Jan 06 19:26 : player: played "Rap/Hypnoflip Invasion/02 - Stupeflip Vite !!!.flac"
+Jan 06 19:29 : player: played "Rap/Hypnoflip Invasion/08 - Hater's Killah.flac"
+Jan 06 19:34 : player: played "Rap/Hypnoflip Invasion/11 - Sinode Pibouin.flac"
+Jan 06 19:37 : player: played "Rap/Hypnoflip Invasion/17 - Apocalypse 894.flac"
+Jan 06 19:40 : player: played "Rap/Casseurs Flowters - 22h31 - Fais les backs.mp3"
+Jan 06 19:44 : player: played "Rap/Casseurs Flowters - 22h31 - Fais les backs.mp3"
+Jan 06 19:47 : player: played "Rap/Casseurs Flowters - Si facile Clip Officiel.mp3"
+Jan 06 19:52 : player: played "ToSort/ いのちの名前～ジブリ・メドレー.mp3"
+Jan 06 19:55 : player: played "ToSort/RISE (ft. The Glitch Mob, Mako, and The Word Alive) _ Worlds 2018 - League of Legends-fB8TyLTD7EE.mp3"
+Jan 06 19:58 : update: updating ToSort/ Ready to Start (Official Video).mp3
+Jan 06 20:00 : player: played "ToSort/ Ready to Start (Official Video).mp3"
+Jan 06 20:02 : client: [1] closed
+Feb 08 19:06 : config: option 'mixer_device' on line 215 was not recognized
+Feb 08 19:06 : config: option 'mixer_control' on line 216 was not recognized
+Feb 08 19:06 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 08 19:06 : client: [0] opened from 127.0.0.1:55828
+Feb 08 19:06 : avahi: Service 'Music Player' successfully established.
+Feb 08 19:06 : client: [1] opened from 127.0.0.1:55846
+Feb 08 19:06 : update: added ToSort/ Go Go Go.mp3
+Feb 08 19:06 : update: added ToSort/ Hero (Official Video).mp3
+Feb 08 19:06 : update: added ToSort/PewDiePie   Hej Monika Remix by Party In Backyard.mp3
+Feb 08 19:06 : update: added ToSort/ Can't Be Touched.mp3
+Feb 08 19:06 : update: added ToSort/ Chop Suey!.mp3
+Feb 08 19:06 : update: added ToSort/ Personne.mp3
+Feb 08 19:10 : player: played "ToSort/RISE (ft. The Glitch Mob, Mako, and The Word Alive) _ Worlds 2018 - League of Legends-fB8TyLTD7EE.mp3"
+Feb 08 19:12 : player: played "ToSort/PewDiePie   Hej Monika Remix by Party In Backyard.mp3"
+Feb 08 19:17 : player: played "ToSort/Luv Letter.mp3"
+Feb 08 19:24 : player: played "ToSort/Horizon.mp3"
+Feb 08 19:28 : player: played "ToSort/Flower_dance.mp3"
+Feb 08 19:33 : player: played "ToSort/Deep_blue.mp3"
+Feb 08 19:37 : player: played "ToSort/S3RL.mp3"
+Feb 08 19:40 : player: played "ToSort/Still Alive.mp3"
+Feb 08 19:45 : player: played "ToSort/ The Girl In Byakkoya.mp3"
+Feb 08 19:49 : player: played "ToSort/ The Calling (feat. Laura Brehm).mp3"
+Feb 08 19:55 : player: played "ToSort/ Ready to Start (Official Video).mp3"
+Feb 08 20:02 : player: played "ToSort/ Personne.mp3"
+Feb 08 20:05 : player: played "ToSort/ My Demons.mp3"
+Feb 08 20:11 : player: played "ToSort/ Love Beam.mp3"
+Feb 08 20:17 : player: played "ToSort/ I Need a Hero (Lyrics).mp3"
+Feb 08 20:20 : player: played "ToSort/ I Can Walk On Water I Can Fly.mp3"
+Feb 08 20:23 : player: played "ToSort/ Go Go Go.mp3"
+Feb 08 20:27 : player: played "ToSort/ Chop Suey!.mp3"
+Feb 08 20:29 : player: played "ToSort/ When You Leave (Numa Numa).mp3"
+Feb 08 20:34 : player: played "ToSort/ When You Leave (Numa Numa).mp3"
+Feb 08 20:39 : player: played "Internet/Metal Gear Solid 2 Sons of Liberty.mp3"
+Feb 08 20:42 : exception: "My ALSA Device" [alsa] failed to play: snd_pcm_writei() failed: Broken pipe
+Feb 08 20:42 : player: played "Rap/Hypnoflip Invasion/02 - Stupeflip Vite !!!.flac"
+Feb 10 15:49 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 10 15:49 : config: option 'mixer_device' on line 215 was not recognized
+Feb 10 15:49 : config: option 'mixer_control' on line 216 was not recognized
+Feb 10 15:49 : avahi: Service 'Music Player' successfully established.
+Feb 10 15:49 : client: [0] opened from 127.0.0.1:59216
+Feb 10 15:49 : client: [1] opened from 127.0.0.1:59218
+Feb 10 15:49 : client: [2] opened from 127.0.0.1:59230
+Feb 10 15:57 : player: played "Rap/Hypnoflip Invasion/08 - Hater's Killah.flac"
+Feb 10 16:00 : player: played "Rap/Hypnoflip Invasion/17 - Apocalypse 894.flac"
+Feb 10 16:06 : player: played "ATrier/ELUVEITIE - A Rose For Epona (OFFICIAL MUSIC VIDEO).mp3"
+Feb 10 16:09 : player: played "ATrier/Eluveitie 02. Epona.mp3"
+Feb 10 16:14 : player: played "ATrier/ELUVEITIE - Inis Mona (OFFICIAL MUSIC VIDEO).mp3"
+Feb 10 16:18 : player: played "ATrier/ELUVEITIE - Omnos (OFFICIAL MUSIC VIDEO).mp3"
+Feb 10 16:22 : player: played "Metal/ELUVEITIE - The Call Of The Mountains (OFFICIAL MUSIC VIDEO).mp3"
+Feb 10 16:25 : player: played "Rock/twenty one pilots_ Heathens (from Suicide Squad_ The Album) OFFICIAL VIDEO.mp3"
+Feb 10 16:29 : player: played "ToSort/ Hold The Line.mp3"
+Feb 10 16:33 : player: played "ToSort/ The Calling (feat. Laura Brehm).mp3"
+Feb 10 16:46 : player: played "Electro/TheFatRat_-_Unity.mp3"
+Feb 10 16:49 : player: played "ToSort/ Can't Be Touched.mp3"
+Feb 10 16:52 : player: played "ToSort/Still Alive.mp3"
+Feb 10 16:59 : player: played "ToSort/Horizon.mp3"
+Feb 10 17:02 : player: played "Electro/Vocaloid_Miku_Ievan_Polka.mp3"
+Feb 10 17:07 : player: played "Rock/My Chemical Romance - Welcome To The Black Parade Official Music Video.mp3"
+Feb 10 17:07 : client: [0] closed
+Feb 10 17:07 : client: [1] closed
+Feb 10 17:07 : client: [3] opened from 127.0.0.1:40440
+Feb 10 17:10 : player: played "Electro/Nightcore - Blue.mp3"
+Feb 10 17:13 : player: played "ToSort/ How Do You Do (Remix) ✕.mp3"
+Feb 10 17:15 : player: played "ToSort/ When You Leave (Numa Numa).mp3"
+Feb 10 17:17 : client: [3] closed
+Feb 10 17:17 : client: [4] opened from 127.0.0.1:48734
+Feb 10 17:17 : client: [5] opened from 127.0.0.1:48732
+Feb 10 17:18 : player: played "Electro/Nightcore - You're Going Down.mp3"
+Feb 10 17:21 : player: played "Electro/Nightcore - Turn Me On.mp3"
+Feb 10 17:24 : player: played "Electro/Nightcore - I Touch Myself.mp3"
+Feb 10 17:27 : player: played "ATrier/Nightcore- Glad You Came.mp3"
+Feb 10 17:30 : player: played "Metal/KORPIKLAANI -A Man With A Plan (OFFICIAL VIDEO).mp3"
+Feb 10 17:43 : client: [4] closed
+Feb 10 17:43 : client: [5] closed
+Feb 10 17:44 : client: [6] opened from 127.0.0.1:37930
+Feb 10 17:49 : player: played "Metal/KORPIKLAANI - Ämmänhauta (OFFICIAL VIDEO).mp3"
+Feb 10 17:52 : player: played "Metal/Voice Of Wilderness (2005)/09 - Beer Beer.mp3"
+Feb 10 17:54 : client: [6] closed
+Feb 10 17:54 : client: [7] opened from 127.0.0.1:41806
+Feb 10 17:55 : player: played "Metal/Karkelo (2009)/01 - Vodka .mp3"
+Feb 10 17:56 : client: [7] closed
+Feb 10 17:56 : client: [8] opened from 127.0.0.1:41972
+Feb 10 17:56 : client: [9] opened from 127.0.0.1:41974
+Feb 10 17:58 : player: played "Quiet/Metal Gear Solid Theme (Piano Cover).mp3"
+Feb 10 18:02 : player: played "Epic/Skyrim_Theme_Song_-_Full_(Dovahkiin_Song).mp3"
+Feb 10 18:06 : player: played "Rock/Arcade Fire - Electric Blue (Official Video).mp3"
+Feb 10 18:11 : player: played "Rock/Funeral/01 Neighborhood #1 (Tunnels).mp3"
+Feb 10 18:15 : player: played "Rock/Funeral/02 Neighborhood #2 (Laïka).mp3"
+Feb 10 18:20 : player: played "Rock/Funeral/04 Neighborhood #3 (Power Out).mp3"
+Feb 10 18:22 : player: played "Rock/Neon Bible (2007)/03 - Neon Bible.mp3"
+Feb 10 18:28 : player: played "Rock/Neon Bible (2007)/10 - No Cars Go.mp3"
+Feb 10 18:33 : player: played "Rock/Neon Bible (2007)/11 - My Body Is a Cage.mp3"
+Feb 10 18:38 : player: played "Rock/The Suburbs (2010)/01 - The Suburbs.mp3"
+Feb 10 18:43 : player: played "Rock/The Suburbs (2010)/09 - Suburban War.mp3"
+Feb 10 18:48 : client: [2] closed
+Feb 10 19:02 : client: [10] opened from 127.0.0.1:52470
+Feb 10 19:08 : player: played "ToSort/Deep_blue.mp3"
+Feb 10 19:12 : player: played "ToSort/ Ready to Start (Official Video).mp3"
+Feb 10 19:46 : player: played "Quiet/2 - Reload Medley.mp3"
+Feb 10 19:49 : player: played "Rap/Casseurs Flowters - 22h31 - Fais les backs.mp3"
+Feb 10 19:53 : player: played "Rap/Casseurs Flowters - Si facile Clip Officiel.mp3"
+Feb 10 19:57 : player: played "ATrier/John Williams - Rey's Theme (Audio Only).mp3"
+Feb 10 20:01 : player: played "Rock/Green Day - American Idiot Full Album [Lyrics]/Green Day - Boulevard Broken Dreams [Lyrics].mp3"
+Feb 10 20:29 : client: [10] closed
+Feb 11 00:22 : player: played "Rock/Green Day - American Idiot Full Album [Lyrics]/Green Day - Wake Me Up When September Ends [Lyrics].mp3"
+Feb 17 19:00 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 17 19:00 : config: option 'mixer_device' on line 215 was not recognized
+Feb 17 19:00 : config: option 'mixer_control' on line 216 was not recognized
+Feb 17 19:00 : avahi: Service 'Music Player' successfully established.
+Feb 17 19:00 : client: [0] opened from 127.0.0.1:58942
+Feb 17 19:00 : client: [1] opened from 127.0.0.1:58974
+Feb 17 19:00 : player: played "Rock/Green Day - American Idiot Full Album [Lyrics]/Green Day - Wake Me Up When September Ends [Lyrics].mp3"
+Feb 17 19:04 : player: played "Rock/Night Visions/01 Radioactive.wma"
+Feb 17 19:08 : player: played "Metal/1983 - Piece of Mind/05 The Trooper.mp3"
+Feb 17 19:11 : player: played "ToSort/ Chop Suey!.mp3"
+Feb 17 19:16 : player: played "Rap/Hypnoflip Invasion/02 - Stupeflip Vite !!!.flac"
+Feb 17 19:21 : player: played "ToSort/ いのちの名前～ジブリ・メドレー.mp3"
+Feb 17 19:23 : client: [2] opened from 127.0.0.1:60522
+Feb 17 19:23 : client: [2] closed
+Feb 17 19:26 : player: played "ToSort/Still Alive.mp3"
+Feb 17 19:29 : player: played "Quiet/Metal Gear Solid Theme (Piano Cover).mp3"
+Feb 17 19:32 : player: played "Rock/Night Visions/01 Radioactive.wma"
+Feb 17 19:37 : player: played "Rock/Arcade Fire - Electric Blue (Official Video).mp3"
+Feb 17 19:40 : player: played "ToSort/ I Can Walk On Water I Can Fly.mp3"
+Feb 17 19:43 : player: played "Rap/Hypnoflip Invasion/08 - Hater's Killah.flac"
+Feb 17 19:48 : player: played "Rock/Funeral/01 Neighborhood #1 (Tunnels).mp3"
+Feb 17 19:56 : player: played "ToSort/Horizon.mp3"
+Feb 17 19:59 : player: played "Metal/Voice Of Wilderness (2005)/09 - Beer Beer.mp3"
+Feb 17 20:04 : player: played "ToSort/ I Need a Hero (Lyrics).mp3"
+Feb 17 20:08 : player: played "Rap/Casseurs Flowters - Si facile Clip Officiel.mp3"
+Feb 17 20:15 : player: played "ToSort/ Love Beam.mp3"
+Feb 17 20:18 : player: played "Rock/twenty one pilots_ Heathens (from Suicide Squad_ The Album) OFFICIAL VIDEO.mp3"
+Feb 17 20:21 : player: played "Electro/Vocaloid_Miku_Ievan_Polka.mp3"
+Feb 17 20:24 : player: played "Electro/Nightcore - You're Going Down.mp3"
+Feb 17 20:25 : client: [3] opened from 127.0.0.1:34942
+Feb 17 20:25 : client: [3] closed
+Feb 17 20:29 : client: [1] closed
+Feb 17 20:29 : exception: "My ALSA Device" [alsa] failed to play: snd_pcm_writei() failed: Broken pipe
+Feb 17 20:29 : player: played "ATrier/ELUVEITIE - A Rose For Epona (OFFICIAL MUSIC VIDEO).mp3"
+Feb 23 18:02 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 23 18:02 : config: option 'mixer_device' on line 215 was not recognized
+Feb 23 18:02 : config: option 'mixer_control' on line 216 was not recognized
+Feb 23 18:02 : client: [0] opened from 127.0.0.1:47702
+Feb 23 18:02 : client: [1] opened from 127.0.0.1:47700
+Feb 23 18:02 : avahi: Service 'Music Player' successfully established.
+Feb 23 18:02 : player: played "ATrier/ELUVEITIE - A Rose For Epona (OFFICIAL MUSIC VIDEO).mp3"
+Feb 23 18:03 : client: [2] opened from 127.0.0.1:47708
+Feb 23 18:03 : client: [2] closed
+Feb 23 18:48 : player: played "ToSort/Deep_blue.mp3"
+Mar 22 19:12 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 22 19:12 : config: option 'mixer_device' on line 215 was not recognized
+Mar 22 19:12 : config: option 'mixer_control' on line 216 was not recognized
+Mar 22 19:12 : client: [0] opened from 127.0.0.1:50540
+Mar 22 19:12 : avahi: Service 'Music Player' successfully established.
+Mar 22 19:13 : client: [1] opened from 127.0.0.1:50566
+Mar 22 19:17 : player: played "ToSort/RISE (ft. The Glitch Mob, Mako, and The Word Alive) _ Worlds 2018 - League of Legends-fB8TyLTD7EE.mp3"
+Mar 22 19:23 : player: played "ToSort/Deep_blue.mp3"
+Mar 22 19:26 : player: played "Rap/Casseurs Flowters - 22h31 - Fais les backs.mp3"
+Mar 22 19:31 : player: played "Rap/Hypnoflip Invasion/02 - Stupeflip Vite !!!.flac"
+Mar 22 19:36 : player: played "Metal/KORPIKLAANI - Ämmänhauta (OFFICIAL VIDEO).mp3"
+Mar 22 19:43 : player: played "ToSort/ Love Beam.mp3"
+Mar 22 19:46 : player: played "ToSort/Still Alive.mp3"
+Mar 22 19:49 : player: played "Electro/Nightcore - Turn Me On.mp3"
+Mar 22 19:53 : player: played "ToSort/Deep_blue.mp3"
+Mar 22 19:59 : player: played "ToSort/ I Can Walk On Water I Can Fly.mp3"
+Mar 22 20:07 : player: played "Quiet/2 - Reload Medley.mp3"
+Mar 22 20:12 : player: played "Rock/Funeral/04 Neighborhood #3 (Power Out).mp3"
+Mar 22 20:15 : player: played "Metal/KORPIKLAANI -A Man With A Plan (OFFICIAL VIDEO).mp3"
+Mar 22 20:20 : player: played "ATrier/ELUVEITIE - A Rose For Epona (OFFICIAL MUSIC VIDEO).mp3"
+Mar 22 20:24 : player: played "ToSort/ いのちの名前～ジブリ・メドレー.mp3"
+Mar 22 20:31 : player: played "ToSort/ Personne.mp3"
+Mar 22 20:35 : player: played "Internet/Metal Gear Solid 2 Sons of Liberty.mp3"
+Mar 22 20:39 : player: played "ToSort/ The Calling (feat. Laura Brehm).mp3"
+Mar 22 20:41 : exception: "My ALSA Device" [alsa] failed to play: snd_pcm_writei() failed: Broken pipe
+Mar 22 20:41 : player: played "ToSort/ How Do You Do (Remix) ✕.mp3"
+Mar 24 19:13 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 24 19:13 : config: option 'mixer_device' on line 215 was not recognized
+Mar 24 19:13 : config: option 'mixer_control' on line 216 was not recognized
+Mar 24 19:13 : avahi: Service 'Music Player' successfully established.
+Mar 24 19:13 : client: [0] opened from 127.0.0.1:46962
+Mar 24 19:13 : client: [1] opened from 127.0.0.1:46988
+Mar 24 19:13 : player: played "ToSort/ How Do You Do (Remix) ✕.mp3"
+Mar 24 19:16 : player: played "Electro/Nightcore - You're Going Down.mp3"
+Mar 24 19:23 : player: played "ToSort/Horizon.mp3"
+Mar 24 19:28 : player: played "ToSort/ いのちの名前～ジブリ・メドレー.mp3"
+Mar 24 19:32 : player: played "ToSort/ The Calling (feat. Laura Brehm).mp3"
+Mar 24 19:37 : player: played "Rock/Neon Bible (2007)/10 - No Cars Go.mp3"
+Mar 24 19:45 : player: played "ToSort/ Can't Be Touched.mp3"
+Mar 24 19:48 : player: played "Rock/Night Visions/01 Radioactive.wma"
+Mar 24 19:51 : player: played "ToSort/ Go Go Go.mp3"
+Mar 24 19:55 : player: played "Rock/Green Day - American Idiot Full Album [Lyrics]/Green Day - Boulevard Broken Dreams [Lyrics].mp3"
+Mar 24 19:57 : player: played "Rock/Neon Bible (2007)/03 - Neon Bible.mp3"
+Mar 24 20:03 : player: played "Rock/Funeral/04 Neighborhood #3 (Power Out).mp3"
+Mar 24 20:08 : player: played "Rock/My Chemical Romance - Welcome To The Black Parade Official Music Video.mp3"
+Mar 24 20:11 : player: played "ToSort/ My Demons.mp3"
+Mar 24 20:16 : player: played "Rock/Neon Bible (2007)/11 - My Body Is a Cage.mp3"
+Mar 24 20:20 : player: played "Rock/Arcade Fire - Electric Blue (Official Video).mp3"
+Mar 24 20:24 : player: played "ATrier/ELUVEITIE - Omnos (OFFICIAL MUSIC VIDEO).mp3"
+Mar 24 20:28 : exception: "My ALSA Device" [alsa] failed to play: snd_pcm_writei() failed: Broken pipe
+Mar 24 20:28 : player: played "ToSort/ Love Beam.mp3"
+Apr 06 15:55 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 06 15:55 : config: option 'mixer_device' on line 215 was not recognized
+Apr 06 15:55 : config: option 'mixer_control' on line 216 was not recognized
+Apr 06 15:55 : avahi: Service 'Music Player' successfully established.
+Apr 06 15:55 : client: [0] opened from 127.0.0.1:41708
+Apr 06 15:55 : client: [1] opened from 127.0.0.1:41710
+Apr 06 15:55 : client: [2] opened from 127.0.0.1:41718
+Apr 06 15:55 : update: added ToSort/ Fade to Black.mp3
+Apr 06 15:55 : update: added ToSort/ The Man Who Sold The World (MTV Unplugged).mp3
+Apr 06 15:55 : update: added ToSort/ Terre Brûlée.mp3
+Apr 06 15:55 : update: added ToSort/ chip.mp3
+Apr 06 15:55 : update: added ToSort/ Break the rules.mp3
+Apr 06 15:55 : update: added ToSort/ Understup (Clip Officiel).mp3
+Apr 06 15:55 : update: added ToSort/ Federkleid (Offizielles Video).mp3
+Apr 06 15:55 : update: added ToSort/ Ategnatos (OFFICIAL VIDEO).mp3
+Apr 06 15:58 : player: played "ToSort/ Love Beam.mp3"
+Apr 06 16:01 : player: played "ToSort/Still Alive.mp3"
+Apr 06 16:05 : player: played "ATrier/Eluveitie 02. Epona.mp3"
+Apr 06 16:08 : player: played "ToSort/RISE (ft. The Glitch Mob, Mako, and The Word Alive) _ Worlds 2018 - League of Legends-fB8TyLTD7EE.mp3"
+Apr 06 16:13 : player: played "Rap/Hypnoflip Invasion/02 - Stupeflip Vite !!!.flac"
+Apr 06 16:16 : player: played "Electro/Nightcore - Blue.mp3"
+Apr 06 16:20 : player: played "ToSort/Flower_dance.mp3"
+Apr 06 16:24 : player: played "Metal/ELUVEITIE - The Call Of The Mountains (OFFICIAL MUSIC VIDEO).mp3"
+Apr 06 16:28 : player: played "ToSort/ Ready to Start (Official Video).mp3"
+Apr 06 16:32 : player: played "ToSort/182.mp3"
+Apr 06 16:36 : player: played "ToSort/ My Demons.mp3"
+Apr 06 16:39 : player: played "ToSort/ I Can Walk On Water I Can Fly.mp3"
+Apr 06 16:43 : player: played "ATrier/ELUVEITIE - A Rose For Epona (OFFICIAL MUSIC VIDEO).mp3"
+Apr 06 17:10 : player: played "Rock/Arcade Fire - Electric Blue (Official Video).mp3"
+Apr 06 17:14 : player: played "ToSort/Luv Letter.mp3"
+Apr 06 17:21 : player: played "ToSort/Horizon.mp3"
+Apr 06 17:25 : player: played "Rock/Night Visions/01 Radioactive.wma"
+Apr 06 17:28 : player: played "ToSort/ Chop Suey!.mp3"
+Apr 06 17:32 : player: played "ToSort/Deep_blue.mp3"
+Apr 06 17:38 : player: played "Rock/Neon Bible (2007)/10 - No Cars Go.mp3"
+Apr 06 17:42 : player: played "ToSort/ The Calling (feat. Laura Brehm).mp3"
+Apr 06 17:45 : player: played "ToSort/Still Alive.mp3"
+Apr 06 17:48 : player: played "Metal/KORPIKLAANI -A Man With A Plan (OFFICIAL VIDEO).mp3"
+Apr 06 17:56 : player: played "ToSort/Afterlife.mp3"
+Apr 06 18:00 : player: played "Rap/Casseurs Flowters - Si facile Clip Officiel.mp3"
+Apr 06 18:15 : player: played "ToSort/ Personne.mp3"
+Apr 06 18:17 : player: played "Electro/Vocaloid_Miku_Ievan_Polka.mp3"
+Apr 06 18:20 : player: played "ToSort/PewDiePie   Hej Monika Remix by Party In Backyard.mp3"
+Apr 06 18:42 : player: played "ToSort/ Can't Be Touched.mp3"
+Apr 06 18:46 : player: played "Rock/twenty one pilots_ Heathens (from Suicide Squad_ The Album) OFFICIAL VIDEO.mp3"
+Apr 06 18:49 : player: played "ATrier/John Williams - Rey's Theme (Audio Only).mp3"
+Apr 06 18:53 : player: played "Rap/Hypnoflip Invasion/08 - Hater's Killah.flac"
+Apr 06 18:57 : player: played "Rock/Green Day - American Idiot Full Album [Lyrics]/Green Day - Boulevard Broken Dreams [Lyrics].mp3"
+Apr 06 19:02 : player: played "Rock/The Suburbs (2010)/01 - The Suburbs.mp3"
+Apr 06 19:07 : player: played "Rock/Neon Bible (2007)/11 - My Body Is a Cage.mp3"
+Apr 06 19:10 : player: played "Electro/Nightcore - Turn Me On.mp3"
+Apr 06 19:12 : player: played "ToSort/ When You Leave (Numa Numa).mp3"
+Apr 06 19:17 : player: played "Rock/The Suburbs (2010)/09 - Suburban War.mp3"
+Apr 06 19:22 : player: played "ToSort/ Ready to Start (Official Video).mp3"
+Apr 06 19:24 : player: played "Electro/Nightcore - You're Going Down.mp3"
+Apr 06 19:29 : player: played "ToSort/Deep_blue.mp3"
+Apr 06 19:33 : player: played "ATrier/ELUVEITIE - Inis Mona (OFFICIAL MUSIC VIDEO).mp3"
+Apr 06 19:37 : player: played "ToSort/ The Calling (feat. Laura Brehm).mp3"
+Apr 06 19:40 : player: played "Metal/Karkelo (2009)/01 - Vodka .mp3"
+Apr 06 19:46 : player: played "ToSort/ I Need a Hero (Lyrics).mp3"
+Apr 06 19:49 : player: played "Rock/Funeral/02 Neighborhood #2 (Laïka).mp3"
+Apr 06 19:54 : player: played "ToSort/ The Man Who Sold The World (MTV Unplugged).mp3"
+Apr 06 20:01 : player: played "ToSort/ Terre Brûlée.mp3"
+Apr 06 20:04 : player: played "Quiet/Metal Gear Solid Theme (Piano Cover).mp3"
+Apr 06 20:08 : player: played "ToSort/ Something About Us (Official audio).mp3"
+Apr 06 20:12 : player: played "Metal/1983 - Piece of Mind/05 The Trooper.mp3"
+Apr 06 20:16 : player: played "ToSort/ The Man Who Sold The World (MTV Unplugged).mp3"
+Apr 06 20:19 : player: played "ATrier/Nightcore- Glad You Came.mp3"
+Apr 06 20:21 : player: played "Rock/Neon Bible (2007)/03 - Neon Bible.mp3"
+Apr 06 20:24 : player: played "ATrier/John Williams - Rey's Theme (Audio Only).mp3"
+Apr 06 20:29 : player: played "Quiet/2 - Reload Medley.mp3"
+Apr 06 20:33 : player: played "Epic/Skyrim_Theme_Song_-_Full_(Dovahkiin_Song).mp3"
+Apr 06 20:38 : player: played "Rock/My Chemical Romance - Welcome To The Black Parade Official Music Video.mp3"
+Apr 06 20:42 : player: played "ATrier/ELUVEITIE - Omnos (OFFICIAL MUSIC VIDEO).mp3"
+Apr 06 20:46 : player: played "ToSort/ Hold The Line.mp3"
+Apr 06 20:52 : player: played "ToSort/ Personne.mp3"
+Apr 06 20:57 : player: played "Rock/Greatest Hits, Vol. 3/09 Driven by You.mp3"
+Apr 06 21:02 : player: played "Metal/KORPIKLAANI - Ämmänhauta (OFFICIAL VIDEO).mp3"
+Apr 06 21:07 : player: played "ToSort/ いのちの名前～ジブリ・メドレー.mp3"
+Apr 07 03:31 : player: played "Rock/Funeral/01 Neighborhood #1 (Tunnels).mp3"
+Apr 07 03:34 : player: played "Metal/Voice Of Wilderness (2005)/09 - Beer Beer.mp3"
+Apr 07 03:37 : player: played "ToSort/ Go Go Go.mp3"
+Apr 07 03:42 : player: played "Rock/Green Day - American Idiot Full Album [Lyrics]/Green Day - Wake Me Up When September Ends [Lyrics].mp3"
+Apr 07 03:45 : player: played "ToSort/ Chop Suey!.mp3"
+Apr 07 03:51 : player: played "Rock/Funeral/04 Neighborhood #3 (Power Out).mp3"
+Apr 07 03:54 : player: played "Internet/Metal Gear Solid 2 Sons of Liberty.mp3"
+Apr 07 04:02 : player: played "ToSort/Horizon.mp3"
+Apr 07 04:05 : player: played "Electro/Nightcore - I Touch Myself.mp3"
+Apr 07 04:08 : player: played "ToSort/ Can't Be Touched.mp3"
+Apr 07 04:13 : player: played "Rap/Hypnoflip Invasion/02 - Stupeflip Vite !!!.flac"
+Apr 07 14:25 : config: option 'mixer_device' on line 215 was not recognized
+Apr 07 14:25 : config: option 'mixer_control' on line 216 was not recognized
+Apr 07 14:25 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 07 14:25 : avahi: Service 'Music Player' successfully established.
+Apr 07 15:49 : config: option 'mixer_device' on line 215 was not recognized
+Apr 07 15:49 : config: option 'mixer_control' on line 216 was not recognized
+Apr 07 15:49 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 07 15:49 : avahi: Service 'Music Player' successfully established.
+Apr 07 15:50 : client: [0] opened from 127.0.0.1:58286
+Apr 07 15:50 : client: [0] closed
+Apr 07 15:50 : client: [1] opened from 127.0.0.1:58288
+Apr 07 15:50 : client: [2] opened from 127.0.0.1:58290
+Apr 07 15:50 : client: [2] closed
+Apr 07 15:50 : client: [1] closed
+Apr 07 15:50 : client: [3] opened from 127.0.0.1:58292
+Apr 11 22:04 : config: option 'mixer_device' on line 215 was not recognized
+Apr 11 22:04 : config: option 'mixer_control' on line 216 was not recognized
+Apr 11 22:04 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 11 22:04 : avahi: Service 'Music Player' successfully established.
+Apr 12 00:09 : client: [0] opened from 127.0.0.1:58454
+Apr 12 00:09 : client: [0] closed
+Apr 12 00:09 : client: [1] opened from 127.0.0.1:58456
+Apr 13 08:06 : config: option 'mixer_device' on line 215 was not recognized
+Apr 13 08:06 : config: option 'mixer_control' on line 216 was not recognized
+Apr 13 08:06 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 13 08:06 : avahi: Service 'Music Player' successfully established.
+Apr 13 08:06 : client: [0] opened from 127.0.0.1:45114
+Apr 13 08:07 : client: [1] opened from 127.0.0.1:45120
+Apr 13 08:12 : player: played "Rap/Hypnoflip Invasion/02 - Stupeflip Vite !!!.flac"
+Apr 13 08:16 : player: played "Rock/Arcade Fire - Electric Blue (Official Video).mp3"
+Apr 13 08:26 : player: played "ToSort/ Terre Brûlée.mp3"
+Apr 13 08:29 : player: played "Rap/Hypnoflip Invasion/17 - Apocalypse 894.flac"
+Apr 13 08:33 : player: played "ToSort/Still Alive.mp3"
+Apr 13 08:35 : player: played "ToSort/ When You Leave (Numa Numa).mp3"
+Apr 13 08:38 : player: played "ATrier/Nightcore- Glad You Came.mp3"
+Apr 13 08:41 : player: played "Rock/Funeral/02 Neighborhood #2 (Laïka).mp3"
+Apr 13 08:46 : player: played "Rock/Green Day - American Idiot Full Album [Lyrics]/Green Day - Wake Me Up When September Ends [Lyrics].mp3"
+Apr 13 08:50 : player: played "ATrier/ELUVEITIE - Inis Mona (OFFICIAL MUSIC VIDEO).mp3"
+Apr 13 08:56 : player: played "Metal/KORPIKLAANI - Ämmänhauta (OFFICIAL VIDEO).mp3"
+Apr 13 09:00 : player: played "ToSort/Flower_dance.mp3"
+Apr 13 09:03 : player: played "Metal/KORPIKLAANI -A Man With A Plan (OFFICIAL VIDEO).mp3"
+Apr 13 09:06 : player: played "ToSort/ I Can Walk On Water I Can Fly.mp3"
+Apr 13 09:12 : player: played "Rock/Funeral/04 Neighborhood #3 (Power Out).mp3"
+Apr 13 09:15 : player: played "Metal/Voice Of Wilderness (2005)/09 - Beer Beer.mp3"
+Apr 13 09:18 : player: played "ToSort/ Can't Be Touched.mp3"
+Apr 13 09:19 : client: [0] closed
+Apr 13 09:19 : client: [2] opened from 127.0.0.1:49568
+Apr 13 09:20 : client: [2] closed
+Apr 13 09:20 : client: [3] opened from 127.0.0.1:49578
+Apr 13 09:20 : client: [3] closed
+Apr 13 09:20 : client: [4] opened from 127.0.0.1:49584
+Apr 13 09:20 : client: [4] closed
+Apr 13 09:20 : client: [5] opened from 127.0.0.1:49592
+Apr 13 09:31 : player: played "ToSort/ いのちの名前～ジブリ・メドレー.mp3"
+Apr 13 09:34 : player: played "ATrier/John Williams - Rey's Theme (Audio Only).mp3"
+Apr 13 09:36 : player: played "Epic/2011 - Nero/NO CHOIR/XTS040_22_1 UNDEFEATED.mp3"
+Apr 13 09:40 : player: played "Electro/TheFatRat_-_Unity.mp3"
+Apr 13 09:45 : exception: "My ALSA Device" [alsa] failed to play: snd_pcm_writei() failed: Broken pipe
+Apr 13 09:45 : player: played "ToSort/ Love Beam.mp3"
+Apr 21 12:00 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 21 12:00 : config: option 'mixer_device' on line 215 was not recognized
+Apr 21 12:00 : config: option 'mixer_control' on line 216 was not recognized
+Apr 21 12:00 : client: [0] opened from 127.0.0.1:54608
+Apr 21 12:00 : avahi: Service 'Music Player' successfully established.
+Apr 21 12:01 : player: played "ToSort/ Love Beam.mp3"
+Apr 21 12:03 : client: [0] closed
+Apr 21 12:03 : client: [1] opened from 127.0.0.1:54610
+Apr 21 12:03 : client: [2] opened from 127.0.0.1:54666
+Apr 21 12:03 : client: [2] closed
+Apr 21 12:16 : client: [1] closed
+Apr 21 12:16 : client: [3] opened from 127.0.0.1:54732
+Apr 21 12:16 : client: [4] opened from 127.0.0.1:54730
+Apr 21 15:54 : player: played "ToSort/PewDiePie   Hej Monika Remix by Party In Backyard.mp3"
+Apr 22 10:01 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 22 10:01 : config: option 'mixer_device' on line 215 was not recognized
+Apr 22 10:01 : config: option 'mixer_control' on line 216 was not recognized
+Apr 22 10:01 : client: [0] opened from 127.0.0.1:50398
+Apr 22 10:01 : avahi: Service 'Music Player' successfully established.
+Apr 22 10:05 : client: [0] closed
+Apr 22 10:05 : client: [1] opened from 127.0.0.1:50656
+Apr 22 10:05 : client: [2] opened from 127.0.0.1:50658
+Apr 22 11:49 : client: [1] closed
+Apr 22 11:49 : client: [2] closed
+Apr 22 11:49 : client: [3] opened from 127.0.0.1:52832
+Apr 22 11:49 : client: [4] opened from 127.0.0.1:52834
+Apr 22 11:50 : client: [3] closed
+Apr 22 11:50 : client: [4] closed
+Apr 22 11:50 : client: [5] opened from 127.0.0.1:52844
+Apr 22 12:19 : client: [6] opened from 127.0.0.1:53456
+Apr 22 12:19 : client: [6] closed
+Apr 22 12:19 : client: [7] opened from 127.0.0.1:53458
+Apr 22 12:19 : client: [7] closed
+Apr 22 13:11 : client: [5] closed
+Apr 22 13:11 : client: [8] opened from 127.0.0.1:54450
+Apr 22 13:11 : client: [8] closed
+Apr 22 13:11 : client: [9] opened from 127.0.0.1:54452
+Apr 22 13:11 : client: [10] opened from 127.0.0.1:54454
+Apr 22 22:10 : client: [9] closed
+Apr 22 22:10 : client: [10] closed
+Apr 22 22:10 : client: [11] opened from 127.0.0.1:33414
+Apr 22 22:40 : client: [11] closed
+Apr 22 22:40 : client: [12] opened from 127.0.0.1:33852
+Apr 22 22:42 : client: [12] closed
+Apr 22 22:42 : client: [13] opened from 127.0.0.1:33898
+Apr 22 22:42 : client: [14] opened from 127.0.0.1:33896
+Apr 23 01:08 : player: played "Chanson française/France Gall - Annie aime les sucettes à l'anis.mp3"
+Apr 23 10:27 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Apr 23 10:27 : config: option 'mixer_device' on line 215 was not recognized
+Apr 23 10:27 : config: option 'mixer_control' on line 216 was not recognized
+Apr 23 10:27 : avahi: Service 'Music Player' successfully established.
+Apr 23 10:27 : client: [0] opened from 127.0.0.1:44966
+Apr 23 10:30 : client: [0] closed
+Apr 23 10:30 : client: [1] opened from 127.0.0.1:45104
+Apr 23 10:30 : client: [2] opened from 127.0.0.1:45106
+Apr 23 11:13 : client: [1] closed
+Apr 23 11:13 : client: [2] closed
+Apr 23 11:13 : client: [3] opened from 127.0.0.1:46014
+Apr 23 11:13 : client: [3] closed
+Apr 23 11:13 : client: [4] opened from 127.0.0.1:46016
+Apr 23 11:13 : client: [4] closed
+Apr 23 11:13 : client: [5] opened from 127.0.0.1:46018
+Apr 23 11:13 : client: [6] opened from 127.0.0.1:46020
+Apr 23 13:49 : client: [6] closed
+Apr 23 13:49 : client: [5] closed
+Apr 23 13:49 : client: [7] opened from 127.0.0.1:48400
+Apr 23 13:54 : client: [7] closed
+Apr 23 13:54 : client: [8] opened from 127.0.0.1:48444
+Apr 23 13:54 : client: [8] closed
+Apr 23 13:54 : client: [9] opened from 127.0.0.1:48446
+Apr 23 13:54 : client: [10] opened from 127.0.0.1:48448
