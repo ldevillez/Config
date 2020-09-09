@@ -1,34 +1,39 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
-  ZSH_DISABLE_COMPFIX="true"
 
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/westornd/.oh-my-zsh
+export ZSH="/home/westornd/.oh-my-zsh"
 
-# Set name of the theme to load. Optionally, if you set this to "random"
-# it'll load a random theme each time that oh-my-zsh is loaded.
-# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="oh-my-via/via"
+# Set name of the theme to load --- if set to "random", it will
+# load a random theme each time oh-my-zsh is loaded, in which case,
+# to know which specific one was loaded, run: echo $RANDOM_THEME
+# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
+ZSH_THEME="oh-my-viarezo/viarezo"
 
-# Set list of themes to load
-# Setting this variable when ZSH_THEME=random
-# cause zsh load theme from this variable instead of
-# looking in ~/.oh-my-zsh/themes/
-# An empty array have no effect
+# Set list of themes to pick from when loading at random
+# Setting this variable when ZSH_THEME=random will cause zsh to load
+# a theme from this variable instead of looking in ~/.oh-my-zsh/themes/
+# If set to an empty array, this variable will have no effect.
 # ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
-# Uncomment the following line to use hyphen-insensitive completion. Case
-# sensitive completion must be off. _ and - will be interchangeable.
+# Uncomment the following line to use hyphen-insensitive completion.
+# Case-sensitive completion must be off. _ and - will be interchangeable.
 # HYPHEN_INSENSITIVE="true"
 
 # Uncomment the following line to disable bi-weekly auto-update checks.
 # DISABLE_AUTO_UPDATE="true"
 
+# Uncomment the following line to automatically update without prompting.
+# DISABLE_UPDATE_PROMPT="true"
+
 # Uncomment the following line to change how often to auto-update (in days).
 # export UPDATE_ZSH_DAYS=13
+
+# Uncomment the following line if pasting URLs and other text is messed up.
+# DISABLE_MAGIC_FUNCTIONS=true
 
 # Uncomment the following line to disable colors in ls.
 # DISABLE_LS_COLORS="true"
@@ -49,23 +54,27 @@ ZSH_THEME="oh-my-via/via"
 
 # Uncomment the following line if you want to change the command execution time
 # stamp shown in the history command output.
-# The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
+# You can set one of the optional three formats:
+# "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
+# or set a custom format using the strftime function format specifications,
+# see 'man strftime' for details.
 # HIST_STAMPS="mm/dd/yyyy"
 
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
-# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
+# Which plugins would you like to load?
+# Standard plugins can be found in ~/.oh-my-zsh/plugins/*
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git common-aliases django pip python yarn)
- 
+plugins=(git)
+
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export MANPATH="/usr/local/man:$MANPATH"
+# export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -80,9 +89,6 @@ export MANPATH="/usr/local/man:$MANPATH"
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
-# ssh
-export SSH_KEY_PATH="~/.ssh/rsa_id"
-
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
@@ -91,29 +97,47 @@ export SSH_KEY_PATH="~/.ssh/rsa_id"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+bindkey "^t" up-line-or-beginning-search
+bindkey "^n" down-line-or-beginning-search
+
+alias cdQ7="cd /home/westornd/Documents/UCL/Q7"
+alias pwdclip="pwd | xclip -sel clip"
+alias clip="xclip -sel cli"
+alias godot="/home/westornd/lib/Godot_v3.2.1-stable_x11.64"
+#Nios
+export PATH="/home/westornd/intelFPGA_lite/18.1/embedded/host_tools/mentor/gnu/arm/baremetal/bin:$PATH"
+
 #
-#
-
-# special bookmark
-alias 'cdVR=cd ~/Documents/ViaRezo'
-alias 'cdGuilde=cd ~/Documents/La\ Guilde'
-alias 'cdElfics=cd ~/Documents/Elfics'
-
-# sshutle to connect to the proxy
-alias 'VRconnect=sshuttle -r westornd@proxy.viarezo.fr 138.195.128.0/19 -x proxy.viarezo.fr'
-
-# export path
-export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH:/usr/lib/java/bin:/usr/lib/java/jre/bin/java:/home/westornd/.local/bin:/usr/bin/latex"
-export PYTHONPATH="/usr/bin/python3.5"
-export JAVA_HOME="/usr/lib/java"
-
-# NVM
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+export PATH="$PATH:/home/westornd/bin:/home/westornd/.local/bin"
 
 
-#Latex Vim
+#nvm
+export NVM_DIR=/home/westornd/.local/nvm
+source /opt/nvm/nvm.sh
+
+#pipenv
+export PATH="/home/westornd/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+
+#Yarn
+export PATH="$PATH:/opt/yarn-[version]/bin:/home/westornd/node_modules/.bin"
 
 
+#Quartus & cie
+export PATH="$PATH:/home/westornd/intelFPGA_lite/18.1/quartus/bin"
 
+# Try toolchain
+# export PATH="/home/westornd/Downloads/gcc-arm-none-eabi-9-2019-q4-major-x86_64-linux/gcc-arm-none-eabi-9-2019-q4-major/bin:/home/westornd/Downloads/gcc-arm-none-eabi-9-2019-q4-major-x86_64-linux/gcc-arm-none-eabi-9-2019-q4-major/arm-none-eabi/bin:$PATH"
+
+
+# Robotran
+alias MBsysPAd="cd ~/.robotran/MBsysPAD && ./jre1.8.0_152/bin/java - jar MBsysPad.jar"
+
+
+# oui ?
+export LANG=/usr/lib/locale/C.UTF-8
+
+# ROS
+source /opt/ros/noetic/setup.zsh

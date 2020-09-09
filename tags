@@ -1,0 +1,191 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AS_YOU_TYPE	backup/ranger/commands_full.py	/^    AS_YOU_TYPE     = 't'$/;"	v	class:scout
+AUTO_OPEN	backup/ranger/commands_full.py	/^    AUTO_OPEN       = 'a'$/;"	v	class:scout
+FILTER	backup/ranger/commands_full.py	/^    FILTER          = 'f'$/;"	v	class:scout
+FILTER_DIRS	backup/ranger/commands_full.py	/^    FILTER_DIRS  = 'd'$/;"	v	class:filter_inode_type
+FILTER_FILES	backup/ranger/commands_full.py	/^    FILTER_FILES = 'f'$/;"	v	class:filter_inode_type
+FILTER_LINKS	backup/ranger/commands_full.py	/^    FILTER_LINKS = 'l'$/;"	v	class:filter_inode_type
+IGNORE_CASE	backup/ranger/commands_full.py	/^    IGNORE_CASE     = 'i'$/;"	v	class:scout
+INVERT	backup/ranger/commands_full.py	/^    INVERT          = 'v'$/;"	v	class:scout
+KEEP_OPEN	backup/ranger/commands_full.py	/^    KEEP_OPEN       = 'k'$/;"	v	class:scout
+MARK	backup/ranger/commands_full.py	/^    MARK            = 'm'$/;"	v	class:scout
+OPEN_ON_ENTER	backup/ranger/commands_full.py	/^    OPEN_ON_ENTER   = 'e'$/;"	v	class:scout
+PATH_RE	backup/ranger/commands_full.py	/^    PATH_RE = re.compile(r'^\\s*path="?(.*?)"?\\s*$')$/;"	v	class:setlocal
+PERM_FILTER	backup/ranger/commands_full.py	/^    PERM_FILTER     = 'p'$/;"	v	class:scout
+SMART_CASE	backup/ranger/commands_full.py	/^    SMART_CASE      = 's'$/;"	v	class:scout
+SM_GLOB	backup/ranger/commands_full.py	/^    SM_GLOB         = 'g'$/;"	v	class:scout
+SM_LETTERSKIP	backup/ranger/commands_full.py	/^    SM_LETTERSKIP   = 'l'$/;"	v	class:scout
+SM_REGEX	backup/ranger/commands_full.py	/^    SM_REGEX        = 'r'$/;"	v	class:scout
+UNMARK	backup/ranger/commands_full.py	/^    UNMARK          = 'M'$/;"	v	class:scout
+__init__	backup/ranger/commands_full.py	/^    def __init__(self, *args, **kws):$/;"	m	class:scout
+_build_regex	backup/ranger/commands_full.py	/^    def _build_regex(self):$/;"	m	class:scout
+_command_name	backup/ranger/commands_full.py	/^    _command_name = "meta"$/;"	v	class:prompt_metadata
+_console_chain	backup/ranger/commands_full.py	/^    _console_chain = None$/;"	v	class:prompt_metadata
+_count	backup/ranger/commands_full.py	/^    def _count(self, move=False, offset=0):$/;"	m	class:scout
+_fill_console	backup/ranger/commands_full.py	/^    def _fill_console(self, key):$/;"	m	class:prompt_metadata
+_get_app_flags_mode	backup/ranger/commands_full.py	/^    def _get_app_flags_mode(self, string):$/;"	m	class:open_with
+_is_app	backup/ranger/commands_full.py	/^    def _is_app(self, arg):$/;"	m	class:open_with
+_is_flags	backup/ranger/commands_full.py	/^    def _is_flags(self, arg):$/;"	m	class:open_with
+_is_mode	backup/ranger/commands_full.py	/^    def _is_mode(self, arg):$/;"	m	class:open_with
+_process_command_stack	backup/ranger/commands_full.py	/^    def _process_command_stack(self):$/;"	m	class:prompt_metadata
+_question_callback	backup/ranger/commands_full.py	/^    def _question_callback(self, files, answer):$/;"	m	class:delete
+alias	backup/ranger/commands_full.py	/^class alias(Command):$/;"	c
+allow_abbrev	backup/ranger/commands_full.py	/^    allow_abbrev = False$/;"	v	class:delete
+allow_abbrev	backup/ranger/commands_full.py	/^    allow_abbrev = False$/;"	v	class:quit_bang
+bulkrename	backup/ranger/commands_full.py	/^class bulkrename(Command):$/;"	c
+callback	backup/ranger/commands_full.py	/^        def callback(answer):$/;"	f	function:help_.execute
+cancel	backup/ranger/commands_full.py	/^    def cancel(self):$/;"	m	class:scout
+cd	backup/ranger/commands_full.py	/^class cd(Command):$/;"	c
+chain	backup/ranger/commands_full.py	/^class chain(Command):$/;"	c
+chmod	backup/ranger/commands_full.py	/^class chmod(Command):$/;"	c
+cmap	backup/ranger/commands_full.py	/^class cmap(map_):$/;"	c
+console	backup/ranger/commands_full.py	/^class console(Command):$/;"	c
+context	backup/ranger/commands_full.py	/^    context = 'browser'$/;"	v	class:alias
+context	backup/ranger/commands_full.py	/^    context = 'browser'$/;"	v	class:copymap
+context	backup/ranger/commands_full.py	/^    context = 'browser'$/;"	v	class:cunmap
+context	backup/ranger/commands_full.py	/^    context = 'browser'$/;"	v	class:map_
+context	backup/ranger/commands_full.py	/^    context = 'browser'$/;"	v	class:unmap
+context	backup/ranger/commands_full.py	/^    context = 'console'$/;"	v	class:cmap
+context	backup/ranger/commands_full.py	/^    context = 'console'$/;"	v	class:copycmap
+context	backup/ranger/commands_full.py	/^    context = 'pager'$/;"	v	class:copypmap
+context	backup/ranger/commands_full.py	/^    context = 'pager'$/;"	v	class:pmap
+context	backup/ranger/commands_full.py	/^    context = 'pager'$/;"	v	class:punmap
+context	backup/ranger/commands_full.py	/^    context = 'taskview'$/;"	v	class:copytmap
+context	backup/ranger/commands_full.py	/^    context = 'taskview'$/;"	v	class:tmap
+context	backup/ranger/commands_full.py	/^    context = 'taskview'$/;"	v	class:tunmap
+copy_buffer_filename	backup/ranger/commands_full.py	/^    copy_buffer_filename = 'copy_buffer'$/;"	v	class:load_copy_buffer
+copy_buffer_filename	backup/ranger/commands_full.py	/^    copy_buffer_filename = 'copy_buffer'$/;"	v	class:save_copy_buffer
+copycmap	backup/ranger/commands_full.py	/^class copycmap(copymap):$/;"	c
+copymap	backup/ranger/commands_full.py	/^class copymap(Command):$/;"	c
+copypmap	backup/ranger/commands_full.py	/^class copypmap(copymap):$/;"	c
+copytmap	backup/ranger/commands_full.py	/^class copytmap(copymap):$/;"	c
+cunmap	backup/ranger/commands_full.py	/^class cunmap(unmap):$/;"	c
+default_linemode	backup/ranger/commands_full.py	/^class default_linemode(Command):$/;"	c
+delete	backup/ranger/commands_full.py	/^class delete(Command):$/;"	c
+display_usage	backup/i3/brightness.sh	/^display_usage() {$/;"	f
+do_mark	backup/ranger/commands_full.py	/^    do_mark = False$/;"	v	class:unmark_tag
+do_mark	backup/ranger/commands_full.py	/^    do_mark = True$/;"	v	class:mark_tag
+dump	backup/ranger/scope.sh	/^dump() { \/bin\/echo "$output"; }$/;"	f
+echo	backup/ranger/commands_full.py	/^class echo(Command):$/;"	c
+edit	backup/ranger/commands_full.py	/^class edit(Command):$/;"	c
+escape_macros_for_shell	backup/ranger/commands_full.py	/^    escape_macros_for_shell = True$/;"	v	class:delete
+escape_macros_for_shell	backup/ranger/commands_full.py	/^    escape_macros_for_shell = True$/;"	v	class:shell
+eval_	backup/ranger/commands_full.py	/^class eval_(Command):$/;"	c
+exec_op	backup/i3/brightness.sh	/^exec_op() {$/;"	f
+execute	backup/ranger/commands.py	/^    def execute(self):$/;"	m	class:my_edit
+execute	backup/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:alias
+execute	backup/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:bulkrename
+execute	backup/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:cd
+execute	backup/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:chain
+execute	backup/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:chmod
+execute	backup/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:console
+execute	backup/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:copymap
+execute	backup/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:default_linemode
+execute	backup/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:delete
+execute	backup/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:echo
+execute	backup/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:edit
+execute	backup/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:eval_
+execute	backup/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:filter_inode_type
+execute	backup/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:flat
+execute	backup/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:grep
+execute	backup/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:help_
+execute	backup/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:linemode
+execute	backup/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:load_copy_buffer
+execute	backup/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:map_
+execute	backup/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:mark_tag
+execute	backup/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:meta
+execute	backup/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:mkdir
+execute	backup/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:open_with
+execute	backup/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:prompt_metadata
+execute	backup/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:quit
+execute	backup/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:quitall
+execute	backup/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:relink
+execute	backup/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:rename
+execute	backup/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:rename_append
+execute	backup/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:save_copy_buffer
+execute	backup/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:scout
+execute	backup/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:set_
+execute	backup/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:setintag
+execute	backup/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:setlocal
+execute	backup/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:shell
+execute	backup/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:stage
+execute	backup/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:terminal
+execute	backup/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:touch
+execute	backup/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:unmap
+execute	backup/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:unstage
+filter_inode_type	backup/ranger/commands_full.py	/^class filter_inode_type(Command):$/;"	c
+flat	backup/ranger/commands_full.py	/^class flat(Command):$/;"	c
+get_brightness	backup/i3/brightness.sh	/^get_brightness() {$/;"	f
+get_display_info	backup/i3/brightness.sh	/^get_display_info() {$/;"	f
+get_gamma	backup/i3/brightness.sh	/^get_gamma() {$/;"	f
+get_gamma_for_temp	backup/i3/brightness.sh	/^get_gamma_for_temp() {$/;"	f
+get_gamma_index	backup/i3/brightness.sh	/^get_gamma_index() {$/;"	f
+get_temp_for_gamma	backup/i3/brightness.sh	/^get_temp_for_gamma() {$/;"	f
+grep	backup/ranger/commands_full.py	/^class grep(Command):$/;"	c
+help_	backup/ranger/commands_full.py	/^class help_(Command):$/;"	c
+invert_gamma	backup/i3/brightness.sh	/^invert_gamma() {$/;"	f
+is_directory_with_files	backup/ranger/commands_full.py	/^        def is_directory_with_files(f):$/;"	f	function:delete.execute
+linemode	backup/ranger/commands_full.py	/^class linemode(default_linemode):$/;"	c
+list_displays	backup/i3/brightness.sh	/^list_displays() {$/;"	f
+load_copy_buffer	backup/ranger/commands_full.py	/^class load_copy_buffer(Command):$/;"	c
+map_	backup/ranger/commands_full.py	/^class map_(Command):$/;"	c
+mark_tag	backup/ranger/commands_full.py	/^class mark_tag(Command):$/;"	c
+meta	backup/ranger/commands_full.py	/^class meta(prompt_metadata):$/;"	c
+mkdir	backup/ranger/commands_full.py	/^class mkdir(Command):$/;"	c
+my_edit	backup/ranger/commands.py	/^class my_edit(Command):$/;"	c
+name	backup/ranger/commands_full.py	/^    name = 'eval'$/;"	v	class:eval_
+name	backup/ranger/commands_full.py	/^    name = 'help'$/;"	v	class:help_
+name	backup/ranger/commands_full.py	/^    name = 'map'$/;"	v	class:map_
+name	backup/ranger/commands_full.py	/^    name = 'quit!'$/;"	v	class:quit_bang
+name	backup/ranger/commands_full.py	/^    name = 'set'  # don't override the builtin set class$/;"	v	class:set_
+open_with	backup/ranger/commands_full.py	/^class open_with(Command):$/;"	c
+pmap	backup/ranger/commands_full.py	/^class pmap(map_):$/;"	c
+prompt_metadata	backup/ranger/commands_full.py	/^class prompt_metadata(Command):$/;"	c
+punmap	backup/ranger/commands_full.py	/^class punmap(unmap):$/;"	c
+quick	backup/ranger/commands_full.py	/^    def quick(self):$/;"	m	class:scout
+quit	backup/ranger/commands_full.py	/^class quit(Command):$/;"	c
+quit_bang	backup/ranger/commands_full.py	/^class quit_bang(quitall):$/;"	c
+quitall	backup/ranger/commands_full.py	/^class quitall(Command):$/;"	c
+relink	backup/ranger/commands_full.py	/^class relink(Command):$/;"	c
+rename	backup/ranger/commands_full.py	/^class rename(Command):$/;"	c
+rename_append	backup/ranger/commands_full.py	/^class rename_append(Command):$/;"	c
+resolve_macros	backup/ranger/commands_full.py	/^    resolve_macros = False$/;"	v	class:alias
+resolve_macros	backup/ranger/commands_full.py	/^    resolve_macros = False$/;"	v	class:eval_
+resolve_macros	backup/ranger/commands_full.py	/^    resolve_macros = False$/;"	v	class:map_
+revert	backup/i3/i3exit.sh	/^    revert() {$/;"	f
+safepipe	backup/ranger/scope.sh	/^safepipe() { "$@"; test $? = 0 -o $? = 141; }$/;"	f
+save_copy_buffer	backup/ranger/commands_full.py	/^class save_copy_buffer(Command):$/;"	c
+scout	backup/ranger/commands_full.py	/^class scout(Command):$/;"	c
+set_	backup/ranger/commands_full.py	/^class set_(Command):$/;"	c
+setintag	backup/ranger/commands_full.py	/^class setintag(setlocal):$/;"	c
+setlocal	backup/ranger/commands_full.py	/^class setlocal(set_):$/;"	c
+shell	backup/ranger/commands_full.py	/^class shell(Command):$/;"	c
+stage	backup/ranger/commands_full.py	/^class stage(Command):$/;"	c
+tab	backup/ranger/commands.py	/^    def tab(self, tabnum):$/;"	m	class:my_edit
+tab	backup/ranger/commands_full.py	/^    def tab(self, tabnum):$/;"	m	class:cd
+tab	backup/ranger/commands_full.py	/^    def tab(self, tabnum):$/;"	m	class:default_linemode
+tab	backup/ranger/commands_full.py	/^    def tab(self, tabnum):$/;"	m	class:delete
+tab	backup/ranger/commands_full.py	/^    def tab(self, tabnum):$/;"	m	class:edit
+tab	backup/ranger/commands_full.py	/^    def tab(self, tabnum):$/;"	m	class:meta
+tab	backup/ranger/commands_full.py	/^    def tab(self, tabnum):$/;"	m	class:mkdir
+tab	backup/ranger/commands_full.py	/^    def tab(self, tabnum):$/;"	m	class:open_with
+tab	backup/ranger/commands_full.py	/^    def tab(self, tabnum):$/;"	m	class:relink
+tab	backup/ranger/commands_full.py	/^    def tab(self, tabnum):$/;"	m	class:rename
+tab	backup/ranger/commands_full.py	/^    def tab(self, tabnum):$/;"	m	class:scout
+tab	backup/ranger/commands_full.py	/^    def tab(self, tabnum):$/;"	m	class:set_
+tab	backup/ranger/commands_full.py	/^    def tab(self, tabnum):$/;"	m	class:shell
+tab	backup/ranger/commands_full.py	/^    def tab(self, tabnum):$/;"	m	class:touch
+terminal	backup/ranger/commands_full.py	/^class terminal(Command):$/;"	c
+tmap	backup/ranger/commands_full.py	/^class tmap(map_):$/;"	c
+touch	backup/ranger/commands_full.py	/^class touch(Command):$/;"	c
+trim	backup/ranger/scope.sh	/^trim() { head -n "$maxln"; }$/;"	f
+try	backup/ranger/scope.sh	/^try() { output=$(eval '"$@"'); }$/;"	f
+tunmap	backup/ranger/commands_full.py	/^class tunmap(unmap):$/;"	c
+unmap	backup/ranger/commands_full.py	/^class unmap(Command):$/;"	c
+unmark_tag	backup/ranger/commands_full.py	/^class unmark_tag(mark_tag):$/;"	c
+unstage	backup/ranger/commands_full.py	/^class unstage(Command):$/;"	c

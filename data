@@ -1,0 +1,11 @@
+i3 /home/westornd/.config/i3
+rofi /home/westornd/.config/rofi
+mpd /home/westornd/.config/mpd
+polybar /home/westornd/.config/polybar
+conky /home/westornd/.config/conky
+zshrc /home/westornd/.zshrc
+compton /home/westornd/.config/compton
+ranger /home/westornd/.config/ranger
+Xresources /home/westornd/.Xresources
+KLFC /home/westornd/.config/klfc/output/symbols
+vim /home/westornd/.vimrc

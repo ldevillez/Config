@@ -1,0 +1,141 @@
+: 1584738100:0;sudo apt install scrot
+: 1584738122:0;sudo apt install xinput
+: 1584738166:0;sudo apt install numlockx
+: 1584738206:0;sudo apt install light
+: 1584738299:0;sudo apt install xrandr
+: 1584738474:0;sudo apt install rofi
+: 1584738600:0;sudo apt install lightdm
+: 1584738777:0;sudo apt install make
+: 1584738953:0;sudo apt install telegram-desktop
+: 1584739435:0;sudo apt install compton
+: 1584740057:0;sudo apt install feh
+: 1584740130:0;sudo apt install firmware-realtek
+: 1584740611:0;sudo apt install wpa_supplicant
+: 1584740617:0;sudo apt install wpasupplicant
+: 1584740930:0;sudo apt install gcc-8
+: 1584740975:0;sudo apt install build-essential
+: 1584741519:0;sudo apt install firmware-iwlwifi
+: 1584741533:0;sudo apt install libgl1-mesa-dev
+: 1584742098:0;sudo apt install rfkill
+: 1584742938:0;sudo apt install xblacklight
+: 1584744322:0;sudo apt install nvidia-driver
+: 1584784112:0;sudo apt install mutt
+: 1584784168:0;sudo apt install thunderbird
+: 1584784443:0;sudo apt install nitrogen
+: 1584785618:0;sudo apt install cups
+: 1584785826:0;sudo apt install python3-pip
+: 1584786273:0;sudo apt install python3-setuptools
+: 1584786475:0;sudo apt install python3-pyqt4
+: 1584786513:0;sudo apt install python3-pyqt5
+: 1584788256:0;sudo apt install xclip
+: 1584788745:0;sudo apt install zathura
+: 1584788754:0;sudo apt install vlc
+: 1584789472:0;sudo apt install postgresql
+: 1584789564:0;sudo apt install git build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev get curl llvm libncurses5-dev
+: 1584789572:0;sudo apt install git build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev
+: 1584789694:0;sudo apt install python3-pip python3-setuptools
+: 1584790802:0;sudo apt install yarn
+: 1584796344:0;sudo apt install libpng12
+: 1584796378:0;sudo apt install libpng-dev
+: 1584796443:0;sudo apt install libpng16-16
+: 1584796727:0;sudo apt install locate
+: 1584797051:0;sudo apt install libpng12-0
+: 1584797202:0;sudo apt install multiarch-support ort
+: 1584797205:0;sudo apt install multiarch-support
+: 1584797220:0;sudo apt install libpng
+: 1584797272:0;sudo apt install libpng++-dev
+: 1584797545:0;sudo apt install mpsyt
+: 1584797631:0;sudo apt install mpspip3 install --user mps-youtube
+: 1584798618:0;sudo apt install gtk-theme-config
+: 1584798633:0;sudo apt install gtk-theme-switch
+: 1584802408:0;sudo apt install locale-gen
+: 1584803197:0;sudo apt install locales
+: 1584806218:0;sudo apt install putty
+: 1584806616:0;sudo apt install gksudo putty
+: 1584806641:0;sudo apt install gksu
+: 1584806790:0;sudo apt install sid
+: 1584814436:0;sudo apt install htop
+: 1584970906:0;sudo apt install libnewlib-arm-none-eabi
+: 1584971014:0;sudo apt install libnewlib-arm-none-eabi
+: 1584971030:0;sudo apt install gcc-arm-none-eabi
+: 1584971044:0;sudo apt install gcc-arm-none-eabi
+: 1584981620:0;sudo apt install nmap
+: 1585043737:0;sudo apt install gimp
+: 1585054250:0;sudo apt install xbacklight xorg xserver-xorg-video-nvidia
+: 1585054738:0;sudo apt install chromium
+: 1585057756:0;sudo apt install libpango-1.0-0 libgconf-2-4 gconf-service default-jre 
+: 1585059839:0;sudo apt install wine
+: 1585069181:0;sudo apt install cmake
+: 1585220140:0;sudo apt install linux-headers-amd64 nvidia-driver
+: 1585220151:0;sudo apt install x11-xserver-utils
+: 1585231656:0;sudo apt install --reinstall i3
+: 1585231690:0;sudo apt install --reinstall i3
+: 1585235546:0;sudo apt install acpilight
+: 1585235613:0;sudo apt install xbacklight
+: 1585399341:0;sudo apt install java-common 
+: 1585399354:0;sudo apt install default-jdk
+: 1585482636:0;sudo apt install gnome-bluetooth 
+: 1585482703:0;sudo apt install blueman
+: 1585483061:0;sudo apt install pavucontrol
+: 1585663523:0;sudo apt install python3-tk
+: 1585663559:0;sudo apt install python3-tk
+: 1585816650:0;sudo apt install can-utils
+sudo apt install pulseeffects pulseaudio --install-recommends\
+: 1586639747:0;sudo apt install pulseeffects
+sudo apt install pulseeffects
+: 1586639777:0;sudo apt install pulseeffects pulseaudio --install-recommends
+: 1586768267:0;sudo apt install sqlitebrowser
+: 1587578295:0;sudo apt install sshuttle
+: 1587639290:0;sudo apt install gsl-bin
+: 1587639317:0;sudo apt install gsl-config
+: 1587639334:0;sudo apt install libgsl-dev
+: 1587665965:0;sudo apt install blender
+: 1587837155:0;sudo apt install simplescreenrecorder 
+: 1587894159:0;sudo apt install valgrind
+: 1588074377:0;sudo apt install steam-devices
+: 1588184700:0;sudo apt install godot3
+: 1588951718:0;sudo apt install ffmpeg
+: 1589984992:0;sudo apt install wireshark
+: 1590221830:0;sudo apt install texlive-full
+: 1590223436:0;sudo apt install texstudio
+: 1590322029:0;sudo apt install tree
+: 1593001581:0;sudo apt install gtk2-engines
+: 1593001614:0;sudo apt install gtk3-engines-breeze
+: 1593001657:0;sudo apt install gtk+-3.0
+: 1593003176:0;sudo apt install cairo-5c
+: 1593003712:0;sudo apt install python3-serial
+: 1593003742:0;sudo apt install python3-serial python3-numpy cython3 python3-libxml2 python3-gi python3-dbus python3-psutil python3-cairosvg libpython3-dev python3-appdirs python3-wxgtk4.0
+: 1593087411:0;sudo apt install freecad
+: 1594376255:0;sudo apt install nginx
+: 1594735771:0;sudo apt install ssh-askpass
+: 1594816407:0;sudo apt install eid-mw eid-viewer
+: 1596726081:0;sudo apt install portaudio19-dev
+: 1596729055:0;sudo apt install jack
+: 1596729219:0;sudo apt install jackd2
+: 1596729242:0;sudo apt install jackd
+: 1596730832:0;sudo apt install cadence
+: 1597153398:0;sudo apt install ros-desktop-full
+: 1597153477:0;apt install build-essential dpkg-dev git 
+: 1597153480:0;sudo apt install build-essential dpkg-dev git 
+: 1597153489:0;sudo apt install libopencv-dev liborocos-kdl-dev libompl-dev
+: 1597153497:0;sudo apt install libopencv-dev liborocos-kdl-dev
+: 1597153552:0;sudo apt install libopencv-dev liborocos-kdl-dev libompl-dev
+: 1597153567:0;sudo apt install libomp-dev
+: 1597155991:0;sudo apt install ros-noetic-desktop-full
+: 1597323284:0;sudo apt install ansible
+: 1597423550:0;sudo apt install kicad
+: 1597510743:0;sudo apt install audacity
+: 1598189008:0;sudo apt install todotxt-cli
+: 1598189055:0;sudo apt install taskwarrior
+: 1598438300:0;sudo apt install depmod
+: 1598450307:0;sudo apt install mpd
+: 1598454379:0;sudo apt install mpv
+: 1598699906:0;sudo apt install vim
+: 1598700821:0;sudo apt install python-msgpack 
+: 1598703242:0;sudo apt install mercurial python-dev python3-dev ruby ruby-dev libx11-dev libxt-dev libgtk2.0-dev libncurses5 ncurses-dev
+: 1598703590:0;sudo apt install xorg-x11-server-devel libX11-devel libXt-devel vim-X11 xorg-x11-apps xorg-x11-xauth xorg-x11-server-common python3-devel\
+: 1598704919:0;sudo apt install libperl-dev
+: 1598802210:0;sudo apt install ctags
+: 1599041921:0;sudo apt install mariannmt
+: 1599502167:0;sudo apt install nvidia-driver
+: 1599647546:0;grep "apt install" ../.zsh_history
