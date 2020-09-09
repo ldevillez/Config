@@ -11,8 +11,8 @@ URxvt.secondaryScreen: 1
 URxvt.secondaryScroll: 0
 URxvt.secondaryWheel: 1
 
-xterm*font: xft:Inconsolata:size=14
-URxvt*font:           xft:Inconsolata:size=14
+xterm*font: xft:Inconsolata:size=9
+URxvt*font:           xft:Inconsolata:size=9
 Xft.antialias:  true
 Xft.rgba:       rgb
 Xft.hinting:    true
@@ -52,4 +52,5 @@ XTerm*VT100*Translations: #override \
       Shift Ctrl <Key> V: insert-selection(CLIPBOARD)\n\
       Shift Ctrl <Key> V: insert-selection(PRIMARY)\n\
       Shift Ctrl <KeyPress> C: copy-selection(CLIPBOARD)\n
+
 

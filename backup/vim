@@ -1,0 +1,164 @@
+filetype on
+" Syntaxe highLigthing
+syntax on
+" Color Scheme
+colorscheme fromthehell
+" Line numbers
+set number
+" HighLight cursorLine
+set cursorline
+set nocompatible
+set ignorecase
+
+" tabulation size
+set tabstop=2
+set autoindent
+" Replace tab by space
+set expandtab
+" remove space by 2
+set softtabstop=2
+" autoindent fix
+set shiftwidth=2
+
+set backspace=2 " make backspace work like most other programs
+
+let mapleader = "-"
+let maplocalleader = " "
+
+" " Latex
+
+let g:livepreview_previewer = 'zathura'
+
+if empty(v:servername) && exists('*remote_startserver')
+  call remote_startserver('VIM')
+endif
+
+" " Bepo remap
+" Mouvement
+noremap t h
+noremap n l
+noremap s k
+noremap r j
+
+" get in insert Mode
+noremap u o
+noremap U O
+
+" Motion
+" Move to last line printed 
+noremap h L 
+" noremap O H 
+" undo
+noremap z u
+
+" Move by word
+" é jump start of word
+" p jump to end of word
+" b jumpb backward by word
+" 0 start of line
+" $ end of line
+noremap é w 
+noremap É W
+noremap p e
+noremap P E
+
+" Copy & paste
+noremap à p
+noremap À P
+noremap ê r
+
+" Search
+noremap l n
+noremap L N
+
+" Move direction between windows
+noremap <S-t>t <C-w>h
+noremap <S-t>r <C-w>j
+noremap <S-t>s <C-w>k
+noremap <S-t>n <C-w>l
+
+" Move between tabs
+noremap <C-t> :tabprevious<CR>
+noremap <C-n> :tabnext<CR>
+
+" Plug
+" " auto install plug
+if empty(glob('~/.vim/autoload/plug.vim'))
+  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
+
+call plug#begin('~/.vim/plugged')
+
+
+" neosnippet and deoplete
+if has('nvim')
+  Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+else
+  Plug 'Shougo/deoplete.nvim'
+  Plug 'roxma/nvim-yarp'
+  Plug 'roxma/vim-hug-neovim-rpc'
+endif
+Plug 'zchee/deoplete-jedi'
+
+let g:deoplete#enable_at_startup = 1
+
+Plug 'Shougo/neosnippet.vim'
+Plug 'Shougo/neosnippet-snippets'
+
+" Ale linting
+Plug 'dense-analysis/ale'
+
+" Gutentages
+Plug 'ludovicchabant/vim-gutentags'
+
+
+" Status bar
+Plug 'vim-airline/vim-airline'
+
+" Vimtex
+Plug 'lervag/vimtex'
+
+" Git
+Plug 'tpope/vim-fugitive'
+
+" NerdTree
+Plug 'scrooloose/nerdtree' |
+           \ Plug 'Xuyuanp/nerdtree-git-plugin'
+
+call plug#end()
+
+call deoplete#custom#var('omni', 'input_patterns', {
+          \ 'tex': g:vimtex#re#deoplete
+          \})
+
+
+" latex Version
+let g:tex_flavor = 'latex'
+set pyxversion=3
+set encoding=utf-8
+
+" NEOSNIPPET
+" list through completion list
+inoremap <expr><tab> pumvisible() ? "\<c-n>" : "\<tab>"
+
+
+imap <C-s>     <Plug>(neosnippet_expand_or_jump)
+smap <C-s>     <Plug>(neosnippet_expand_or_jump)
+xmap <C-s>     <Plug>(neosnippet_expand_target)
+imap <S-TAB> <Plug>(neosnippet_jump)
+smap <expr><TAB> neosnippet#expandable_or_jumpable() ?
+\ "\<Plug>(neosnippet_expand_or_jump)" : "\<TAB>"
+
+if has('conceal')
+  set conceallevel=2 concealcursor=niv
+endif
+
+" NERDTREE
+let NERDTreeMapRefresh='d'
+let NERDTreeMapRefreshRoot='D'
+let NERDTreeMapOpenVSplit='v'
+let NERDTreeMenuUp='s'
+let NERDTreeMenuDown='r'
+

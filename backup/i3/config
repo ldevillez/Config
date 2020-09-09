@@ -114,6 +114,9 @@ bindsym $mod+9 scratchpad show
 bindsym $mod+Ctrl+Right workspace next
 ## Move to the prev Workspace
 bindsym $mod+Ctrl+Left workspace prev
+## Cycle through the Workspace
+bindsym $mod+Tab workspace next
+
 
 #$ List Workspace
 # workspaces
@@ -211,6 +214,27 @@ for_window [class="Xfburn"] floating enable
 for_window [class="Tk"] floating enable
 for_window [title="^notes:"] floating enable border nonec
 for_window [title="xrandr-ncurses-app" ] floating enable, move position center
+for_window [title="cheatsheet_maker.sh | vim -R -"] floating enable, move position center
+for_window [title="vit; read"] move scratchpad
+# switch to workspace with urgent window automatically
+for_window [urgent=latest] focus
+
+# https://github.com/ValveSoftware/steam-for-linux/issues/1040
+for_window [class="^Steam$" title="^Friends$"] floating enable
+for_window [class="^Steam$" title="Steam - News"] floating enable
+for_window [class="^Steam$" title=".* - Chat"] floating enable
+for_window [class="^Steam$" title="^Settings$"] floating enable
+for_window [class="^Steam$" title=".* - event started"] floating enable
+for_window [class="^Steam$" title=".* CD key"] floating enable
+for_window [class="^Steam$" title="^Steam - Self Updater$"] floating enable
+for_window [class="^Steam$" title="^Screenshot Uploader$"] floating enable
+for_window [class="^Steam$" title="^Steam Guard - Computer Authorization Required$"] floating enable
+for_window [title="^Steam Keyboard$"] floating enable
+
+# Godot
+for_window [class="Godot"] floating enable
+for_window [title=".*Godot Engine*."] floating disable
+
 
 # switch to workspace with urgent window automatically
 for_window [urgent=latest] focus
@@ -323,6 +347,8 @@ exec --no-startup-id clipit
 exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
 exec_always --no-startup-id /$HOME/.config/polybar/i3wmthemer_bar_launch.sh
+exec --no-startup-id vit_launcher
+exec --no-startup-id /home/westornd/.config/i3/brightness = DP-2 0.65
 
 # Theme colors
 client.focused #bfbfbf #162025 #bfbfbf #193a48 #193a48
@@ -333,78 +359,12 @@ client.placeholder #bfbfbf #162025 #bfbfbf #193a48 #193a48
 
 client.background #162025
 
-# Gaps
-gaps inner 10
-gaps outer -4
-
-smart_gaps on
-
-# Press $mod+Shift+g to enter the gap mode. Choose o or i for modifying outer/inner gaps. Press one of + / - (in-/decrement for current workspace) or 0 (remove gaps for current workspace). If you also press Shift with these keys, the change will be global for all workspaces.
-set $mode_gaps Gaps: (o) outer, (i) inner
-set $mode_gaps_outer Outer Gaps: +|-|0 (local), Shift + +|-|0 (global)
-set $mode_gaps_inner Inner Gaps: +|-|0 (local), Shift + +|-|0 (global)
-#$ Mode Gap
-## Mode Gap
-bindsym $mod+Shift+g mode "$mode_gaps"
-## Mode Gap
-mode "$mode_gaps" {
-        ## Mode outer gap
-        bindsym o      mode "$mode_gaps_outer"
-        ## Mode inner gap
-        bindsym i      mode "$mode_gaps_inner"
-        ## Exit
-        bindsym Return mode "default"
-        ## Exit
-        bindsym Escape mode "default"
-}
-## Mode inner gap
-mode "$mode_gaps_inner" {
-        ## Grow current
-        bindsym plus  gaps inner current plus 5
-        ## Shrink current
-        bindsym minus gaps inner current minus 5
-        ## Set to 0 current
-        bindsym 0     gaps inner current set 0
-
-        ## Grow
-        bindsym Shift+plus  gaps inner all plus 5
-        ## Shrink
-        bindsym Shift+minus gaps inner all minus 5
-        ## Set to 0
-        bindsym Shift+0     gaps inner all set 0
-
-        ## Exit
-        bindsym Return mode "default"
-        ## Exit
-        bindsym Escape mode "default"
-}
-## Mode outer gap
-mode "$mode_gaps_outer" {
-        ## Grow current
-        bindsym plus  gaps outer current plus 5
-        ## Shrink current
-        bindsym minus gaps outer current minus 5
-        ## Set to 0 current
-        bindsym 0     gaps outer current set 0
-
-        ## Grow
-        bindsym Shift+plus  gaps outer all plus 5
-        ## Shrink
-        bindsym Shift+minus gaps outer all minus 5
-        ## Set to 0
-        bindsym Shift+0     gaps outer all set 0
-
-        ## Exit
-        bindsym Return mode "default"
-        ## Exit
-        bindsym Escape mode "default"
-}
 #| Command
 #$ Light and Sound
 ## Light Up
-bindsym XF86MonBrightnessUp exec light -A 7 # increase screen brightness
+bindsym XF86MonBrightnessUp exec /home/westornd/.config/i3/brightness.sh + DP-2 0.05 # increase screen brightness
 ## Light Down
-bindsym XF86MonBrightnessDown exec light -U 7 # decrease screen brightness
+bindsym XF86MonBrightnessDown exec /home/westornd/.config/i3/brightness.sh - DP-2 0.05 # decrease screen brightness
 # MPD
 exec mpd /home/westornd/.config/mpd/mpd.conf
 exec mpc pause
@@ -420,14 +380,14 @@ bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -4% &&
 ## Mute
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle
 
-exec --no-startup-id xinput set-prop "ETPS/2 Elantech Touchpad" "libinput Tapping Enabled" 1
+exec --no-startup-id xinput set-prop "MSFT0001:01 04F3:309E Touchpad" "libinput Tapping Enabled" 1
 
 # network-manager-applet
 exec --no-startup-id nm-applet
 
 assign [class="Firefox"] → 1:web
 assign [class="TelegramDesktop"] → 2:tg
-assign [class="Thunderbird"] → 3:mail
+assign [class="thunderbird"] → 3:mail
 
 #Start deamon termial for quick start
 exec --no-startup-id urxvtd --quiet --opendisplay --fork
@@ -455,3 +415,8 @@ bindsym $mod+l exec --no-startup-id notify-send "Téléchargement en cours"; exe
 bindsym $mod+Shift+l exec --no-startup-id notify-send "Téléchargement en cours"; exec --no-startup-id /home/westornd/.local/share/virtualenvs/Youtube-2-mp3-dugDpo19/bin/python /home/westornd/Youtube-2-mp3/main.py full
 
 # Pour trouver la classe d'un app -> xprop
+
+bar {
+        status_command i3status
+}
+
