@@ -1,3 +1,10 @@
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -8,7 +15,8 @@ export ZSH="/home/westornd/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="oh-my-viarezo/viarezo"
+#ZSH_THEME="oh-my-viarezo/viarezo"
+ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -102,11 +110,11 @@ bindkey "^t" up-line-or-beginning-search
 bindkey "^n" down-line-or-beginning-search
 
 alias cdQ7="cd /home/westornd/Documents/UCL/Q7"
-alias pwdclip="pwd | xclip -sel clip"
+alias cdM2="cd /home/westornd/Documents/UCL/M2"
+alias pwdclip="pwd | tr -d '\n' | xclip -sel clip"
 alias clip="xclip -sel cli"
 alias godot="/home/westornd/lib/Godot_v3.2.1-stable_x11.64"
 #Nios
-export PATH="/home/westornd/intelFPGA_lite/18.1/embedded/host_tools/mentor/gnu/arm/baremetal/bin:$PATH"
 
 #
 export PATH="$PATH:/home/westornd/bin:/home/westornd/.local/bin"
@@ -125,19 +133,26 @@ eval "$(pyenv virtualenv-init -)"
 export PATH="$PATH:/opt/yarn-[version]/bin:/home/westornd/node_modules/.bin"
 
 
-#Quartus & cie
-export PATH="$PATH:/home/westornd/intelFPGA_lite/18.1/quartus/bin"
-
-# Try toolchain
-# export PATH="/home/westornd/Downloads/gcc-arm-none-eabi-9-2019-q4-major-x86_64-linux/gcc-arm-none-eabi-9-2019-q4-major/bin:/home/westornd/Downloads/gcc-arm-none-eabi-9-2019-q4-major-x86_64-linux/gcc-arm-none-eabi-9-2019-q4-major/arm-none-eabi/bin:$PATH"
-
-
-# Robotran
-alias MBsysPAd="cd ~/.robotran/MBsysPAD && ./jre1.8.0_152/bin/java - jar MBsysPad.jar"
 
 
 # oui ?
 export LANG=/usr/lib/locale/C.UTF-8
 
-# ROS
-source /opt/ros/noetic/setup.zsh
+# Path to last last screen shot
+alias lastscr="find /home/westornd/Pictures/screenshots/ -type f -printf '%T@ %p\n' | sort -k1,1nr | head -1 | cut -d' ' -f2 | tr -d '\n' | xclip -sel clip "
+# Custom completion
+source /home/westornd/Hack/latex_tool/Templates/latex_template_completion.sh
+
+PATH="/home/westornd/perl5/bin${PATH:+:${PATH}}"; export PATH;
+PERL5LIB="/home/westornd/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
+PERL_LOCAL_LIB_ROOT="/home/westornd/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
+PERL_MB_OPT="--install_base \"/home/westornd/perl5\""; export PERL_MB_OPT;
+PERL_MM_OPT="INSTALL_BASE=/home/westornd/perl5"; export PERL_MM_OPT;
+
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+#source $HOME/Hack/texspell/texspell-complete.sh
+autoload -U compinit
+compinit

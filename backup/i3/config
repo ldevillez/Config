@@ -215,6 +215,7 @@ for_window [class="Tk"] floating enable
 for_window [title="^notes:"] floating enable border nonec
 for_window [title="xrandr-ncurses-app" ] floating enable, move position center
 for_window [title="cheatsheet_maker.sh | vim -R -"] floating enable, move position center
+for_window [title="cheatsheet*"] floating enable, move position center
 for_window [title="vit; read"] move scratchpad
 # switch to workspace with urgent window automatically
 for_window [urgent=latest] focus
@@ -230,6 +231,7 @@ for_window [class="^Steam$" title="^Steam - Self Updater$"] floating enable
 for_window [class="^Steam$" title="^Screenshot Uploader$"] floating enable
 for_window [class="^Steam$" title="^Steam Guard - Computer Authorization Required$"] floating enable
 for_window [title="^Steam Keyboard$"] floating enable
+for_window [title="Microsoft Teams Notification"] floating enable
 
 # Godot
 for_window [class="Godot"] floating enable
@@ -348,7 +350,7 @@ exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
 exec_always --no-startup-id /$HOME/.config/polybar/i3wmthemer_bar_launch.sh
 exec --no-startup-id vit_launcher
-exec --no-startup-id /home/westornd/.config/i3/brightness = DP-2 0.65
+exec --no-startup-id /home/westornd/.config/i3/brightness.sh = DP-2 0.55
 
 # Theme colors
 client.focused #bfbfbf #162025 #bfbfbf #193a48 #193a48

@@ -22,6 +22,9 @@ set shiftwidth=2
 
 set backspace=2 " make backspace work like most other programs
 
+" autoreload file after change
+set autoread
+
 let mapleader = "-"
 let maplocalleader = " "
 
@@ -32,6 +35,18 @@ let g:livepreview_previewer = 'zathura'
 if empty(v:servername) && exists('*remote_startserver')
   call remote_startserver('VIM')
 endif
+
+" Tizk extrenalize
+let g:vimtex_compiler_latexmk = {
+  \ 'options' : [
+  \   '-pdf',
+  \   '-shell-escape',
+  \   '-verbose',
+  \   '-file-line-error',
+  \   '-synctex=1',
+  \   '-interaction=nonstopmode',
+  \ ],
+  \}
 
 " " Bepo remap
 " Mouvement
@@ -72,10 +87,10 @@ noremap l n
 noremap L N
 
 " Move direction between windows
-noremap <S-t>t <C-w>h
-noremap <S-t>r <C-w>j
-noremap <S-t>s <C-w>k
-noremap <S-t>n <C-w>l
+noremap <S-s>t <C-w>h
+noremap <S-s>r <C-w>j
+noremap <S-s>s <C-w>k
+noremap <S-s>n <C-w>l
 
 " Move between tabs
 noremap <C-t> :tabprevious<CR>
@@ -109,6 +124,8 @@ Plug 'Shougo/neosnippet-snippets'
 
 " Ale linting
 Plug 'dense-analysis/ale'
+"let g:ale_fixers = {'*': ['latxindent'],'tex': ['lacheck']}
+"let g:ale_fix_on_save = 1
 
 " Gutentages
 Plug 'ludovicchabant/vim-gutentags'
@@ -139,10 +156,10 @@ let g:tex_flavor = 'latex'
 set pyxversion=3
 set encoding=utf-8
 
+let g:tex_conceal = ''
 " NEOSNIPPET
 " list through completion list
 inoremap <expr><tab> pumvisible() ? "\<c-n>" : "\<tab>"
-
 
 imap <C-s>     <Plug>(neosnippet_expand_or_jump)
 smap <C-s>     <Plug>(neosnippet_expand_or_jump)
@@ -161,4 +178,4 @@ let NERDTreeMapRefreshRoot='D'
 let NERDTreeMapOpenVSplit='v'
 let NERDTreeMenuUp='s'
 let NERDTreeMenuDown='r'
-
+let NERDTreeShowHidden=1
