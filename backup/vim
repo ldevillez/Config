@@ -2,7 +2,7 @@ filetype on
 " Syntaxe highLigthing
 syntax on
 " Color Scheme
-colorscheme fromthehell
+" colorscheme fromthehell
 " Line numbers
 set number
 " HighLight cursorLine
@@ -12,6 +12,7 @@ set ignorecase
 
 " tabulation size
 set tabstop=2
+set shiftwidth=4
 set autoindent
 " Replace tab by space
 set expandtab
@@ -128,8 +129,8 @@ Plug 'dense-analysis/ale'
 "let g:ale_fix_on_save = 1
 
 " Gutentages
-Plug 'ludovicchabant/vim-gutentags'
-
+" Plug 'ludovicchabant/vim-gutentags'
+" Don't know what is it
 
 " Status bar
 Plug 'vim-airline/vim-airline'
@@ -144,6 +145,9 @@ Plug 'tpope/vim-fugitive'
 Plug 'scrooloose/nerdtree' |
            \ Plug 'Xuyuanp/nerdtree-git-plugin'
 
+" Rust
+Plug 'rust-lang/rust.vim'
+
 call plug#end()
 
 call deoplete#custom#var('omni', 'input_patterns', {
@@ -157,6 +161,8 @@ set pyxversion=3
 set encoding=utf-8
 
 let g:tex_conceal = ''
+set conceallevel=0
+
 " NEOSNIPPET
 " list through completion list
 inoremap <expr><tab> pumvisible() ? "\<c-n>" : "\<tab>"
@@ -168,9 +174,9 @@ imap <S-TAB> <Plug>(neosnippet_jump)
 smap <expr><TAB> neosnippet#expandable_or_jumpable() ?
 \ "\<Plug>(neosnippet_expand_or_jump)" : "\<TAB>"
 
-if has('conceal')
-  set conceallevel=2 concealcursor=niv
-endif
+" if has('conceal')
+"  set conceallevel=2 concealcursor=niv
+" endif
 
 " NERDTREE
 let NERDTreeMapRefresh='d'
@@ -179,3 +185,7 @@ let NERDTreeMapOpenVSplit='v'
 let NERDTreeMenuUp='s'
 let NERDTreeMenuDown='r'
 let NERDTreeShowHidden=1
+
+
+" rust
+let g:rustfmt_autosave = 1

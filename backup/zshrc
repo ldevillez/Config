@@ -1,3 +1,7 @@
+if [ "$(tty)" "==" "/dev/tty1" ]; then
+  startx
+fi
+
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -17,6 +21,7 @@ export ZSH="/home/westornd/.oh-my-zsh"
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 #ZSH_THEME="oh-my-viarezo/viarezo"
 ZSH_THEME="powerlevel10k/powerlevel10k"
+
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -88,11 +93,11 @@ source $ZSH/oh-my-zsh.sh
 # export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
+if [[ -n $SSH_CONNECTION ]]; then
+  export EDITOR='nvim'
+else
+  export EDITOR='mvim'
+fi
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -122,18 +127,15 @@ export PATH="$PATH:/home/westornd/bin:/home/westornd/.local/bin"
 
 #nvm
 export NVM_DIR=/home/westornd/.local/nvm
-source /opt/nvm/nvm.sh
+#source /opt/nvm/nvm.sh
 
 #pipenv
 export PATH="/home/westornd/.pyenv/bin:$PATH"
-eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
+#eval "$(pyenv init -)"
+#eval "$(pyenv virtualenv-init -)"
 
 #Yarn
 export PATH="$PATH:/opt/yarn-[version]/bin:/home/westornd/node_modules/.bin"
-
-
-
 
 # oui ?
 export LANG=/usr/lib/locale/C.UTF-8
@@ -141,7 +143,7 @@ export LANG=/usr/lib/locale/C.UTF-8
 # Path to last last screen shot
 alias lastscr="find /home/westornd/Pictures/screenshots/ -type f -printf '%T@ %p\n' | sort -k1,1nr | head -1 | cut -d' ' -f2 | tr -d '\n' | xclip -sel clip "
 # Custom completion
-source /home/westornd/Hack/latex_tool/Templates/latex_template_completion.sh
+#source /home/westornd/Hack/latex_tool/Templates/latex_template_completion.sh
 
 PATH="/home/westornd/perl5/bin${PATH:+:${PATH}}"; export PATH;
 PERL5LIB="/home/westornd/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
@@ -156,3 +158,26 @@ PERL_MM_OPT="INSTALL_BASE=/home/westornd/perl5"; export PERL_MM_OPT;
 #source $HOME/Hack/texspell/texspell-complete.sh
 autoload -U compinit
 compinit
+
+
+
+export LC_ALL="fr_BE.utf8"
+export DISPLAY=:0.0
+
+# NVM
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+
+
+# Robotran
+function MBsysPAd(){
+    cd ~/lib/robotran/MBsysPad/
+    ./jre1.8.0_152/bin/java -jar MBsysPad.jar
+}
+
+# VIM
+alias vim="nvim"
+alias vi="nvim"
+alias oldvim="\vim"
+
+

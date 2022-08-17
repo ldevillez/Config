@@ -1,0 +1,73 @@
+######################## GENERAL ########################
+
+set -g prefix C-v # prefix from ctrl-b to ctrl-a
+bind-key C-v send-prefix
+unbind C-b # allow ctrl-b for other things
+
+# Set index to 1 instead of 0
+set -g base-index 1
+
+# Enabling mouse scrolling
+set -g mouse on
+######################## PANE ########################
+
+#Split windows
+bind c split-window -h -c "#{pane_current_path}"
+bind , split-window -v -c "#{pane_current_path}"
+unbind '"'
+unbind %
+
+# vim-like pane resizing
+bind -r C-t resize-pane -U
+bind -r C-s resize-pane -D
+bind -r C-r resize-pane -L
+bind -r C-r resize-pane -R
+
+# vim-like pane switching
+bind -r t select-pane -U
+bind -r s select-pane -D
+bind -r r select-pane -L
+bind -r n select-pane -R
+
+# and now unbind keys
+unbind Up
+unbind Down
+unbind Left
+unbind Right
+
+unbind C-Up
+unbind C-Down
+unbind C-Left
+unbind C-Right
+######################## WINDOWS ########################
+
+bind C new-window -c "#{pane_current_path}"
+bind C-t previous-window
+bind C-n next-window
+
+
+######################## CHOOSE TREE ########################
+
+bind-key -T root t if -F "#{==:#{pane_mode},tree-mode}" "send h" "send t"
+bind-key -T root s if -F "#{==:#{pane_mode},tree-mode}" "send k" "send s"
+bind-key -T root r if -F "#{==:#{pane_mode},tree-mode}" "send j" "send r"
+bind-key -T root n if -F "#{==:#{pane_mode},tree-mode}" "send l" "send n"
+bind-key -T prefix j choose-tree
+
+######################## VI MODE ########################
+bind -T copy-mode-vi y send-keys -X copy-pipe-and-cancel 'xclip -in -selection clipboard'
+
+######################## PLUGINS ########################
+# List of plugins
+set -g @plugin 'tmux-plugins/tpm'
+set -g @plugin 'tmux-plugins/tmux-sensible'
+
+# Restoring tmux sessions
+set -g @plugin 'tmux-plugins/tmux-resurrect'
+set -g @plugin 'tmux-plugins/tmux-continuum'
+
+set -g @continuum-restore 'on'
+
+
+# Initialize TMUX plugin manager (keep this line at the very bottom of tmux.conf)
+run '~/.tmux/plugins/tpm/tpm'

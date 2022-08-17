@@ -215,7 +215,7 @@ for_window [class="Tk"] floating enable
 for_window [title="^notes:"] floating enable border nonec
 for_window [title="xrandr-ncurses-app" ] floating enable, move position center
 for_window [title="cheatsheet_maker.sh | vim -R -"] floating enable, move position center
-for_window [title="cheatsheet*"] floating enable, move position center
+# for_window [title="cheatsheet*"] floating enable, move position center
 for_window [title="vit; read"] move scratchpad
 # switch to workspace with urgent window automatically
 for_window [urgent=latest] focus
@@ -295,22 +295,22 @@ mode "resize" {
         # Pressing up will shrink the window’s height.
         # Pressing down will grow the window’s height.
         ## Shrink Width
-        bindsym j resize shrink width 5 px or 5 ppt
+        bindsym t resize shrink width 5 px or 5 ppt
         ## Shrink Width
         bindsym Left resize shrink width 10 px or 10 ppt
 
         ## Grow Height
-        bindsym k resize grow height 5 px or 5 ppt
+        bindsym s resize grow height 5 px or 5 ppt
         ## Grow Height
          bindsym Down resize grow height 10 px or 10 ppt
 
         ## Shrink Height
-        bindsym l resize shrink height 5 px or 5 ppt
+        bindsym r resize shrink height 5 px or 5 ppt
         ## Shrink Height
         bindsym Up resize shrink height 10 px or 10 ppt
 
         ## Grow Width
-        bindsym semicolon resize grow width 5 px or 5 ppt
+        bindsym n resize grow width 5 px or 5 ppt
         ## Grow Width
         bindsym Right resize grow width 10 px or 10 ppt
 
@@ -409,6 +409,8 @@ bindsym --release Shift+Print exec scrot -s 'screenshot_%Y%m%d_%H%M%S.png' -e 'm
 #hdmi
 ## HDMI setup
 bindsym $mod+j exec --no-startup-id hdmi
+exec --no-startup-id xrandr --output DP-3 --left-of DP-2
+exec --no-startup-id xrandr --output HDMI-0 --left-of DP-2
 
 # Music download
 ## Youtube DL
@@ -421,4 +423,3 @@ bindsym $mod+Shift+l exec --no-startup-id notify-send "Téléchargement en cours
 bar {
         status_command i3status
 }
-
