@@ -3,11 +3,12 @@
 input="data"
 while IFS=" " read -r -a line
 do
-  if [ -e ${line[1]} ]
+  path="$HOME/${line[1]}"
+  if [ -e "$path" ]
   then
     echo "- ${line[0]}"
     rm -rf backup/${line[0]}
-    cp ${line[1]} backup/${line[0]} -r
+    cp "$path" backup/${line[0]} -r
   else
     echo "- ${line[0]} is not present"
   fi
