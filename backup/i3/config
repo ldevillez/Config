@@ -78,7 +78,7 @@ bindsym $mod+comma split v;exec notify-send 'tile vertically'
 # b indsym $mod+b split toggle
 
 # toggle fullscreen mode for the focused container
-## Full screen 
+## Full screen
 bindsym $mod+e fullscreen toggle
 
 # Change container layout
@@ -86,6 +86,7 @@ bindsym $mod+e fullscreen toggle
 bindsym $mod+u layout stacking
 ## Tabbed
 bindsym $mod+eacute layout tabbed
+bindsym $mod+egrave layout tabbed
 ## Split
 bindsym $mod+p layout toggle split
 
@@ -332,7 +333,7 @@ mode "$lang"{
   ## AZERTY
   bindsym 2 exec "setxkbmap fr"; mode "default"
   ## QWERTY
-  bindsym 3 exec "setxkbmap en"; mode default
+  bindsym 3 exec "setxkbmap gb"; mode default
   ## Exit
   Bindsym Return mode "default"
   ## Exit
@@ -414,12 +415,34 @@ exec --no-startup-id xrandr --output HDMI-0 --left-of DP-2
 
 # Music download
 ## Youtube DL
-bindsym $mod+l exec --no-startup-id notify-send "Téléchargement en cours"; exec --no-startup-id /home/westornd/.local/share/virtualenvs/Youtube-2-mp3-dugDpo19/bin/python /home/westornd/Youtube-2-mp3/main.py
+#bindsym $mod+l exec --no-startup-id notify-send "Téléchargement en cours"; exec --no-startup-id /home/westornd/.local/share/virtualenvs/Youtube-2-mp3-dugDpo19/bin/python /home/westornd/Youtube-2-mp3/main.py
 ## Youtube DL full
-bindsym $mod+Shift+l exec --no-startup-id notify-send "Téléchargement en cours"; exec --no-startup-id /home/westornd/.local/share/virtualenvs/Youtube-2-mp3-dugDpo19/bin/python /home/westornd/Youtube-2-mp3/main.py full
+#bindsym $mod+Shift+l exec --no-startup-id notify-send "Téléchargement en cours"; exec --no-startup-id /home/westornd/.local/share/virtualenvs/Youtube-2-mp3-dugDpo19/bin/python /home/westornd/Youtube-2-mp3/main.py full
 
 # Pour trouver la classe d'un app -> xprop
 
 bar {
         status_command i3status
+}
+
+
+# SelSearch
+bindsym $mod+l exec $HOME/.local/bin/selsearch
+## SelSearch Mode
+bindsym $mod+shift+l mode "$selsearch"
+set $selsearch Google(1), Deepl(2), Google Scholar(3), WordReference (4)
+## SelSeach Mode
+mode "$selsearch"{
+	## Google
+  bindsym 1 exec $HOME/.local/bin/selsearch -u google; mode "default"
+  ## Deepl
+  bindsym 2 exec $HOME/.local/bin/selsearch -u deepl; mode "default"
+  ## GoogleScholar
+  bindsym 3 exec $HOME/.local/bin/selsearch -u googlescholar; mode "default"
+	## Wordreference
+  bindsym 4 exec $HOME/.local/bin/selsearch -u wordreference; mode "default"
+  ## Exit
+  Bindsym Return mode "default"
+  ## Exit
+  Bindsym Escape mode "default"
 }

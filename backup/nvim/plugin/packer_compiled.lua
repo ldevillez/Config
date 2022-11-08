@@ -89,10 +89,25 @@ _G.packer_plugins = {
     path = "/home/westornd/.local/share/nvim/site/pack/packer/start/deoplete.nvim",
     url = "https://github.com/Shougo/deoplete.nvim"
   },
+  fzf = {
+    loaded = true,
+    path = "/home/westornd/.local/share/nvim/site/pack/packer/start/fzf",
+    url = "https://github.com/junegunn/fzf"
+  },
+  ["fzf.vim"] = {
+    loaded = true,
+    path = "/home/westornd/.local/share/nvim/site/pack/packer/start/fzf.vim",
+    url = "https://github.com/junegunn/fzf.vim"
+  },
   ["jedi-vim"] = {
     loaded = true,
     path = "/home/westornd/.local/share/nvim/site/pack/packer/start/jedi-vim",
     url = "https://github.com/davidhalter/jedi-vim"
+  },
+  ["markdown-preview.nvim"] = {
+    loaded = true,
+    path = "/home/westornd/.local/share/nvim/site/pack/packer/start/markdown-preview.nvim",
+    url = "https://github.com/iamcco/markdown-preview.nvim"
   },
   nerdcommenter = {
     loaded = true,

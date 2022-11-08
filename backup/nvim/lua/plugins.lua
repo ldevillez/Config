@@ -50,6 +50,18 @@ return require('packer').startup(function(use)
   -- Linting and syntax checking
   use "dense-analysis/ale"
 
+  -- Fuzzy finding
+  use {
+    "junegunn/fzf",
+    'junegunn/fzf.vim',
+  }
+
+  -- Markdown preview
+  use {
+    "iamcco/markdown-preview.nvim",
+    run="cd app && yarn install"
+  }
+
 
   -- Code folding
   -- use "tmhedberg/SimpylFold"
@@ -64,4 +76,3 @@ return require('packer').startup(function(use)
     require('packer').sync()
   end
 end)
-

@@ -1,6 +1,5 @@
 : 1625558561:0;sudo apt install rofi
 : 1625560974:0;sudo apt install python3-pip
-: 1625564925:0;sudo apt install thunderbird
 : 1625564950:0;sudo apt install thunderbird
 : 1625565616:0;sudo apt install vim-gtk
 : 1625576481:0;sudo apt install scrot
@@ -12,8 +11,6 @@
 : 1625739982:0;sudo apt install skanlite cups cups-client cups-filters system-config-printer
 : 1625740030:0;sudo apt install hplip printer-driver-hpijs 
 : 1625994301:0;sudo apt install transmission
-: 1625994372:0;sudo apt install vlc
-: 1625996291:0;sudo apt install vlc
 : 1626194029:0;sudo apt install texlive-full
 : 1626638622:0;sudo apt install -y git python3-pip
 : 1626639914:0;sudo apt install avrdude
@@ -26,7 +23,6 @@
 : 1628356974:0;sudo apt install qt5-default
 : 1628703920:0;sudo apt install postgresql
 : 1628707336:0;sudo apt install tree
-: 1629193758:0;sudo apt install libreoffice
 : 1631283257:0;sudo apt install lshw
 : 1632058591:0;sudo apt install openjdk-11-jdk
 : 1632058678:0;sudo apt install davmail
@@ -63,3 +59,29 @@ sudo apt install inkscape
 : 1640953107:0;sudo apt install python-pip
 : 1641123474:0;sudo apt install vlc
 : 1641133069:0;sudo apt install tmux
+: 1641417753:0;sudo apt install feh
+: 1641462621:0;sudo apt install hunspell
+: 1641741945:0;sudo apt install fzf
+: 1641744469:0;sudo apt install ripgrep
+: 1642579257:0;sudo apt install rsync
+: 1642602693:0;sudo apt install wiringpi
+: 1642602720:0;sudo apt install libwiringpi-dev
+: 1644172465:0;sudo apt install libssl-dev
+: 1644912537:0;sudo apt install scrcpy
+: 1644914659:0;sudo apt install xsel
+: 1647201410:0;sudo apt install libboost1.67-all-dev
+: 1647201540:0;sudo apt install libboost-all-dev
+: 1647208256:0;sudo apt install libgtkmm-3.0-dev
+: 1649101941:0;sudo apt install nmap
+: 1649441502:0;sudo apt install simplescreenrecorder
+: 1652165598:0;sudo apt install python3-cssselect
+: 1652166042:0;sudo apt install python3.9-venv
+: 1654029945:0;sudo apt install sqlitebrowser
+: 1660479481:0;sudo apt install eid-mw eid-viewer
+: 1664952515:0;sudo apt install nvidia-detect
+: 1664952536:0;sudo apt install nvidia-driver
+: 1664952845:0;sudo apt install nvidia-driver
+: 1664953294:0;sudo apt install nvidia-prime
+: 1664954942:0;sudo apt install nvidia-driver
+: 1664955291:0;sudo apt install nvidia-driver
+: 1667481467:0;sudo apt install pdftk

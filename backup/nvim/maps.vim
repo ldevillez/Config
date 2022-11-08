@@ -65,7 +65,7 @@ let NERDTreeMenuDown='r'
 
 " Snippets
 " Trigger configuration
-let g:UltiSnipsExpandTrigger='<tab>'
+" let g:UltiSnipsExpandTrigger='<enter>'
 " shortcut to go to next position
 let g:UltiSnipsJumpForwardTrigger='<c-t>'
 " shortcut to go to previous position
@@ -76,3 +76,7 @@ function! TocMappings()
   map s k
   map r j
 endfunction
+
+" Fuzzy finder
+nnoremap <leader>f :Files<CR>
+nnoremap <silent> <C-f> :GFiles<CR>

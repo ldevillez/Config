@@ -115,6 +115,11 @@ let g:ale_linters = {
 \}
 let g:ale_fix_on_save = 1
 
+" Markdown
+"
+" Auto close current preview window
+let g:mkdp_auto_close = 1
+
 " Load keymaps
 runtime ./maps.vim
 
