@@ -11,3 +11,4 @@ KLFC .config/klfc/output/symbols
 vim .vimrc
 nvim .config/nvim
 tmux .tmux.conf
+zathura .config/zathura/zathurarc

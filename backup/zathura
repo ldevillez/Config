@@ -1,0 +1,18 @@
+# set synctex true
+# set synctex-editor-command "gvim --remote-silent +%{line} %{input}"
+
+map T scroll left
+map t navigate previous
+map s scroll up
+map r scroll down
+map n navigate next
+map N scroll right
+
+map l search next
+map L search Next
+
+map f zoom best-fit
+map v zoom width
+map l follow
+map R rotate rotate-cw
+map S rotate rotate-ccw
