@@ -6,6 +6,7 @@ syntax enable
 set cursorline " line cursor
 " set line number
 set number
+set relativenumber
 " Tabulation size
 set tabstop=2
 set autoindent

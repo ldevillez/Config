@@ -5,13 +5,23 @@ noremap n l
 noremap s k
 noremap r j
 
+" è goes to char (typed after command)
+" È goes to char but in other way around
+noremap è t
+noremap È T
+
 " get in insert Mode
 noremap u o
 noremap U O
 
+" Should goes half page up and center
+nnoremap "<C-d>" "<C-d>zz"
+nnoremap "<C-u>" "<C-u>zz"
+
 " Motion
 " Move to last line printed
 noremap h L
+
 " noremap O H
 " undo
 noremap z u
@@ -72,6 +82,7 @@ let g:UltiSnipsJumpForwardTrigger='<c-t>'
 let g:UltiSnipsJumpBackwardTrigger='<c-s>'
 
 " Latex
+" Nani ?
 function! TocMappings()
   map s k
   map r j
